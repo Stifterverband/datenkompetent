@@ -1,15 +1,17 @@
-# Dieses Repository enthält die Publikation "datenkompetent - Beispielhafte Lehrformate und -strategien für die Data Literacy Education an deutschen Hochschulen"
+# datenkompetent - Beispielhafte Lehrformate und -strategien für die Data Literacy Education an deutschen Hochschulen
+## Eine Publikation der Working Group: Data Literacy
 
-## Grundlegendes
+### Grundlegendes
 
+Dieses Repository dient der gemeinsamen Arbeit an der Publikation.  
 Wir haben uns dafür entschieden, die Publikation als **Quarto Website** (genauer als Quarto Blog) umzusetzen. Weitere Informationen und eine sehr hilfreiche Anleitung findet ihr hier: <https://quarto.org/>. 
 Ich habe in RStudio gearbeitet, andere Tools werden aber auch unterstützt. 
 
-## Ordnerstruktur
+### Ordnerstruktur
 
 Für euch Autor:innen ist erstmal nur ein Ordner interessant: 
 
-### posts
+#### posts
 
 Im Ordner "posts" finden sich Ordner zu den jeweiligen Artikeln. Diese enthalten (mindestens) folgende Dokumente:
 
@@ -20,11 +22,15 @@ Im Ordner "posts" finden sich Ordner zu den jeweiligen Artikeln. Diese enthalten
 
 Optional gibt es noch weitere Bilddateien, die dann eingebunden wurden. 
 
-### einleitung
+#### einleitung
 
-Erstmal uninteressant, weitere Infos folgen.
+Hier sind die Grußworte (noch keine finalen Texte) und ein kurzes "Über uns". 
 
-## Startseite
+#### recht
+
+Hier sind Impressum und Datenschutz.
+
+### Startseite
 
 Die Startseite unserer Publikation ist das **index.qmd**-File. Hier handelt es sich um eine erste Version, die noch ein paar kleinere Fehler enthält. Dennoch bekommt man schon ein Gefühl dafür, wie das Endprodukt aussehen wird. 
 
