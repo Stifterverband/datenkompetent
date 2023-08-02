@@ -1,0 +1,41 @@
+---
+title: "Impressum"
+title-block-banner: true
+page-layout: full
+editor_options: 
+  chunk_output_type: console
+---
+
+
+# Impressum
+
+Stifterverband für die Deutsche Wissenschaft e.V.\
+Baedekerstraße 1\
+45128 Essen\
+T 0201 8401-0\
+E-Mail: mail\[a\]stifterverband.de
+
+## Vorstand (i.S.d.V.):
+
+Prof. Dr. Michael Kaschke (Vorsitzender)\
+Dr. Simone Bagel-Trah\
+Dr. Martin Brudermüller\
+Dr. phil. Nicola Leibinger-Kammüller\
+Dr. Cornelius Riese\
+Dr. Reinhard Christian Zinkann\
+Dr. Volker Meyer-Guckel
+
+## Geschäftsführung:
+
+Dr. Volker Meyer-Guckel (Generalsekretär)\
+Andrea Frank (stellv. Generalsekretärin)\
+Matthias Schmolz
+
+Eingetragen beim Amtsgericht Essen VR 5776\
+St.-Nr.: 112/5950/0747\
+USt-IdNr.: DE 119 692 167\
+Verantwortlich i.S.d. § 18 Abs. 2 MStV: Dr. Volker Meyer-Guckel T 0201 8401-180 E-Mail: mail\[a\]stifterverband.de
+
+
+
+
