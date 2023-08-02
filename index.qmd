@@ -1,0 +1,57 @@
+---
+title: "datenkompetent"
+subtitle: "Beispielhafte Lehrformate und -strategien für die Data Literacy Education an deutschen Hochschulen"
+listing:
+  - id: about
+    contents: "einleitung/*.qmd"
+    type: grid
+    fields: [title, image]
+  - id: listings
+    contents: posts
+    sort: "author"
+    type: grid
+    categories: numbered
+    fields: [title, author, categories, image]
+    filter-ui: true
+    page-size: 30
+page-layout: article
+title-block-banner: false
+format:
+  html: 
+    standalone: true
+    toc: true 
+    toc-title: "Inhalt"
+    toc-depth: 2
+    toc-location: left
+    license: CC BY-SA
+---
+
+:::{.column-margin} 
+![](logos/profile1.jpg)
+:::
+
+##### Henning Koch | Sam Sievers (Hrsg.)
+
+### Willkommen
+
+Die Mitglieder der *Working Group: Data Literacy*, möchten unsere Erfahrungen mit der Vermittlung von Data Literacy an deutschen Hochschulen teilen. Auf dieser Seite haben wir deshalb verschiedene Lehrformate und -strategien gesammelt, die sich in unserer Data Literacy Education bewährt haben.  
+
+Diese Website richtet sich an Hochschulen und ihre Lehrenden, sowie an Akteur:innen aus dem Bereich der Hochschul- und Curriculumsentwicklung, die sich mit Data Literacy Education auseinandersetzen und die nach Inspirationen und konkreten Ideen für mehr Datenkompetenzen in der Hochschullehre suchen.  
+
+Im Stil eines Blogs findet sich weiter unten eine Auflistung der verschiedenen Formate und Strategien. Die Schlagworte/Kategorien auf der rechten Seite dienen einem Überblick über die Artikel. Es ist auch möglich, alle Artikel nach Begriffen zu durchsuchen. Alle Inhalte stehen unter einer CC BY SA 4.0 Lizenz und haben über Zenodo eine DOI. 
+
+
+___
+
+### Einleitendes
+
+
+::: {#about}
+:::
+
+___
+
+### Lehrformate und -strategien aus der Working Group
+
+::: {#listings}
+:::

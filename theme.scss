@@ -1,0 +1,233 @@
+/*-- scss:defaults --*/
+
+$white: #fff !default;
+$black: #000 !default;
+$primary:         #6896a8 !default;
+$soft-primary:    #b3c8d3 !default;
+$light-primary:   #e0e8ed !default;
+$blue:            #195365 !default;
+$light-blue:      #8d9ca9 !default;
+$red:             #e73f0c !default;
+$grey:            #b5bfc5 !default;
+$light-grey:      #dae0e3 !default;
+$very-light-grey: #f0f3f4 !default;
+$dark-grey:       #6A6F73 !default;
+$very-dark-grey:  #575757 !default;
+$green:           #AFD700 !default;
+
+
+// body/text
+$body-bg: $white !default;
+$body-color:  $blue !default; //text color
+$link-color:  $very-dark-grey !default;
+$body-text-align: justify !default; //Blocksatz
+
+
+// text-family
+$font-family-base:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS" !default;
+$headings-font-family:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS" !default;
+
+//text-size
+$font-size-root:              null !default;
+$font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
+$font-size-sm:                $font-size-base * .875 !default;
+$font-size-lg:                $font-size-base * 1.3 !default;
+$lead-font-size:              $font-size-base * 1.25 !default;
+$lead-font-weight:            300 !default;
+$small-font-size:             .875em !default;
+$sub-sup-font-size:           .75em !default;
+
+// table of content
+$toc-color: $green !default;
+
+// navigation bar
+$navbar_bg: $blue !default;
+$navbar-fg: $primary !default;
+
+//figures
+$figure-caption-font-size:  $sub-sup-font-size !default;
+//$figure-caption-color:      var(--#{$fig-prefix}$very-dark-grey) !default;
+
+//contrast ratio
+$min-contrast-ratio:   4.5 !default;
+
+
+/*--scss:rules--*/
+
+//headings 
+h1 {
+  text-align: left;
+  margin-top: 1em;
+  margin-bottom: 0.75em;
+  font-family: $headings-font-family;
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+  h2, h3 {
+   text-align: left;
+   font-size: $font-size-lg;
+   font-weight: bold;
+   margin-bottom: 0.75em;
+}
+
+h2#toc-title {
+  text-align: left;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title .title {
+  font-family:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS", $headings-font-family;
+  font-weight:  900;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+}
+
+//subtitle
+p.subtitle{
+  text-align: left;
+  margin-top: 0.1em;
+}
+
+.lead{
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+//textkörper
+p {
+  color: $blue;
+}
+
+//navigation bar
+
+.navbar > .container-xxl, .navbar > .container-xl, .navbar > .container-lg, .navbar > .container-md, .navbar > .container-sm, .navbar > .container, .navbar > .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+//footer
+footer.footer .nav-footer, #quarto-header>nav {
+  color: $very-dark-grey;
+}
+
+footer {
+  border-top: 1px solid;
+  border-color: $green;
+}
+
+.navbar-dark .navbar-brand {
+  color: $white;
+  background-color: $blue;
+}
+
+
+.navbar-dark .navbar-nav .nav-link {
+  color: $white;
+}
+
+
+.navbar #quarto-search.type-overlay .aa-Autocomplete svg.aa-SubmitIcon {
+  color: $white;
+}
+
+//subtitle
+
+.lead{
+  text-align: center;
+}
+
+div.quarto-post .listing-categories .listing-category {
+    color: $white;
+    background-color: $primary;
+    border: none;
+    border-radius: .4em;
+    text-transform: none;
+}
+
+#title-block-header.quarto-title-block.default .quarto-categories .quarto-category {
+    color: $white;
+    background-color: $primary;
+    border: none;
+    border-radius: .4em;
+    text-transform: none;
+    opacity: 1;
+}
+
+nav .nav-item:not(.compact){
+  font-weight: 600;
+  line-height: 25px;
+  font-size: $font-size-base * 1.25;
+  
+}
+
+// Übersichtsseite Blogartikel
+
+.quarto-listing {
+  padding-top: 1em;
+  padding-bottom: 1em;
+}
+
+
+//tags
+
+.quarto-grid-item .listing-categories .listing-category {
+   background-color: $primary;
+   color: $white;
+   text-transform: none;
+   font-size: $font-size-base * .75;
+}
+
+
+.quarto-grid-item .card-title {
+  margin-bottom: 0.5em;
+}
+
+#quarto-margin-sidebar .quarto-listing-category {
+  border-width: 1px;
+  border-color: $green;
+}
+
+.quarto-grid-item.card-left, .card{
+  text-align: left;
+  border-color: $green;
+}
+
+//Speziell in den Blogartikeln
+
+//Abstracts
+#title-block-header.quarto-title-block.default .description, #title-block-header.quarto-title-block.default .abstract{
+  margin-top: 1em;
+}
+
+//tags in den Blogartikeln
+.quarto-title .quarto-categories .quarto-category{
+  font-size: $font-size-base * .9;
+  margin-top: 1em;
+}
+
+//Author names and "Autor:innen" 
+
+.quarto-grid-item .card-attribution.start .listing-author{
+  text-transform: none;
+  color: $blue;
+}
+
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading {
+  text-transform: none;
+}
+
+//footer
+.footer .nav-footer-left, .nav-footer-right, .nav-footer-center{
+  flex: auto;
+  flex-wrap: wrap;
+}
+
+
+#quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
+  text-align: start;
+}
+
+hr {
+  color: $green;
+  opacity: .5;
+}

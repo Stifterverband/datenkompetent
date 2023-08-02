@@ -1,0 +1,144 @@
+/// ROOTS ///
+
+:root{
+/colors/
+--primary: #6896a8;
+--soft-primary: #b3c8d3;
+--light-primary: #e0e8ed;
+--blue: #195365;
+--light-blue: #8d9ca9;
+--red: #e73f0c;
+--grey: #b5bfc5;
+--light-grey: #dae0e3;
+--very-light-grey: #f0f3f4;
+--dark-grey: #6A6F73;
+--very-dark-grey: #575757;
+--green: #AFD700;
+}
+
+/// TEXT ///
+
+h1.title, .title.h1 {
+font-weight: 900;
+}
+
+/// NAVIGATION AND SIDEBAR ///
+
+.sidebar-item.active,
+.sidebar-item.show>.nav-link,
+.sidebar-item code {
+color: var(--blue);
+}
+
+.nav-link:hover {
+color: var(--blue);
+}
+
+.sidebar .nav-toc ul>li>ul>li>a,
+.sidebar .nav-toc ul>li>a {
+color: var(--dark-grey) !important;
+font-weight: 500;
+}
+
+.sidebar .nav-toc ul>li>ul>li>a.active,
+.sidebar .nav-toc ul>li>a.active {
+border-left: 2px solid var(--blue);
+color: var(--blue) !important;
+font-weight: 600;
+}
+
+.sidebar-logo {
+width: 90%;
+display: block!important;
+margin-left: auto;
+margin-right: auto;
+}
+
+.sidebar-header .sidebar-title {
+text-align: center;
+}
+
+/// CALLOUTS ///
+
+.callout {
+display: block;
+max-width: 100%;
+height: auto;
+margin: auto;
+float: none!important;
+margin-bottom: 30px;
+margin-top: 30px;
+}
+
+.callout-tip {
+border-left-color: #ada58b;
+}
+
+.callout-tip.default-style .callout-header {
+background-color: #eeebe5;
+}
+
+.callout-tip.captioned .callout-icon::before {
+background-image: url('path/to/lightbulb-icon.svg');
+}
+
+.callout-note {
+border-left-color: #195365;
+margin-bottom: 20px;
+}
+
+.callout-note.default-style .callout-header {
+background-color: #d0d4da;
+}
+
+.callout-note.captioned .callout-icon::before {
+background-image: url('path/to/info-circle-icon.svg');
+}
+
+/// LINKS ///
+
+a, .link {
+color: var(--blue);
+font-weight: 600;
+text-decoration: none;
+}
+
+a:hover, .link:hover {
+color: var(--red);
+font-weight: 600;
+}
+
+/// TABSETS ///
+
+.nav-tabs .nav-link {
+color: var(--primary);
+}
+
+.nav-tabs .nav-link:hover {
+color: var(--blue);
+}
+
+/// OTHER ELEMENTS ///
+
+mark, .highlight {
+background-color: var(--red);
+color: white;
+padding: 0 5px;
+}
+
+.panel-caption, .figure-caption, figcaption {
+color: var(--dark-grey);
+text-align: center;
+}
+
+.row {
+display: flex;
+}
+
+.column {
+flex: 50%;
+}
+
+.quarto-figure {
+position: relative;
+margin-top

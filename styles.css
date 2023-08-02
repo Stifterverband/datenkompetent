@@ -1,0 +1,53 @@
+/* css styles */
+main, p{
+  font-size: 1.1rem !important;
+}
+
+.callout.callout-style-default .callout-body {
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+:root {
+    /*colors*/
+  --primary:         #6896a8;
+  --soft-primary:    #b3c8d3;
+  --light-primary:   #e0e8ed;
+  --blue:            #195365;
+  --light-blue:      #8d9ca9;
+  --red:             #e73f0c;
+  --grey:            #b5bfc5;
+  --light-grey:      #dae0e3;
+  --very-light-grey: #f0f3f4;
+  --dark-grey:       #6A6F73;
+  --very-dark-grey:  #575757;
+
+}
+
+div.quarto-post .thumbnail img {
+    width: 100%;
+    object-fit: contain;
+    max-height: 150px;
+}
+
+.quarto-listing-category.category-cloud{
+    font-family: 'News Cycle';
+    background: #f0f3f4;
+    border-radius: 10%;
+}
+
+.quarto-title-banner {
+    margin-bottom: 1em;
+    color: #6896a8;
+    background: var(--primary);
+}
+
+
+a{
+  color: var(--dark-grey);
+}
+
+b, strong {
+    color: var(--dark-grey);
+    font-weight: bolder;
+}

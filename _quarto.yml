@@ -1,0 +1,34 @@
+project:
+  type: website
+website:
+  title: "Start"
+  favicon: logos/profile1.jpg
+  cookie-consent: 
+    lang: de
+    type: express
+  navbar:
+    logo: "/logos/sv_log_weiss.png"
+  page-footer:
+    right: 
+      - href: recht/impressum.qmd
+      - href: recht/datenschutz.qmd
+    left: |
+      [![](/logos/svlog.png){width=50px} Unterstützt vom Stifterverband
+    center: |
+      [![](/logos/datev.png){width=50px} und der DATEV-Stiftung Zukunft 
+    border: true
+format:
+  html:
+    page-layout: full
+    theme: theme.scss
+    toc: true
+    toc-location: left
+    citation: 
+      title: "datenkompetent - Beispielhafte Lehrformate und -strategien für die Data Literacy Education an deutschen Hochschulen"
+      editor: 
+        - Henning Koch
+        - Sam Sievers
+      license: CC BY-SA
+link-external-newwindow: true      
+editor: source
+lang: de
