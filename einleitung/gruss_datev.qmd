@@ -1,0 +1,19 @@
+---
+title: "Grußwort der DATEV-Stiftung Zukunft"
+title-block-banner: false
+image:  "datlog.png"
+toc: false
+page-layout: full
+editor_options: 
+  chunk_output_type: console
+crossref: 
+  fig-title: Abb.
+  tbl-title: Tabelle
+  fig-prefix: Abb.
+  tbl-prefix: Tabelle
+---
+
+### Grußwort DATEV Stiftung Zukunft
+Entwicklungen im Bereich der Künstlichen Intelligenz und der Digitalisierung stellen letztlich neue Formen der Datennutzung dar und verändern unsere Welt in geradezu atemberaubender Geschwindigkeit. Sie machen unsere Welt zu einem Ort, der immer deutlicher von und durch Daten gestaltet wird.  
+In dieser digitalen Welt sind sichere Bewegungen und eine gute Orientierung des Einzelnen immer deutlicher von Datenkompetenzen abhängig. Data Literacy beschreibt dabei die Fähigkeit, Daten kritisch zu erheben, zu verwenden und zu interpretieren. Sie ist ein ganz wesentlicher Future Skill, dessen Bedeutung mit der rasanten technischen Entwicklung weiter stetig steigt. Damit befinden sich insbesondere Bildungsinstitutionen in der Position wieder, Curricula um Datenkompetenzen zu erweitern und die Aneignung dieser wichtigen Zukunftskompetenz fächerübergreifend zu ermöglichen. Die DATEV Stiftung Zukunft fördert deswegen seit 2019 das DATA LITERACY EDUCATION Netzwerk des Stifterverbandes. Nach dem Sammelband „Kompetenzerwerb im kritischen Umgang mit Daten“ entsteht aus dieser Initiative heraus nun die zweite Sammlung hochrelevanter Informationen rund um die Vermittlung von Datenkompetenzen an Hochschulen. Dazu teilen die am Netzwerk beteiligten Hochschulen konkrete bereits Lehrformate und -strategien und stellen ihre Erfahrungen systematisch vor. 
+Die DATEV Stiftung Zukunft fördert Projekte, in denen der Mensch im Zentrum einer digitalisierten Zukunft steht und legt dabei besonderen Wert auf nachhaltiges und breitflächiges Wirken. Wir hoffen daher, dass die aufgeworfenen Lösungsvorschläge von anderen Hochschulen adaptiert werden und so immer mehr Menschen die Möglichkeit bekommen, datenkompetent zu werden.
