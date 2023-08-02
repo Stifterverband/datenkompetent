@@ -1,0 +1,37 @@
+# options specified here will apply to all posts in this folder
+
+# freeze computational output
+# (see https://quarto.org/docs/projects/code-execution.html#freeze)
+freeze: false
+
+# Enable banner style title blocks
+title-block-banner: false
+
+#citations
+bibliography: citations.bib
+link-citations: true
+csl:  apa.csl
+nocite: |
+  @*
+
+#table of content
+toc: true
+toc-title: "Inhalt"
+toc-depth: 2
+toc-location: left
+
+#Layout
+page-layout: article
+editor_options: 
+  chunk_output_type: console
+crossref: 
+  fig-title: Abbildung
+  tbl-title: Tabelle
+  fig-prefix: Abbildung
+  tbl-prefix: Tabelle
+editor: 
+  markdown: 
+    wrap: sentence
+    
+link-external-newwindow: true
+license: CC BY-SA
