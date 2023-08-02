@@ -1,0 +1,64 @@
+---
+title: "Data Literacy Education mit R und RStudio"
+title-block-banner: false
+categories: ['Vorkenntnisse:keine', 'Vorkenntnisse:vorhanden', 'Coding']
+description: 'R ist als „Statistikprogrammiersprache“ eines der akuell wichtigsten Tools der praktischen Datenanalyse und somit grundlegend für angewandte Data Literacy. RStudio ist ein weitverbreiteter Editor für diese Sprache und eine ideale Lernumgebung, um nicht nur einen Einblick in Datenanalyse und Statistik, sondern gleichzeitig auch in die Welt des Programmierens zu erlangen. Hier wird ein kurzer Überblick über die Tools sowie Tipps zur Vermittlung in der Hochschullehre gegeben.'
+author: 
+    - Julia Niemann-Lenz
+    - Selina Reinhard
+image: "forest.png"
+toc: true
+editor_options: 
+  chunk_output_type: console
+---
+
+## Toolbeschreibung
+
+R ist eine Open-Source-Programmiersprache, deren spezieller Fokus auf grafischer Exploration von Daten und statistischen Analysen liegt. Trotz des engen Fokus ist sie im aktuellen @tiobe -Ranking (abgerufen im Juni 2023) unter den Top 20 der beliebtesten Programmiersprachen. Entwickelt wurde R seit Ende der 80er-Jahre mit dem Ziel, die Statistiklehre zu unterstützen, und ist unter einer freien GNU-Lizenz verfügbar [@ihaka1996]. Mittlerweile gibt es zahlreiche Pakete, die die Basisfunktionalität von R erweitern – aktuell knapp 20.000 Pakete im Comprehensive R Archive Network (CRAN), dem zentralen Software-Repositorium für R. Die Vielfalt an Paketen und uneinheitlicher Syntax kann für Einsteiger:innen jedoch herausfordernd sein. Parallel zu der heterogenen Entwickler:innen Community gibt es daher Bemühungen, R-Pakete zu vereinheitlichen. Das Tidyverse [@wickham2019] beispielsweise bietet als Gruppe von Paketen eine konsistente und intuitive Grammatik für Datenmanipulation und -visualisierung.  
+
+RStudio ist ein sehr beliebter Editor für R und wird von der Firma Posit (früher RStudio) vertrieben. Der Editor bietet insbesondere Einsteiger:innen eine ideale Lernumgebung mit Tool-Tipps, Syntaxhighlighting und einer umfangreichen Hilfefunktion. Neben der klassischen Verwendung von Skripten können mithilfe von R Markdown interaktive Notebooks und mit Shiny interaktive Webapplikationen erstellt werden.
+
+## Voraussetzungen & Zielgruppen
+
+R und RStudio können in unterschiedlichen Kontexten eingesetzt werden. Einsatzszenarien reichen von der allgemeinen Einführung in das Thema Datenanalyse in interdisziplinären Settings über die Umgestaltung einer bestehenden fachspezifischen Statistikveranstaltung mit Vorlesungscharakter bis hin zu Train-the-Trainer-Angeboten mit Hochschullehrer:innen als Zielgruppe.  
+
+Statistik- und Datenanalyse können für Studienanfänger:innen bestimmter Fächer einen eher unerwarteten Studieninhalt darstellen. Angesichts dessen sollte in der grundlegenden und fachbezogenen Data Literacy Education zunächst ein Bewusstsein für Hintergründe, Themen und Methoden geschaffen werden. Den Studierenden sollte vermittelt werden, warum die behandelten Inhalte und insbesondere die Umsetzung dieser anhand einer Programmiersprache sinnvoll sind.  
+Zu den praktischen Voraussetzungen gehören die Installation von R und idealerweise RStudio je nach Setting in zentralen PC-Räumen oder auf den Rechnern der Lernenden. Um Schwierigkeiten bei der Installation insbesondere auf alten Geräten zu vermeiden, kann auch der Zugang über den Browser zum Beispiel via RStudio Cloud oder JupyterLab angeboten werden.
+
+## Kompetenzen
+
+Um praktische Data Literacy zu erlangen, müssen Studierende Tools der Datenverarbeitung und -analyse kennenlernen und anwenden. Mit der Programmiersprache R kann der gesamte Prozess von der Datengenerierung über die Analyse bis hin zur Kommunikation abgebildet werden. Da keine grafische Oberfläche existiert, ist ein tieferer technischer Einblick in statistische Methoden möglich. Neben dem Umgang mit Daten kann gleichzeitig auch das Programmieren erlernt werden und können Standards guter wissenschaftlicher Praxis wie Transparenz und Reproduzierbarkeit behandelt werden.   
+
+## Erkenntnisse & Erfahrungen
+
+Zeitgemäße Data Literacy Education sollte neben kognitiven Lernzielen (zum Beispiel korrektes Anwenden von Datenanalysetechniken) auch affektive Lernziele (zum Beispiel Interesse und Spaß am Umgang mit Daten) verfolgen. Bedenken und Vorbehalte der Studierenden, die im Einzelfall bis zur Statistik-Anxiety [@onwuegbuzie2003] reichen können, sollten ernst genommen und reflektiert werden, ohne dass die Hochschullehrer:innen diese Sorgen befördern.
+Es bietet sich an, viel Raum für das eigene Üben und Anwenden beispielsweise durch begleitende Tutorien, interaktive Lernskripte (zum Beispiel mit learnr) oder Selbsttests einzuräumen. Dies trägt zur Erreichung der affektiven Lernziele und damit zur Demystifizierung der Themen Datenanalyse, Statistik und Programmieren bei. 
+Besonders geeignet für den Einstieg sind zum Beispiel die Themen Datenexploration und -visualisierung. Sinn und Zweck von Aufgaben zu Datenvisualisierungen sind für Studierende oftmals gut ersichtlich, weil Darstellungen von Statistiken in Alltag und Studium häufig vorkommen. Zudem können hier schnell sichtbare Ergebnisse erzielt werden, was die Selbstwirksamkeit bereits zu Beginn eines Kurses fördern kann. Die Datenbeispiele sollten dabei so gewählt werden, dass sie an die (Fach-)Perspektive der Studierenden oder an ihre Alltagserfahrungen anschlussfähig sind.
+Obwohl der Einstieg einfach sein soll, ist es nicht unbedingt empfehlenswert, zunächst sehr kleinteilig auf die Grundlagen des Programmierens oder einzelne Elemente der Sprache einzugehen. Diese können im Verlauf eines Kurses herausgearbeitet werden. Dem Ansatz des Scaffolding [@reiser2014] folgend kann schrittweise vorgegangen werden:
+
++	Erläutern eines Skripts schärft den Blick für den Gesamtzusammenhang. Eine Kombination aus ausführlichen Erklärungen und einfachem Code (vgl. Literate Programming, @knuth1992) steigert die Verständlichkeit. Die Lernenden erhalten eine Vorlage für die Nachbereitung des Stoffs und für zukünftige eigene Analysen. 
++	Mit einfachen Aufgaben können die Lerner:innen üben, den Code zu verstehen und zu kommentieren oder den existierenden Code zu verändern. Lerner:innen könnten zum Beispiel aufgefordert werden, einzelne Variablen oder Funktionen auszutauschen oder den Code nach anderen Gesichtspunkten anzupassen. 
++	In weiteren Übungen erhalten die Lerner:innen immer weniger Hilfestellung und werden nach und nach in die Lage versetzt, eigene Ideen zu verfolgen und Datenanalyseprojekte mit R umzusetzen. Hier kann gegenseitige Peer-Unterstützung das Verständnis fördern, beispielsweise indem Aufgaben gemeinsam bearbeitet werden.  
+
+Ein zentraler Aspekt jeder Einführung in R sollte das Thema „Hilfe zur Selbsthilfe“ sein. Es ist wichtig, den Lerner:innen Ressourcen und Ansätze vorzustellen, mit denen sie künftigen Datenanalyse- und Programmierherausforderungen begegnen können (zum Beispiel Vignetten und die Hilfefunktion in RStudio, Stack Overflow und GitHub), und das Auftreten von Fehlermeldungen als normalen Bestandteil des Programmierens zu vermitteln. Eine offene Atmosphäre und die Möglichkeit zur Klärung von Verständnisfragen helfen, Frustration beim Einstieg in die Arbeit mit Programmcode zu begegnen. 
+Das Vorstellen und Diskutieren verschiedener Lösungswege fördert in späteren Sitzungen den Austausch und das Verständnis für unterschiedliche Herangehensweisen und hilft den Lerner:innen dabei, das Potenzial von R selbst zu explorieren. Sollte dies nicht im Rahmen der Präsenzzeit möglich sein, kann es auch in den virtuellen Raum verlagert werden, zum Beispiel mithilfe von Onlinelernumgebungen wie Foren.
+
+## Hilfreiche Links
+
++ R: <https://www.r-project.org/>
++ RStudio: <https://posit.co/download/rstudio-desktop>
+
+**Links zu Lernressourcen**
+
++ Ressourcen für Lehrer:innen, bereitgestellt von Posit: <https://education.rstudio.com/teach/>
++ learnr: Paket für die Erstellung interaktiver Tutorials: <https://rstudio.github.io/learnr/>
++ Frei verfügbare (Lehr-)Bücher zu verschiedenen R-Themen: <https://bookdown.org/>
+
+## Autor:innenprofil
+
+**Dr. Julia Niemann-Lenz** studierte Kommunikationswissenschaft in Hannover und promovierte zum Thema Privatsphäre auf sozialen Netzwerkplattformen an der Universität Hohenheim. Heute arbeitet sie als Scientific Coordinator in der Data Literacy Education an der Universität Hamburg.  
+
+**Selina Reinhard** studierte Psychologie in Göttingen, Ankara und Berlin. Sie arbeitet an der Freien Universität Berlin an der Weiterentwicklung von Tools der digitalen Lehre mit Fokus auf datenbasierte Entscheidungen, digitale Zukunftstechnologien und Data Literacy
+
+
+
