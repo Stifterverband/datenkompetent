@@ -65,9 +65,9 @@ Die beschriebenen interdisziplinären Ringvorlesungen zu den Datenwelten decken 
 
 ## Hilfreiche Links
 
-+ Alle Informationen zum Projekt „Digital and Data Literacy in Teaching Lab“ (kurz: DDLitLab), aus dem die beschriebenen Ringvorlesungen hervorgingen: <uhh.de/ddlitlab>. 
-+ Das „Lehre-Navi“ als kuratierte Sammlung von digitalen und didaktischen Lehr-Lern-Materialien, welches im Rahmen des DDLitLab-Projektes entstanden ist: <uhh.de/lehre-navi>. 
-+ Das „Data-Literacy-Repositorium“” als kuratierte Sammlung von Projekten, Materialien und Literatur zur Data Literacy Education, welches im Rahmen des DDLitLab-Projektes entstanden ist: <uhh.de/isa-ddlitlab-dl-repo>.
++ Alle Informationen zum Projekt „Digital and Data Literacy in Teaching Lab“ (kurz: DDLitLab), aus dem die beschriebenen Ringvorlesungen hervorgingen: <https://www.isa.uni-hamburg.de/ddlitlab.html>. 
++ Das „Lehre-Navi“ als kuratierte Sammlung von digitalen und didaktischen Lehr-Lern-Materialien, welches im Rahmen des DDLitLab-Projektes entstanden ist: <https://www.uni-hamburg.de/lehre-navi>. 
++ Das „Data-Literacy-Repositorium“” als kuratierte Sammlung von Projekten, Materialien und Literatur zur Data Literacy Education, welches im Rahmen des DDLitLab-Projektes entstanden ist: <https://www.isa.uni-hamburg.de/ddlitlab/fachspezifik/repositorium.html>.
 
 ## Autor:innenprofil
 
