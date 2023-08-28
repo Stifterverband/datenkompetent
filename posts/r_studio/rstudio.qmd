@@ -27,7 +27,7 @@ Zu den praktischen Voraussetzungen gehören die Installation von R und idealerwe
 
 ## Kompetenzen
 
-Um praktische Data Literacy zu erlangen, müssen Studierende Tools der Datenverarbeitung und -analyse kennenlernen und anwenden. Mit der Programmiersprache R kann der gesamte Prozess von der Datengenerierung über die Analyse bis hin zur Kommunikation abgebildet werden. Da keine grafische Oberfläche existiert, ist ein tieferer technischer Einblick in statistische Methoden möglich. Neben dem Umgang mit Daten kann gleichzeitig auch das Programmieren erlernt werden und können Standards guter wissenschaftlicher Praxis wie Transparenz und Reproduzierbarkeit behandelt werden.   
+Um praktische Data Literacy zu erlangen, müssen Studierende Tools der Datenverarbeitung und -analyse kennenlernen und anwenden. Mit der Programmiersprache R kann der gesamte Prozess von der Datengenerierung über die Analyse bis hin zur Kommunikation abgebildet werden. Da keine grafische Oberfläche existiert, ist ein tieferer technischer Einblick in statistische Methoden möglich. Neben dem Umgang mit Daten kann gleichzeitig auch das Programmieren erlernt werden und es können Standards guter wissenschaftlicher Praxis wie Transparenz und Reproduzierbarkeit behandelt werden.  
 
 ## Erkenntnisse & Erfahrungen
 
@@ -40,7 +40,7 @@ Obwohl der Einstieg einfach sein soll, ist es nicht unbedingt empfehlenswert, zu
 +	Mit einfachen Aufgaben können die Lerner:innen üben, den Code zu verstehen und zu kommentieren oder den existierenden Code zu verändern. Lerner:innen könnten zum Beispiel aufgefordert werden, einzelne Variablen oder Funktionen auszutauschen oder den Code nach anderen Gesichtspunkten anzupassen. 
 +	In weiteren Übungen erhalten die Lerner:innen immer weniger Hilfestellung und werden nach und nach in die Lage versetzt, eigene Ideen zu verfolgen und Datenanalyseprojekte mit R umzusetzen. Hier kann gegenseitige Peer-Unterstützung das Verständnis fördern, beispielsweise indem Aufgaben gemeinsam bearbeitet werden.  
 
-Ein zentraler Aspekt jeder Einführung in R sollte das Thema „Hilfe zur Selbsthilfe“ sein. Es ist wichtig, den Lerner:innen Ressourcen und Ansätze vorzustellen, mit denen sie künftigen Datenanalyse- und Programmierherausforderungen begegnen können (zum Beispiel Vignetten und die Hilfefunktion in RStudio, Stack Overflow und GitHub), und das Auftreten von Fehlermeldungen als normalen Bestandteil des Programmierens zu vermitteln. Eine offene Atmosphäre und die Möglichkeit zur Klärung von Verständnisfragen helfen, Frustration beim Einstieg in die Arbeit mit Programmcode zu begegnen. 
+Ein zentraler Aspekt jeder Einführung in R sollte das Thema „Hilfe zur Selbsthilfe“ sein. Es ist wichtig, den Dozent:innen Ressourcen und Ansätze vorzustellen, mit denen sie künftigen Datenanalyse- und Programmierherausforderungen begegnen können (zum Beispiel Vignetten und die Hilfefunktion in RStudio, Stack Overflow und GitHub), und das Auftreten von Fehlermeldungen als normalen Bestandteil des Programmierens zu vermitteln. Eine offene Atmosphäre und die Möglichkeit zur Klärung von Verständnisfragen helfen, Frustration beim Einstieg in die Arbeit mit Programmcode zu begegnen. 
 Das Vorstellen und Diskutieren verschiedener Lösungswege fördert in späteren Sitzungen den Austausch und das Verständnis für unterschiedliche Herangehensweisen und hilft den Lerner:innen dabei, das Potenzial von R selbst zu explorieren. Sollte dies nicht im Rahmen der Präsenzzeit möglich sein, kann es auch in den virtuellen Raum verlagert werden, zum Beispiel mithilfe von Onlinelernumgebungen wie Foren.
 
 ## Hilfreiche Links
@@ -50,7 +50,7 @@ Das Vorstellen und Diskutieren verschiedener Lösungswege fördert in späteren 
 
 **Links zu Lernressourcen**
 
-+ Ressourcen für Lehrer:innen, bereitgestellt von Posit: <https://education.rstudio.com/teach/>
++ Ressourcen für Dozent:innen, bereitgestellt von Posit: <https://education.rstudio.com/teach/>
 + learnr: Paket für die Erstellung interaktiver Tutorials: <https://rstudio.github.io/learnr/>
 + Frei verfügbare (Lehr-)Bücher zu verschiedenen R-Themen: <https://bookdown.org/>
 
