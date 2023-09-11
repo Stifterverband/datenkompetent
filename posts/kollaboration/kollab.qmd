@@ -2,7 +2,7 @@
 title: "Data Literacy Education durch Kollaboration von Universität und Industrie und transferorientierte Lehre"
 subtitle: " "
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Interdisziplinarität', 'Projekt']
+categories: ['Vorkenntnisse: keine', 'Interdisziplinarität', 'Projekt']
 description: 'Durch die Kollaborationen mit Industriepartnern in Curricula Co-Design and Co-Delivery fördert das Projekt Digital and Data Literacy in Teaching Lab (DDLitLab) im Bereich Transfer den systematischen Aufbau der Datenkompetenz der Studierenden an der Universität Hamburg. Die Zusammenarbeit ermöglicht den Studierenden, praktische Erfahrungen in der Datenanalyse zu sammeln und einen kritisch-analytischen Umgang mit Daten zu entwickeln. Die transferorientierte Lehre bietet gleichzeitig die Möglichkeit, dass die Studierenden neue Perspektiven auf die Komplexität der Arbeit mit großen Datensätzen gewinnen. Dies erhöht ihre Fähigkeit, kritisch-reflexive datenbasierte Lösungen zu entwickeln. '
 author: 
   - "Eylem Tas"
@@ -17,9 +17,9 @@ Untersuchungen haben gezeigt, dass das Engagement der Studierenden steigt, wenn 
 
 Das Projekt DDLitLab hat zum Ziel, Studierenden aller Fakultäten der Universität Hamburg unabhängig von der Fachrichtung grundlegende Data-Literacy-Kompetenzen umfassend und breit zu vermitteln. Im Bereich des Transfers verfolgt DDLitLab die Strategie, ein innovatives Studienökosystem zu entwickeln. Dabei spielen die Zusammenarbeit mit öffentlichen, privatwirtschaftlichen und zivilgesellschaftlichen Partnern und die transferorientierte Lehre eine wesentliche Rolle. Im Rahmen der transferorientierten Lehre liegt der Fokus auf realen Daten und datenbasierten Herausforderungen. Die Zusammenarbeit konzentriert sich insbesondere auf die Entwicklung von datenbasierten Lösungen für spezifische Herausforderungen, mit denen die Kooperationspartner vertraut sind. Bei der Entwicklung von datenbasierten Lösungen für real existierende Herausforderungen (DDLitLab-Data-Challenges, siehe *Hilfreiche Links*) werden didaktische Ansätze wie forschendes Lernen (Project-based Learning) als zentrale Methode eingesetzt. Forschendes Lehren und Lernen ist ein ertragreiches Format, das die Studierenden mit Forschung und forschenden Haltungen vertraut macht und gleichzeitig berufliche Feldkenntnisse fördert. Diese didaktischen Ansätze ermöglichen es den Studierenden, innovative Lösungen für real existierende Herausforderungen zu entwickeln, die einen gesellschaftlichen und unternehmerischen Mehrwert bieten. Die Zusammenarbeit mit externen Partnern fördert dadurch nicht nur die Datenkompetenz problemorientiert, sondern gibt den Studierenden auch Einblicke in die Arbeitswelt und unterstützt die Vernetzung. Im Sommersemester 2022 und Wintersemester 2022/2023 haben sich insgesamt 66 Studierende für die DDLitLab-Transfer-Lehrlaborprojekte angemeldet.  
 
-## Voraussetzungen und Zielgruppen
+## Voraussetzungen & Zielgruppen
 
-Für die Entwicklung von Datenkompetenzen empfehlen Ridsdale et al. [-@ridsdale2015] kreative Lehransätze unter Einsatz von technologischen Hilfsmitteln. Insbesondere werden die Ansätze von Hands-on-Learning und Project-based Learning empfohlen. Für eine funktionierende Kollaboration zwischen Universität und Industrie im Kontext von Project-based Learning muss die Zusammenarbeit zwischen Lehrkräften und Industriepartnern ausgewogen sein: Es muss klar sein, wie die gewünschte Zusammenarbeit organisiert wird, welche Informationsbedürfnisse der jeweils andere hat und welche Erwartungen damit verbunden sind. Gleichzeitig sollten die Lehrenden Bausteine definieren und dokumentieren, wie zum Beispiel die Kriterien, die für die geforderten realen Herausforderungen benötigt werden. Auf dieser Grundlage sollen gemeinsam mit den Industriepartnern die Auswahl der Herausforderung sowie die Planung der einzelnen Seminareinheiten erfolgen. Das Team DDLitLab-Transfer sowie die Transferagentur in der Universität Hamburg begleiten, beraten und vernetzen Lehrkräfte und externe Akteur:innen für eine funktionierende Kollaboration, um ein gemeinsames Projekt zu konzipieren und durchzuführen.   
+Für die Entwicklung von Datenkompetenzen empfehlen Ridsdale et al. [-@ridsdale2015] kreative Lehransätze unter Einsatz von technologischen Hilfsmitteln. Insbesondere werden die Ansätze von Hands-on-Learning und Project-based Learning empfohlen. Für eine funktionierende Kollaboration zwischen Universität und Industrie im Kontext von Project-based Learning muss die Zusammenarbeit zwischen Lehrkräften und Industriepartnern ausgewogen sein: Es muss klar sein, wie die gewünschte Zusammenarbeit organisiert wird, welche Informationsbedürfnisse der jeweils andere hat und welche Erwartungen damit verbunden sind. Gleichzeitig sollten die Lehrenden Bausteine definieren und dokumentieren, wie zum Beispiel die Kriterien, die für die geforderten realen Herausforderungen benötigt werden. Auf dieser Grundlage sollen gemeinsam mit den Industriepartnern die Auswahl der Herausforderung sowie die Planung der einzelnen Seminareinheiten erfolgen. Das Team DDLitLab-Transfer sowie die Transferagentur in der Universität Hamburg begleiten, beraten und vernetzen Lehrkräfte und Externe für eine funktionierende Kollaboration, um ein gemeinsames Projekt zu konzipieren und durchzuführen.   
 
 ## Kompetenzen
 
@@ -53,9 +53,10 @@ Die Befragten hoben außerdem die Identifizierung von Zusammenhängen zwischen d
 
 : Datenkompetenzen, DDLitLab-Transfer-Interviewstudie (2022) {#tbl-tab1}
 
-## Erkenntnisse und Erfahrungen
+## Erkenntnisse & Erfahrungen
 
-Die Resultate unserer Interviewstudie in Kooperation mit Industriepartnern im Bereich der Data Literacy Education verdeutlichen, dass die Effektivität der Datenkompetenzentwicklung eng mit der Integration weiterer essenzieller Fähigkeiten verknüpft ist. 
+Die Resultate unserer Interviewstudie in Kooperation mit Industriepartnern im Bereich der Data Literacy Education verdeutlichen, dass die Effektivität der Datenkompetenzentwicklung eng mit der Integration weiterer essenzieller Fähigkeiten verknüpft ist.  
+
 Dennoch bestehen in der Kooperation mit Industriepartnern im Kontext der Data Literacy Education bestimmte Herausforderungen. Insbesondere die Förderung der Kommunikation und das Fehlen einer einheitlichen Verständigungsebene stellen die primären Schwierigkeiten dar, die sich bei der kollaborativen und transferorientierten Lehre ergeben. Die Befragten haben folgende Probleme als die bedeutendsten Herausforderungen (H) identifiziert:  
 
 | Herausforderungen |
@@ -72,37 +73,41 @@ Im Rahmen der Interviews wurden seitens der Industriepartner die folgenden Anfor
 
 | Anforderungen |
 | ----------- | 
-|     V1 – Entwicklung   eines gemeinsamen Verständnisses                         |
-|     V2 – Transparente   Kommunikation                                           |
-|     V3 – Anpassungsfähigkeit   und Flexibilität                                 |
-|     V4 – Regelmäßige   Kommunikation                                            |
-|     V5 – Realistisches   Erwartungsmanagement                                   |
-|     V6 – Wertschöpfung   für alle Beteiligten                                   |
-|     V7 – Klar   definierte Rahmenbedingungen                                    |
-|     V8 – Information   über die Kompetenzen und Fähigkeiten der Studierenden    |
-|     V9 - Datensicherung                                                         |
-|     V10 – Vertraulichkeitsvereinbarungen                                        |
+|     A1 – Entwicklung   eines gemeinsamen Verständnisses                         |
+|     A2 – Transparente   Kommunikation                                           |
+|     A3 – Anpassungsfähigkeit   und Flexibilität                                 |
+|     A4 – Regelmäßige   Kommunikation                                            |
+|     A5 – Realistisches   Erwartungsmanagement                                   |
+|     A6 – Wertschöpfung   für alle Beteiligten                                   |
+|     A7 – Klar   definierte Rahmenbedingungen                                    |
+|     A8 – Information   über die Kompetenzen und Fähigkeiten der Studierenden    |
+|     A9 - Datensicherung                                                         |
+|     A10 – Vertraulichkeitsvereinbarungen                                        |
 
 : Anforderungen, DDLitLab-Transfer-Interviewstudie (2022) {#tbl-tab3}
 
-Gemäß den Befragten gibt es zahlreiche Vorteile im Zusammenhang mit der Entwicklung von Datenkompetenz durch transferorientierte Lehre und universitäre Industriekollaborationen. Die Ergebnisse der Interviewstudie zeigen, dass die Industriepartner sich der Rolle der Universität und Industrie Kollaboration in Curricula Co-Design and Co-Delivery und ihres Vorteils in Bezug auf die Entwicklung der Datenkompetenz bewusst sind. Im Bereich Transfer arbeitet DDLitLab an einer neuen Studie zur interdisziplinären und langfristigen Verankerung der transferorientierten Lehre zur Datenkompetenzentwicklung.  
+Gemäß den Befragten gibt es zahlreiche Vorteile im Zusammenhang mit der Entwicklung von Datenkompetenz durch transferorientierte Lehre und universitäre Industriekollaborationen. Die Ergebnisse der Interviewstudie zeigen, dass die Industriepartner sich der Rolle der Universität und Industrie Kollaboration in Curricula Co-Design and Co-Delivery und ihres Vorteils in Bezug auf die Entwicklung der Datenkompetenz bewusst sind. Im Bereich Transfer arbeitet DDLitLab an einer neuen Studie zur interdisziplinären und langfristigen Verankerung der transferorientierten Lehre zur Datenkompetenzentwicklung.   
 
 Unsere Erfahrungen haben gezeigt: Um eine erfolgreiche Zusammenarbeit mit Industriepartnern in Data Literacy Education sicherzustellen, müssen alle beteiligten Parteien den Mehrwert erkennen.  
-Eine **Win-win-Situation**, die letztendlich einen Mehrwert für die Universität, die Studierenden sowie für das Unternehmen hat.  
-**Vertraulichkeitsvereinbarungen zur Datensicherheit:** Da der verantwortungsvolle Umgang mit Daten eine der größten Herausforderungen darstellt, ist es wichtig, alle Partner durch Vertraulichkeitsvereinbarungen vor unbefugter Offenlegung ihrer Daten, Erkenntnisse und ihres Know-hows zu schützen. Um den verantwortungsvollen Umgang mit Daten zu gewährleisten und das Engagement innerhalb der Zusammenarbeit zu stärken, sollten schriftliche Vertraulichkeitsvereinbarungen (zum Beispiel Geheimhaltungsvereinbarungen) festgelegt werden, die für alle Parteien verständlich sind.  
-**Eindeutig definiertes Rahmenwerk:** Es muss ein klar definiertes Set an Verantwortlichkeiten, Zielen und Erwartungen sowie Informationen zur Datensicherheit bereitgestellt werden.  
-**Ein transparentes und realistisches Erwartungsmanagementsystem** ist unerlässlich, um ein klar definiertes Rahmenwerk zu unterstützen und eine vertrauensvolle Beziehung aufzubauen. Ein realistisches Erwartungsmanagement erfordert auch eine **transparente Kommunikation über die Kompetenzen und Ressourcen** aller beteiligten Parteien.  
+Eine **Win-win-Situation**, die letztendlich einen Mehrwert für die Universität, die Studierenden sowie für das Unternehmen hat.    
+
+**Vertraulichkeitsvereinbarungen zur Datensicherheit:** Da der verantwortungsvolle Umgang mit Daten eine der größten Herausforderungen darstellt, ist es wichtig, alle Partner durch Vertraulichkeitsvereinbarungen vor unbefugter Offenlegung ihrer Daten, Erkenntnisse und ihres Know-hows zu schützen. Um den verantwortungsvollen Umgang mit Daten zu gewährleisten und das Engagement innerhalb der Zusammenarbeit zu stärken, sollten schriftliche Vertraulichkeitsvereinbarungen (zum Beispiel Geheimhaltungsvereinbarungen) festgelegt werden, die für alle Parteien verständlich sind.    
+
+**Eindeutig definiertes Rahmenwerk:** Es muss ein klar definiertes Set an Verantwortlichkeiten, Zielen und Erwartungen sowie Informationen zur Datensicherheit bereitgestellt werden.   
+
+**Ein transparentes und realistisches Erwartungsmanagementsystem** ist unerlässlich, um ein klar definiertes Rahmenwerk zu unterstützen und eine vertrauensvolle Beziehung aufzubauen. Ein realistisches Erwartungsmanagement erfordert auch eine **transparente Kommunikation über die Kompetenzen und Ressourcen** aller beteiligten Parteien.   
+
 **Regelmäßiger Austausch:** Um ein gemeinsames Verständnis und eine gemeinsame Sprache zu entwickeln, ist regelmäßiger Austausch ebenfalls unerlässlich.
 
 
 
 ## Hilfreiche Links
 
-+ Alle Informationen zum Projekt „ Digital and Data Literacy in Teaching Lab“  (kurz: DDLitLab): <https://www.isa.uni-hamburg.de/ddlitlab.html>
++ Alle Informationen zum Projekt „ Digital and Data Literacy in Teaching Lab“ (kurz: DDLitLab): <https://www.isa.uni-hamburg.de/ddlitlab.html>
 + DDLitLab-Transfer: <https://www.isa.uni-hamburg.de/ddlitlab/transfer.html>
 + DDLitLab-Data-Challenges: <https://www.isa.uni-hamburg.de/ddlitlab/transfer/challenges.html>
 
-## Autor:innenprofil
+## Autorinnenprofil
 **Eylem Tas** studierte Betriebswirtschaftslehre an der Marmara-Universität sowie Bildungswissenschaften mit Schwerpunkt Bildungssystemdesign an der Otto-von-Guericke Universität Magdeburg und ist heute als wissenschaftliche Mitarbeiterin im DDLitLab im Bereich Transfer zur Förderung der Data Literacy Education an der Universität Hamburg tätig und promoviert zum Thema University-Industry Collaboration for Data Literacy and Entrepreneurship Development.
 
 

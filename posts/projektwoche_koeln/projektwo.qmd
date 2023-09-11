@@ -2,7 +2,7 @@
 title: "DaLI Interdisziplinäre Projektwoche"
 subtitle: "Ein projektbasiertes Lernszenario zum Erwerb von Data Literacy durch Peer-Learning"
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Interdisziplinarität', 'OER', 'Projekt', 'Peer-Learning']
+categories: ['Vorkenntnisse: keine', 'Interdisziplinarität', 'OER', 'Projekt', 'Peer-Learning']
 description: 'Ein Format der Data Literacy Initiative (DaLI) der TH Köln ist die *DaLI Interdisziplinäre Projektwoche*, die Aspekte der Data Literacy praxisorientiert über Peer-Learning den Studierenden näherbringt. Studierende übernehmen einen aktiven Anteil an der Lehrveranstaltung und lernen mit- und voneinander, indem sie Aspekte des Themas Data Literacy strukturieren und aufbereiten und Learning Nuggets für andere Studierende entwickeln.'
 author: 
   - Elisabeth Kaliva
@@ -45,9 +45,10 @@ Die *DaLI Interdisziplinäre Projektwoche* wird im Flipped-Classroom-Format mit 
 
 In Vorbereitung auf die Projektphase erhalten die Studierenden vorab Materialien zum Thema Data Literacy. Für die Erarbeitung haben die Studierenden zwei Wochen Zeit. Zum Abschluss dieser E-Learning-Phase erfolgt die Bearbeitung einer Aufgabe zur Analyse und Reflexion der bereitgestellten Informationen aus Sicht der eigenen Fachdisziplin. Ihre Reflexion veröffentlichen sie auf einer gemeinsamen Social-Learning-Plattform, den THspaces[^4] , wo sie Peer-Feedback von anderen Studierenden ihrer Projektgruppe erhalten.  
 
-Nach der zweiwöchigen E-Learning-Phase folgt die gemeinsame Onlinearbeitsphase in der Projektwoche. Die Studierenden werden in Gruppen von fünf bis acht Studierenden interdisziplinär aufgeteilt. Die Gruppen werden während dieser Zeit von studentischen Prozessbegleiter:innen und einem interdisziplinären Gutachter:innenteam, bestehend aus zwei Lehrenden, begleitet. Ein Wochenplan strukturiert die gemeinsame Projektarbeit mit Terminen für Daily Standups[^5] und fachlichem Feedback sowie der Abschlusspräsentation.   
+Nach der zweiwöchigen E-Learning-Phase folgt die gemeinsame Onlinearbeitsphase in der Projektwoche. Die Studierenden werden in Gruppen von fünf bis acht Personen interdisziplinär aufgeteilt. Die Gruppen werden während dieser Zeit von studentischen Prozessbegleiter:innen und einem interdisziplinären Gutachter:innenteam, bestehend aus zwei Lehrenden, begleitet. Ein Wochenplan strukturiert die gemeinsame Projektarbeit mit Terminen für Daily Standups[^5] und fachlichem Feedback sowie der Abschlusspräsentation.   
 
-In der gemeinsamen Onlineprojektphase ist die Aufgabe, ein Learning Nugget zu einem Aspekt der Data Literacy zu entwickeln. In der Projektidee soll das methodische und inhaltliche Know-how der unterschiedlichen Fachdisziplinen zusammenfließen, um daraus einen gemeinsamen Teilaspekt von Data Literacy in einer kleinen interdisziplinären Lerneinheit für weitere Studierende umzusetzen. Die Entwicklung eines Learning Nuggets für andere Studierende knüpft an die eigene Lebensrealität der Studierenden an und soll zu einer tieferen Auseinandersetzung mit dem Gelernten führen.   
+In der gemeinsamen Onlineprojektphase ist die Aufgabe, ein Learning Nugget zu einem Aspekt der Data Literacy zu entwickeln. In der Projektidee soll das methodische und inhaltliche Know-how der unterschiedlichen Fachdisziplinen zusammenfließen, um daraus einen gemeinsamen Teilaspekt von Data Literacy in einer kleinen interdisziplinären Lerneinheit für weitere Studierende umzusetzen. Die Entwicklung eines Learning Nuggets für andere Studierende knüpft an die eigene Lebensrealität der Studierenden an und soll zu einer tieferen Auseinandersetzung mit dem Gelernten führen.    
+
 Die Studierenden stellen am Ende der Projektwoche ihr Learning Nugget online ihrem Gutachter:innenteam sowie anderen Studierendengruppen vor und diskutieren dieses. Für ausgewählte Konzepte beziehungsweise fertiggestellte Learning Nuggets besteht im Nachgang die Möglichkeit einer Veröffentlichung als OER[^6] -lizenzierte Lehr-Lern-Einheit.
 
 ::: column.body

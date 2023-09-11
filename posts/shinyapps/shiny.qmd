@@ -1,8 +1,8 @@
 ---
 title: "Shiny und Co."
-subtitle: "interaktive Apps für Data Literacy erstellen und nutzen"
+subtitle: "Interaktive Apps für Data Literacy erstellen und nutzen"
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Vorkenntnisse:vorhanden', 'Interaktion', 'Coding']
+categories: ['Vorkenntnisse: keine', 'Vorkenntnisse: vorhanden', 'Interaktion', 'Coding']
 description: 'Interaktive Apps ermöglichen es Lernenden niedrigschwellig Grundkonzepte aus Datenanalyse und Statistik zu verstehen und mit Daten umzugehen. Diese Apps können beispielsweise mit Shiny erstellt und somit auf Lehr-Lern-Situationen zugeschnitten werden. Wir geben Hinweise zur Entwicklung dieser Apps sowie zur Einbindung in die Lehre.'
 author: 
   - Sonja Hahn

@@ -1,7 +1,7 @@
 ---
 title: "Data Literacy Education mit R und RStudio"
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Vorkenntnisse:vorhanden', 'Coding']
+categories: ['Vorkenntnisse: keine', 'Vorkenntnisse: vorhanden', 'Coding']
 description: 'R ist als „Statistikprogrammiersprache“ eines der akuell wichtigsten Tools der praktischen Datenanalyse und somit grundlegend für angewandte Data Literacy. RStudio ist ein weitverbreiteter Editor für diese Sprache und eine ideale Lernumgebung, um nicht nur einen Einblick in Datenanalyse und Statistik, sondern gleichzeitig auch in die Welt des Programmierens zu erlangen. Hier wird ein kurzer Überblick über die Tools sowie Tipps zur Vermittlung in der Hochschullehre gegeben.'
 author: 
     - Julia Niemann-Lenz
@@ -14,15 +14,15 @@ editor_options:
 
 ## Toolbeschreibung
 
-R ist eine Open-Source-Programmiersprache, deren spezieller Fokus auf grafischer Exploration von Daten und statistischen Analysen liegt. Trotz des engen Fokus ist sie im aktuellen @tiobe -Ranking (abgerufen im Juni 2023) unter den Top 20 der beliebtesten Programmiersprachen. Entwickelt wurde R seit Ende der 80er-Jahre mit dem Ziel, die Statistiklehre zu unterstützen, und ist unter einer freien GNU-Lizenz verfügbar [@ihaka1996]. Mittlerweile gibt es zahlreiche Pakete, die die Basisfunktionalität von R erweitern – aktuell knapp 20.000 Pakete im Comprehensive R Archive Network (CRAN), dem zentralen Software-Repositorium für R. Die Vielfalt an Paketen und uneinheitlicher Syntax kann für Einsteiger:innen jedoch herausfordernd sein. Parallel zu der heterogenen Entwickler:innen Community gibt es daher Bemühungen, R-Pakete zu vereinheitlichen. Das Tidyverse [@wickham2019] beispielsweise bietet als Gruppe von Paketen eine konsistente und intuitive Grammatik für Datenmanipulation und -visualisierung.  
+R ist eine Open-Source-Programmiersprache, deren spezieller Fokus auf grafischer Exploration von Daten und statistischen Analysen liegt. Trotz des engen Fokus ist sie im aktuellen @tiobe -Ranking (abgerufen im Juni 2023) unter den Top 20 der beliebtesten Programmiersprachen. Entwickelt wurde R seit Ende der 80er-Jahre mit dem Ziel, die Statistiklehre zu unterstützen, und ist unter einer freien GNU-Lizenz verfügbar [@ihaka1996]. Mittlerweile gibt es zahlreiche Pakete, die die Basisfunktionalität von R erweitern – aktuell knapp 20.000 Pakete im Comprehensive R Archive Network (CRAN), dem zentralen Software-Repositorium für R. Die Vielfalt an Paketen und uneinheitlicher Syntax kann für Personen mit wenig Vorkenntnissen jedoch herausfordernd sein. Parallel zu der heterogenen Entwickler:innen Community gibt es daher Bemühungen, R-Pakete zu vereinheitlichen. Das Tidyverse [@wickham2019] beispielsweise bietet als Gruppe von Paketen eine konsistente und intuitive Grammatik für Datenmanipulation und -visualisierung.  
 
 RStudio ist ein sehr beliebter Editor für R und wird von der Firma Posit (früher RStudio) vertrieben. Der Editor bietet insbesondere Einsteiger:innen eine ideale Lernumgebung mit Tool-Tipps, Syntaxhighlighting und einer umfangreichen Hilfefunktion. Neben der klassischen Verwendung von Skripten können mithilfe von R Markdown interaktive Notebooks und mit Shiny interaktive Webapplikationen erstellt werden.
 
 ## Voraussetzungen & Zielgruppen
 
-R und RStudio können in unterschiedlichen Kontexten eingesetzt werden. Einsatzszenarien reichen von der allgemeinen Einführung in das Thema Datenanalyse in interdisziplinären Settings über die Umgestaltung einer bestehenden fachspezifischen Statistikveranstaltung mit Vorlesungscharakter bis hin zu Train-the-Trainer-Angeboten mit Hochschullehrer:innen als Zielgruppe.  
+R und RStudio können in unterschiedlichen Kontexten eingesetzt werden. Einsatzszenarien reichen von der allgemeinen Einführung in das Thema Datenanalyse in interdisziplinären Settings über die Umgestaltung einer bestehenden fachspezifischen Statistikveranstaltung mit Vorlesungscharakter bis hin zu Train-the-Trainer-Angeboten mit Hochschullehrende als Zielgruppe.  
 
-Statistik- und Datenanalyse können für Studienanfänger:innen bestimmter Fächer einen eher unerwarteten Studieninhalt darstellen. Angesichts dessen sollte in der grundlegenden und fachbezogenen Data Literacy Education zunächst ein Bewusstsein für Hintergründe, Themen und Methoden geschaffen werden. Den Studierenden sollte vermittelt werden, warum die behandelten Inhalte und insbesondere die Umsetzung dieser anhand einer Programmiersprache sinnvoll sind.  
+Statistik- und Datenanalyse sind - anders als es viele Studierende zu Beginn ihres Studiums erwarten - auch Bestandteil vieler nicht technischer Studienfächer. Angesichts dessen sollte in der grundlegenden und fachbezogenen Data Literacy Education zunächst ein Bewusstsein für Hintergründe, Themen und Methoden geschaffen werden. Den Studierenden sollte vermittelt werden, warum die behandelten Inhalte und insbesondere die Umsetzung dieser anhand einer Programmiersprache sinnvoll sind.  
 Zu den praktischen Voraussetzungen gehören die Installation von R und idealerweise RStudio je nach Setting in zentralen PC-Räumen oder auf den Rechnern der Lernenden. Um Schwierigkeiten bei der Installation insbesondere auf alten Geräten zu vermeiden, kann auch der Zugang über den Browser zum Beispiel via RStudio Cloud oder JupyterLab angeboten werden.
 
 ## Kompetenzen
@@ -31,8 +31,9 @@ Um praktische Data Literacy zu erlangen, müssen Studierende Tools der Datenvera
 
 ## Erkenntnisse & Erfahrungen
 
-Zeitgemäße Data Literacy Education sollte neben kognitiven Lernzielen (zum Beispiel korrektes Anwenden von Datenanalysetechniken) auch affektive Lernziele (zum Beispiel Interesse und Spaß am Umgang mit Daten) verfolgen. Bedenken und Vorbehalte der Studierenden, die im Einzelfall bis zur Statistik-Anxiety [@onwuegbuzie2003] reichen können, sollten ernst genommen und reflektiert werden, ohne dass die Hochschullehrer:innen diese Sorgen befördern.
-Es bietet sich an, viel Raum für das eigene Üben und Anwenden beispielsweise durch begleitende Tutorien, interaktive Lernskripte (zum Beispiel mit learnr) oder Selbsttests einzuräumen. Dies trägt zur Erreichung der affektiven Lernziele und damit zur Demystifizierung der Themen Datenanalyse, Statistik und Programmieren bei. 
+Zeitgemäße Data Literacy Education sollte neben kognitiven Lernzielen (zum Beispiel korrektes Anwenden von Datenanalysetechniken) auch affektive Lernziele (zum Beispiel Interesse und Spaß am Umgang mit Daten) verfolgen. Bedenken und Vorbehalte der Studierenden, die im Einzelfall bis zur Statistik-Anxiety [@onwuegbuzie2003] reichen können, sollten ernst genommen und reflektiert werden, ohne dass die Hochschullehrende diese Sorgen befördern.
+Es bietet sich an, viel Raum für das eigene Üben und Anwenden beispielsweise durch begleitende Tutorien, interaktive Lernskripte (zum Beispiel mit learnr) oder Selbsttests einzuräumen. Dies trägt zur Erreichung der affektiven Lernziele und damit zur Demystifizierung der Themen Datenanalyse, Statistik und Programmieren bei.  
+
 Besonders geeignet für den Einstieg sind zum Beispiel die Themen Datenexploration und -visualisierung. Sinn und Zweck von Aufgaben zu Datenvisualisierungen sind für Studierende oftmals gut ersichtlich, weil Darstellungen von Statistiken in Alltag und Studium häufig vorkommen. Zudem können hier schnell sichtbare Ergebnisse erzielt werden, was die Selbstwirksamkeit bereits zu Beginn eines Kurses fördern kann. Die Datenbeispiele sollten dabei so gewählt werden, dass sie an die (Fach-)Perspektive der Studierenden oder an ihre Alltagserfahrungen anschlussfähig sind.
 Obwohl der Einstieg einfach sein soll, ist es nicht unbedingt empfehlenswert, zunächst sehr kleinteilig auf die Grundlagen des Programmierens oder einzelne Elemente der Sprache einzugehen. Diese können im Verlauf eines Kurses herausgearbeitet werden. Dem Ansatz des Scaffolding [@reiser2014] folgend kann schrittweise vorgegangen werden:
 

@@ -2,7 +2,7 @@
 title: "DaLiCo Summer School"
 subtitle: " "
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Vorkenntnisse:vorhanden', 'Projekt']
+categories: ['Vorkenntnisse: keine', 'Vorkenntnisse: vorhanden', 'Projekt']
 description: 'Das Erasmus+-Projekt Data Literacy in Context (DaLiCo) hat verschiedene Formate und Produkte zur Datenkompetenz entwickelt, um den Umgang mit Daten über Fachgrenzen und Disziplinen hinaus interdisziplinär zu fördern. Die Praxis und Erprobung der inhaltlichen und didaktischen Formate erfolgte im Rahmen von Summer Schools, die eine aktive und intensive Auseinandersetzung der Studierenden mit Fragestellungen zur Entwicklung von Data Literacy ermöglichten. Das an der Hochschule für Angewandte Wissenschaften Hamburg (HAW Hamburg)  erprobte Konzept liefert Impulse für andere Einrichtungen, die kompakte Vermittlungsangebote wie Summer Schools virtuell und auch in Präsenz planen.'
 author: 
   - Christine Gläser
@@ -16,6 +16,7 @@ editor_options:
 ## Toolbeschreibung
 
 Das Format der Summer School bietet besondere Rahmenbedingungen, die eine vertiefte und intensive Beschäftigung mit einer Thematik ermöglichen, da es sich von vornherein um zeitlich begrenzte Angebote im Blockformat handelt.   
+
 Die Erkenntnisse und Erfahrungen zu erfolgreichen Formaten der Förderung von Datenkompetenz, die auf der Ridsdale-Matrix aufbauen [@ridsdale2015: 19 ff.], zeigen bereits auf, wie wichtig das anwendungsorientierte, projekthafte und selbstständige Lernen mit echten Daten für Studierende ist. Die DaLiCo-Summer-Schools wurden basierend auf diesen Ergebnissen entwickelt und sind darüber hinaus inspiriert durch die erfolgreichen Workshops der [Carpentry-Bewegung](https://carpentries.org/), dabei werden digitale Fertigkeiten vor allem mithilfe aufgabenbasierter praktischer Übungen vermittelt.  
 
 Der konzeptionelle Ansatz ist fachübergreifend und generisch im Sinne digitaler Schlüsselkompetenzen. In diesem Zusammenhang wird auf ganzheitliche Bezüge Wert gelegt, um Verbindungen zwischen Teilkompetenzthemen deutlich zu machen, die zum Datenlebenszyklus gehören, oder auch um übergeordnete konzeptionelle Themen wie Datenethik explizit zu integrieren.
@@ -38,8 +39,8 @@ Die Lernziele entsprechend der Lernzielmatrix nach Anderson & Krathwohl [-@ander
 
 Die Summer Schools wurden innerhalb einer Woche an fünf aufeinander folgenden Tagen umgesetzt, der Aufbau innerhalb der Woche und im Tagesverlauf wurde an Themen (Datenlebenszyklus) und Aktivitäten (Input und praktische Projektarbeit) orientiert. Im Folgenden wird dies beispielhaft am Wochenplan der ersten Summer School (2020) illustriert (siehe @fig-abb1).  
 
-::: column.body
-![Programm der DaLiCo-Summer-School 2020](abb1.svg){#fig-abb1}
+::: {.column-body}
+![Programm der DaLiCo-Summer-School 2020](abb1.svg){#fig-abb1 width=100%}
 :::
 
 Basierend auf den Erfahrungen und Entwicklungen der DaLiCo-Summer-School-Konzepte werden ein prototypisches Programm und ein Zeitplan (siehe @fig-abb2) vorgeschlagen. Das Programm  enthält erprobte Komponenten unterschiedlicher Inhalte und Formate:  
@@ -57,7 +58,7 @@ Basierend auf den Erfahrungen und Entwicklungen der DaLiCo-Summer-School-Konzept
 *Leitideen des Summer-School-Konzepts:*  
 
 +	Inspirierende Fachvorträge   
-Für jede Summer School wurden Expert:innen , entweder auf dem Gebiet der Datenkompetenz oder in einem Fachgebiet, eingeladen, die in Form von kurzen Impulsvorträgen über konkrete Forschungs- oder Praxisprojekte und methodische Innovationen berichtet haben. Auf diese Weise wurde sichergestellt, dass den Teilnehmenden deutlich wurde, wie die erlernten Kompetenzen im Umgang mit Daten in der Berufspraxis eingesetzt werden.  
+Für jede Summer School wurden Personen mit besonderer Expertise , entweder auf dem Gebiet der Datenkompetenz oder in einem Fachgebiet, eingeladen, die in Form von kurzen Impulsvorträgen über konkrete Forschungs- oder Praxisprojekte und methodische Innovationen berichtet haben. Auf diese Weise wurde sichergestellt, dass den Teilnehmenden deutlich wurde, wie die erlernten Kompetenzen im Umgang mit Daten in der Berufspraxis eingesetzt werden.  
 
 +	Flexible Kompetenzportfolios und Kontextualisierung   
 Die adressierten Datenkompetenzen wurden bei den Summer Schools bewusst mit unterschiedlichen thematischen und inhaltlichen Schwerpunkten variiert: Dazu zählten Aspekte der Openness und Integration ethischer Fragen am Beispiel des World Happiness Report bei der Summer School I - Open Government Data / 2020 (siehe @fig-abb1) –, disziplinspezifische Bedarfe und Integration von KI-Themen im Gesundheitsbereich bei der Summer School II - Advancing digital and data skills in the health sector / 2021 – sowie allgemeine Aspekte zu Open Science und Datenmanagement auch von großen Datensätzen bei der Summer School III - Exploring Research Data Management / 2022.  

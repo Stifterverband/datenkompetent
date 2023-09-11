@@ -2,13 +2,12 @@
 title: "Daten-Ringvorlesungen im Studium Generale"
 subtitle: "Multiperspektivität und neue Öffentlichkeiten"
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Vorlesung', 'Studium Generale', 'Interdisziplinarität']
+categories: ['Vorkenntnisse: keine', 'Vorlesung', 'Studium Generale', 'Interdisziplinarität']
 description: 'Datenpraktiken und zugehörige Reflexionsanlässe finden sich in zahlreichen Disziplinen und Domänen. Klassische interdisziplinäre Ringvorlesungen bieten daher neben stärker verschränkten und gestuften Angeboten eine gute Möglichkeit, Perspektiven zu bündeln oder besondere Aspekte hervorzuheben. Sie bieten Vernetzungsanlässe und zeigen Schnittstellen auf; zugleich werden einer interessierten (Hochschul-)Öffentlichkeit neue Felder erschlossen. Studierende in Data-Literacy-Programmen profitieren von niedrigschwelligen Überblicken, dem Zugang zu externer Kompetenz und der Schaffung einer Datenkultur, wie das Beispiel der Daten-Reihen der Johannes Gutenberg-Universität Mainz (JGU)  zeigt.'
 author: "Andreas Hütig"
 image: "ring.png"
 editor_options: 
   chunk_output_type: console
-
 ---
 
 ## Toolbeschreibung 
@@ -24,7 +23,8 @@ Schon im ersten der genannten Semester, also noch vor Beginn der Coronapandemie,
 
 ## Voraussetzungen & Zielgruppen
 
-Die Ringvorlesungen werden fachübergreifend als freie Zusatzqualifikation und zugleich als Modulbaustein des Exportmoduls in den derzeit 30 kooperierenden Studiengängen aller Fächergruppen angeboten. Darüber hinaus sind sie Teil der Bürger:innenuniversität und damit auch für Gast- und Seniorstudierende geöffnet. Konzeption, Planung und Organisation wie Durchführung werden seitens des fest angestellten Personals des Studium generale geleistet, zumeist in einer Kooperation von zwei bis drei Mitarbeitenden dieser Einrichtung. Die Planung beginnt dabei etwa ein knappes Jahr vor dem betreffenden Semester mit der ersten Konzeption; Feinplanung und Einladungen erfolgen dann im Semester vor der geplanten Durchführung.  
+Die Ringvorlesungen werden fachübergreifend als freie Zusatzqualifikation und zugleich als Modulbaustein des Exportmoduls in den derzeit 30 kooperierenden Studiengängen aller Fächergruppen angeboten. Darüber hinaus sind sie Teil der Bürger:innenuniversität und damit auch für Gast- und Seniorstudierende geöffnet. Konzeption, Planung und Organisation wie Durchführung werden seitens des fest angestellten Personals des Studium generale geleistet, zumeist in einer Kooperation von zwei bis drei Mitarbeitenden dieser Einrichtung. Die Planung beginnt dabei etwa ein knappes Jahr vor dem betreffenden Semester mit der ersten Konzeption; Feinplanung und Einladungen erfolgen dann im Semester vor der geplanten Durchführung.   
+
 Die Vortragenden sind darüber informiert, dass keine fachlichen Hintergründe vorausgesetzt werden können, ein akademisches Niveau jedoch erwartet wird. Durch die relative Eigenständigkeit der Einzelvorträge ist der Aufwand für gemeinsame Festlegungen und die übergreifende konzeptionelle Arbeit relativ gering; in den Exportmodulen wird dies für die teilnehmenden Studierenden in eigenen begleitenden Lehrveranstaltungen geleistet. Die Moderation der Vorträge sowie der anschließenden Diskussionen übernehmen die Mitarbeitenden des Studium generale, die so auch für eine didaktische Reduktion oder die Vernetzung mit den anderen Inhalten der Reihe oder aktuellen Fragen sorgen.   
 
 Durch die Anbindung an eine bestehende Einrichtung mit vielfältigen Erfahrungen in vergleichbaren Bereichen sind die wichtigen institutionellen, finanziellen und organisatorischen Voraussetzungen abgesichert. Für vergleichbare Projekte an anderen Standorten ist die Sicherstellung einer Ausstattung eine nicht zu unterschätzende Bedingung.  
@@ -38,12 +38,15 @@ Anders als in dediziert auf den Erwerb von Data Literacy ausgerichteten Angebote
 
 Die Reihen umfassen stets sowohl geistes-/kulturwissenschaftliche, sozialwissenschaftliche und technikwissenschaftliche Zugänge, um so die interdisziplinäre Breite abzudecken und für die Präsenz datenrelevanter Fragestellungen auch in Fächern zu sensibilisieren, in denen das nicht bereits naheliegt. Umgekehrt werden Studierende der MINT-Fächer an juristische, politische, ethische und kulturwissenschaftliche Fragestellungen herangeführt und so für die Kontexte und Konsequenzen von Datenpraktiken sensibilisiert. Exemplarisch zeigt sich der Aufbau einer solchen Reihe an den beiden Übersichten (@fig-abb1 und @fig-abb2).
 
-![Übersicht der Reihe "Neue Bilder: Daten, Wissen, Visualisierungen", JGU Mainz, SoSe 2021](abb1.jpg){#fig-abb1}
 
+::: column-body
+![Übersicht der Reihe "Neue Bilder: Daten, Wissen, Visualisierungen", JGU Mainz, SoSe 2021](abb1.svg){#fig-abb1}
+:::
 
+::: column-body
 
 ![Übersicht der Reihe „Mündigkeit 4.0 -- Ethik in der datafizierten Welt", JGU Mainz, SoSe 2022](abb2.jpg){#fig-abb2}
-
+:::
 
 
 Je nach didaktischer Aufbereitung seitens der Vortragenden kommen – insbesondere in den Onlinevorträgen – erweiterte aktivierende Methoden auf digitaler Basis zum Einsatz, etwa Umfragen während des Vortrags, Q&A-Seiten oder kollaborative Whiteboards. Für Fragerunden nach den Vorträgen werden zusätzlich E-Mail-Adressen genutzt und die Fragen vorgelesen beziehungsweise paraphrasiert und live beantwortet. In den allerdings nur für Studierende bestimmter Studiengänge angebotenen Begleitübungen werden auch andere didaktische und methodische Zugänge gewählt und praktiziert. Hier findet dann für die Studierenden der Kooperationsstudiengänge auch eine Prüfungsleistung statt, die – dem interdisziplinären Zuschnitt entsprechend - in einer schriftlichen Ausarbeitung (Essay), einer eigenen Datenanalyse oder -visualisierung oder einer kleinen Medienproduktion bestehen kann. Dafür haben Studierende etwa Interviews mit Datenanalyst:innen  geführt oder Positionen landespolitisch aktiver Personen zum Datenschutz in einem Podcast verarbeitet. Für die Ringvorlesungen selbst ist eine Prüfungsleistung nicht vorgesehen.
@@ -64,7 +67,7 @@ Für die Nachfrage seitens der Studierenden ist eine teilweise extrinsische Moti
 + Informationen zu den Data-Literacy-Lehrangeboten: <https://www.studgen.uni-mainz.de/data/>.
 + OER-Plattform des Landes Rheinland-Pfalz: <https://openedu-rlp.de/>.
 
-## Autor:innenprofil
+## Autorenprofil
 
 **Dr. Andreas Hütig** studierte Philosophie, Politikwissenschaften, Literaturwissenschaften und Jura an der JGU Mainz und promovierte dort mit einer kulturphilosophischen Arbeit. Neben seiner Arbeit für die Bürger:innenuniversität des Studium generale der JGU Mainz und der interdisziplinären Lehre in den Exportmodulen koordiniert er die überfachlichen Lehrangebote im Bereich Data Literacy an der JGU. Sein besonderes Interesse gilt dabei datenethischen Fragen und der Reflexion von Datafizierung und Digitalisierung in Bildung und Gesellschaft.
 

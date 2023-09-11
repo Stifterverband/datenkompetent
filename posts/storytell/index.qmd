@@ -2,8 +2,8 @@
 title: "Data Literacy Education mittels Storytelling"
 subtitle: " "
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Selbstlernkurs', 'Blended Learning']
-description: 'Im Fokus des Beitrags steht das (digitale) Storytelling, das als didaktische Herangehensweise die narrative Vermittlung von (Erfahrungs-)Wissen adressiert (Thier 2017). Nachfolgend wird dieser Ansatz exemplarisch entlang des Onlinekurses Mit Emma durch den Datendschungel vorgestellt. Ziel ist es, Wissen über den Umgang mit Daten in Form einer digitalen Geschichte zu vermitteln, um langfristig den Erwerb von Data-Literacy-Skills zu fördern.'
+categories: ['Vorkenntnisse: keine', 'Selbstlernkurs', 'Blended Learning']
+description: 'Im Fokus des Beitrags steht das (digitale) Storytelling, das als didaktische Herangehensweise die narrative Vermittlung von (Erfahrungs-)Wissen adressiert [@thier2017]. Nachfolgend wird dieser Ansatz exemplarisch entlang des Onlinekurses *Mit Emma durch den Datendschungel* vorgestellt. Ziel ist es, Wissen über den Umgang mit Daten in Form einer digitalen Geschichte zu vermitteln, um langfristig den Erwerb von Data-Literacy-Skills zu fördern.'
 author: 
   - "Pia Gausling"
   - "Yvonne Erhardt"
@@ -14,7 +14,7 @@ image:  "swirls.png"
 ## Toolbeschreibung
 
 ::: {.column-margin}
-![Bild 1: Ida Groß - CC BY-NC-ND](1_Illustration.png)
+![Abbildung 1: Grafik aus dem Onlinekurs | Bild: Ida Groß](1_Illustration.png)
 
 :::
 
@@ -24,7 +24,7 @@ Didaktisch basiert der Onlinekurs auf der Methode des (digitalen) Storytellings.
 
 
 ::: {.column-margin}
-![Grafik 2. Urheberin: Ida Groß CC BY-NC-ND](2_Illustration.png)
+![Abbildung 2: Grafik aus dem Onlinekurs | Bild: Ida Groß](2_Illustration.png)
 
 :::
 
@@ -34,7 +34,9 @@ Insgesamt sollen die Studierenden durch die Kursteilnahme dazu befähigt werden,
 ## Voraussetzungen & Zielgruppen
 
 Das Storytelling als Wissensmanagement-Methode erfordert insbesondere personelle und zeitliche Ressourcen [@reinmannrothmeier2000: 4]. Im beschriebenen Projekt können die Auswahl und Aufbereitung der zu vermittelnden Lerninhalte, die Einbettung in eine Story sowie die Anfertigung eines Skripts als besonders voraussetzungsreich und arbeitsintensiv beurteilt werden. Zur Erstellung einer digital vermittelten Story ist zudem eine entsprechende technische Infrastruktur vonnöten. Darüber hinaus sind für eine narrative Vermittlung von Wissen zugleich fachliche Expertise (hier: Wissen zum Umgang mit Daten) und eine grundlegende narrative Kompetenz, wie sie bereits bei Schütze [-@schutze1977] beschrieben wird, erforderlich. Dies schließt auch die Bereitschaft ein, sich in Form einer „kollektiven Reflexion“ [@thier2017: 26] über die auszuwählenden Inhalte, die damit verbundenen Erfahrungswerte und über einen erzählerisch kohärenten Projektablauf zu verständigen [@reinmannrothmeier2000: 4–5; @thier2017: 28].  
-Während das Storytelling als Wissensmanagement-Methode vor allem in Unternehmen und kulturellen Einrichtungen eingesetzt wird, adressiert das vorgestellte Hochschulprojekt primär Lehrende und Studierende in den erziehungs- und bildungswissenschaftlichen Studiengängen: Zum einen lassen sich die entwickelten Selbstlerneinheiten von Hochschullehrenden nutzen, um die Präsenzlehre digital zu unterstützen und zu begleiten, zum anderen ist es das Ziel, dass sich die Studierenden selbstorganisiert die Lerninhalte über die Lernumgebung aneignen. Hierbei besteht die Annahme, dass der niedrigschwellige und authentische Zugang, der an das situierte Lernen [@mandl1995] anschließt, ein besonderes Potenzial für selbstgesteuerte Lernprozesse bietet [@reinmann2006]. 
+
+Während das Storytelling als Wissensmanagement-Methode vor allem in Unternehmen und kulturellen Einrichtungen eingesetzt wird, adressiert das vorgestellte Hochschulprojekt primär Lehrende und Studierende in den erziehungs- und bildungswissenschaftlichen Studiengängen: Zum einen lassen sich die entwickelten Selbstlerneinheiten von Hochschullehrenden nutzen, um die Präsenzlehre digital zu unterstützen und zu begleiten, zum anderen ist es das Ziel, dass sich die Studierenden selbstorganisiert die Lerninhalte über die Lernumgebung aneignen. Hierbei besteht die Annahme, dass der niedrigschwellige und authentische Zugang, der an das situierte Lernen [@mandl1995] anschließt, ein besonderes Potenzial für selbstgesteuerte Lernprozesse bietet [@reinmann2006].  
+
 Der Onlinekurs ist daher so konzipiert, dass er zum einen eine Einführung in den Umgang mit Daten (zum Beispiel zu Beginn des Studiums) bietet und zum anderen auch als Wiederholung (zum Beispiel beim Übergang vom Bachelor- in das Masterstudium) dienen kann. Insbesondere für Studierende, die eine eigene Forschungsarbeit planen, soll die Begleitung durch Emma, die ebenfalls ein solches Projekt plant und durchführt, eine Unterstützung sein.  
 Der Umgang mit Daten lässt sich hierbei anhand der ALLBUS-Daten veranschaulichen, da diese für Analysezwecke gut aufbereitet und leicht zugänglich sind sowie eine Vielzahl sozialwissenschaftlicher Themenfelder abdecken. Der hier vorgestellte Onlinekurs fokussiert sich auf das politische Interesse, woraus sich Implikationen für die politische Bildung ableiten lassen. Darüber hinaus wird Bezug auf weitere Daten genommen, die in pädagogischen Berufsfeldern erhoben werden (zum Beispiel durch Beobachtungsbögen des Jugendamtes, Teilnahmestatistiken der VHS).
 
@@ -42,27 +44,28 @@ Der Umgang mit Daten lässt sich hierbei anhand der ALLBUS-Daten veranschauliche
 ## Kompetenzen
 
 ::: {.column-margin}
-![Grafik 3. Urheberin: Ida Groß CC BY-NC-ND](3_Icon.png)
+![Abbildung 3: Grafik aus dem Onlinekurs | Bild: Ida Groß](3_Icon.png)
 
 :::
 
-Zweck des Onlinekurses ist es, Unterstützung für die Durchführung eigener empirischer Projekte sowie für den Umgang mit Daten zu bieten. Dabei sollen Data-Literacy-Skills entlang des Data Life Cycle vermittelt werden. Der Data Life Cycle besteht aus sechs Schritten: (1) Planung, (2) Datensammlung, (3) Datenanalyse, (4) Veröffentlichung, (5) Nachhaltigkeit von Daten und (6) Wiederverwendung von Daten (Wolf & Leppla 2020). Die Lerninhalte, die im nächsten Abschnitt dargestellt werden, orientieren sich am Kompetenzrahmen nach Bush et al. [-@bush2021], der als Teil des Projektes *DataLiteracySkills@OWL* entstanden ist. Zentral sind dort die Kompetenzbereiche Lesen und Verstehen (unter anderem grundlegende Kenntnisse über Daten und Datenerhebung), Reflexion (zum Beispiel Beachten des Datenschutzes, Einordnung in den gesellschaftlichen Kontext) und Gestaltung (zum Beispiel Durchführung und Reflexion eigener Datenanalysen). Zudem wird zwischen drei Anforderungsebenen unterschieden, auf denen der jeweilige Kompetenzbereich erreicht werden soll: Reproduzieren, Zusammenhänge herstellen und Transfer [@bush2021]. Die genannten Kompetenzbereiche werden im Rahmen des Onlinekurses mit Bezug auf pädagogische Themenfelder adressiert, um die Relevanz von Data Literacy für die eigene Berufspraxis zu verdeutlichen (zum Beispiel Einbettung der Inhalte in einen gesellschaftsrelevanten Kontext, hier: politisches Interesse).
+Zweck des Onlinekurses ist es, Unterstützung für die Durchführung eigener empirischer Projekte sowie für den Umgang mit Daten zu bieten. Dabei sollen Data-Literacy-Skills entlang des Data Life Cycle vermittelt werden. Der Data Life Cycle besteht aus sechs Schritten: (1) Planung, (2) Datensammlung, (3) Datenanalyse, (4) Veröffentlichung, (5) Nachhaltigkeit von Daten und (6) Wiederverwendung von Daten [@wolf2020]. Die Lerninhalte, die im nächsten Abschnitt dargestellt werden, orientieren sich am Kompetenzrahmen nach Bush et al. [-@bush2021], der als Teil des Projektes *DataLiteracySkills@OWL* entstanden ist. Zentral sind dort die Kompetenzbereiche Lesen und Verstehen (unter anderem grundlegende Kenntnisse über Daten und Datenerhebung), Reflexion (zum Beispiel Beachten des Datenschutzes, Einordnung in den gesellschaftlichen Kontext) und Gestaltung (zum Beispiel Durchführung und Reflexion eigener Datenanalysen). Zudem wird zwischen drei Anforderungsebenen unterschieden, auf denen der jeweilige Kompetenzbereich erreicht werden soll: Reproduzieren, Zusammenhänge herstellen und Transfer [@bush2021]. Die genannten Kompetenzbereiche werden im Rahmen des Onlinekurses mit Bezug auf pädagogische Themenfelder adressiert, um die Relevanz von Data Literacy für die eigene Berufspraxis zu verdeutlichen (zum Beispiel Einbettung der Inhalte in einen gesellschaftsrelevanten Kontext, hier: politisches Interesse).
 
 
 ## Lerninhalte & Methoden
 
-Nach Thier [-@thier2017] stellt das Storytelling eine Methode dar, „mit der (Erfahrungs-)Wissen […] erfasst, ausgewertet und in Form einer gemeinsamen Erfahrungsgeschichte aufbereitet wird“ [@thier2017: 21]. Insofern wird Storytelling das Potenzial zugeschrieben, den Transfer von (Erfahrungs-)Wissen zu unterstützen und damit auch schwer zugängliches Wissen wie beispielsweise implizite Wissensbestände offenzulegen. 
+Nach Thier [-@thier2017] stellt das Storytelling eine Methode dar, „mit der (Erfahrungs-)Wissen […] erfasst, ausgewertet und in Form einer gemeinsamen Erfahrungsgeschichte aufbereitet wird“ [@thier2017: 21]. Insofern wird Storytelling das Potenzial zugeschrieben, den Transfer von (Erfahrungs-)Wissen zu unterstützen und damit auch schwer zugängliches Wissen wie beispielsweise implizite Wissensbestände offenzulegen.  
+
 Die Konzeption und Erstellung einer digital aufbereiteten Story beinhaltet in Anknüpfung an Ohler [-@ohler2013] und Çetin [-@cetin2021] die folgenden fünf Schritte: Planung, Schreiben eines Skriptes, Erstellung eines Storyboards, Sammlung notwendigen Materials, finale Erstellung der Story und Evaluation. Vor diesem Hintergrund wurden im Rahmen des genannten Projektes zunächst die zu vermittelnden Inhalte entlang des Data Life Cycle [@wolf2020] festgelegt und skizziert. Daraufhin folgten eine differenzierte inhaltliche Ausarbeitung sowie die Einbindung in eine modular aufgebaute Story. Parallel zur inhaltlichen und narrativen Ausgestaltung sowie im Anschluss an die genannten Schritte standen der Entwurf eines Storyboards sowie die Recherche und Sammlung notwendigen Materials (unter anderem Literatur, Datensätze, Merkblätter) im Vordergrund. Die finale Story wurde abschließend mit der genannten Software Articulate Storyline erstellt. Eine Evaluation des Kurses und der darüber vermittelten Story steht noch aus. 
 
 
 ::: {.column-margin}
-![Grafik 4. Urheberin: Ida Groß CC BY-NC-ND](4_Illustration.png)
+![Abbildung 4: Grafik aus dem Onlinekurs | Bild: Ida Groß](4_Illustration.png)
 
 :::
 
 Insgesamt trägt das narrative Darstellungsformat dazu bei, Wissenselemente und damit verbundene Bedeutungskonstruktionen sowie Erfahrungen und Handlungen miteinander zu verknüpfen und in einer kohärenten Form (hier der Erfahrungsgeschichte) zu verdichten [@woletz2020; @thier2017; @reinmannrothmeier2000]. Innerhalb des Projektes werden hierzu sowohl fachliche Inhalte (wie beispielsweise Datenformen, Analysetools, Deskriptiv- und Inferenzstatistik, Möglichkeiten der Visualisierung) als auch emotionalisierende Elemente (zum Beispiel Ich-Erzählung, Thematisierung von Herausforderungen durch die Protagonistin Emma, unter anderem bei dem Einlesen eines Datensatzes und der korrekten Anwendung statistischer Verfahren), Erfahrungswissen (beispielsweise persönliche Tipps und Hinweise) und interaktive Formate (unter anderem Quiz, Suchbilder, Dialogszenen) innerhalb einer Erfahrungsgeschichte (das Verfassen einer datengestützten Abschlussarbeit) miteinander verwoben [@woletz2020: 77; @nussle2017: 41; @friedmann2019: 6).  
 
-Die zu transportierenden Inhalte innerhalb der Story orientieren sich an vorab definierten Lernzielen, die sich aus dem Kompetenzrahmen nach Bush et al. [-@bush2021] und dem Data Life Cycle ableiten lassen. Folgende Themenschwerpunkte werden unter anderem berücksichtigt:   
+Die zu transportierenden Inhalte innerhalb der Story orientieren sich an vorab definierten Lernzielen, die sich aus dem Kompetenzrahmen [@bush2021] und dem Data Life Cycle ableiten lassen. Folgende Themenschwerpunkte werden unter anderem berücksichtigt:   
 
 +	Was sind Daten und welche Formen von Daten lassen sich unterscheiden?
 + Welche Relevanz haben Daten für den Alltag und für pädagogische Berufsfelder?
@@ -92,7 +95,7 @@ Für die Erstellung einer digital aufbereiteten Story können zudem die folgende
 + Zu DataLiteracySkills@OWL: <https://www.campus-owl.eu/projekte/dalis>
 + Zur Allgemeinen Bevölkerungsumfrage Sozialwissenschaften (ALLBUS): <https://www.gesis.org/allbus/allbus>
 
-## Autor:innenprofil
+## Autorinnenprofile
 
 **Dr. Pia Gausling** studierte Erziehungswissenschaft (Bachelor und Master) an der Universität Bielefeld. Zurzeit ist sie als wissenschaftliche Mitarbeiterin an der Fakultät für Erziehungswissenschaft (Arbeitsgruppe Forschungsmethoden) der Universität Bielefeld tätig. Zu ihren Arbeits- und Forschungsschwerpunkten gehören Data Literacy Education in der Hochschullehre, außerschulische Kooperationen und Berufsorientierung. Aktuell befasst sie sich in zwei drittmittelgeförderten Projekten mit der Entwicklung und Konzeption digitaler Selbstlerneinheiten zur Förderung von Datenkompetenzen im Studium.  
 
