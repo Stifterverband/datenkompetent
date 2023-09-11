@@ -2,7 +2,7 @@
 title: "Data-Literacy-Sensibilisierung"
 subtitle: "Eine Einführung in das Schlüsselthema künstliche Intelligenz "
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Selbstlernkurs', 'Curriculare Einbindung', 'Blended Learning']
+categories: ['Vorkenntnisse: keine', 'Selbstlernkurs', 'Curriculare Einbindung', 'Blended Learning']
 description: 'Ein asynchroner Selbstlernkurs für Studierende aller Fächer erläutert Schlüsselbegriffe, Möglichkeiten sowie grundlegende ethische und soziale Herausforderungen unserer datengeprägten Welt. Ziel ist es, die Urteilsbildung mit einem Schwerpunkt auf künstliche Intelligenz (KI) zu bieten und Grundwissen über wesentliche Aspekte der digitalen Transformation im Hinblick auf Arbeitskultur, Mensch-Maschine-Interaktion, KI und Future Skills zu schaffen. Wie die Studierenden das Format und die Inhalte bewerten, beschreibt dieser Artikel. '
 author: 
   - Wibke Matthes
@@ -13,22 +13,24 @@ editor_options:
 
 ## Toolbeschreibung
 
-Um für Studierende der Christian-Albrechts-Universität zu Kiel (CAU) im fachübergreifenden Wahlangebot ein Lernangebot zu schaffen, das sie für die KI und ihre Chancen und Risiken sensibilisiert, wurde im Sommersemester 2020 eine asynchrone Lehrveranstaltung entwickelt. Dafür arbeitete das [Zentrum für Schlüsselqualifikationen (ZfS) der CAU](www.zfs.uni-kiel.de) mit der Technischen Hochschule Lübeck zusammen und konzipierte auf der bestehenden landesweiten Lernplattform <futureskills-sh.de> einen digitalen Selbstlernkurs. Bei diesem Lernangebot handelt es sich um ein Kurspaket aus 14 Einzelkursen, die jeweils in sich abgeschlossen ein eigenes Thema behandeln und einen Arbeitsumfang von 3 bis 30 Stunden haben. Die Einzelkurse sind jeweils von anderen Lehrenden hergestellt und als Open Educational Ressources (OER) auf der Lernplattform oncampus der TH Lübeck verfügbar gemacht worden. Die Lerninhalte sollten Studierende ohne fachlichen Hintergrund mit Themen der digitalen Gesellschaft, des digitalen Arbeitens und vor allem mit wichtigen Fragen zur Nutzung künstlicher Intelligenz sensibilisierend in Kontakt bringen.   
+Um für Studierende der Christian-Albrechts-Universität zu Kiel (CAU) im fachübergreifenden Wahlangebot ein Lernangebot zu schaffen, das sie für die KI und ihre Chancen und Risiken sensibilisiert, wurde im Sommersemester 2020 eine asynchrone Lehrveranstaltung entwickelt. Dafür arbeitete das Zentrum für Schlüsselqualifikationen (ZfS) der CAU mit der Technischen Hochschule Lübeck zusammen und konzipierte auf der bestehenden landesweiten Lernplattform futureskills-sh.de einen digitalen Selbstlernkurs. Bei diesem Lernangebot handelt es sich um ein Kurspaket aus 14 Einzelkursen, die jeweils in sich abgeschlossen ein eigenes Thema behandeln und einen Arbeitsumfang von 3 bis 30 Stunden haben. Die Einzelkurse sind jeweils von anderen Lehrenden hergestellt und als Open Educational Ressources (OER) auf der Lernplattform oncampus der TH Lübeck verfügbar gemacht worden. Die Lerninhalte sollten Studierende ohne fachlichen Hintergrund mit Themen der digitalen Gesellschaft, des digitalen Arbeitens und vor allem mit wichtigen Fragen zur Nutzung künstlicher Intelligenz sensibilisierend in Kontakt bringen.  
 
-Zur Bereitstellung des Kurspakets wurde der fachübergreifende Katalog offener Lernangebote am ZfS genutzt. Hier finden sich über 300 Module, die neben ergänzenden Fachkompetenzen insbesondere die individuellen Schlüsselkompetenzen fördern. Das Angebot an Schlüsselkompetenzen basiert auf einem Framework, der im ZfS 2022 entwickelt wurde (ZfS 2022). Dieser lehnt sich an das Framework vom Stifterverband und von McKinsey [@suessenbach2021] an und greift die Future Skills von Ulf-Daniel Ehlers auf [@ehlers2021], enthält jedoch einige hochschulspezifischere Anpassungen und bezieht das KSAVE-Konzept der 21st Century Skills ein [@binkley2012].   
+Zur Bereitstellung des Kurspakets wurde der fachübergreifende Katalog offener Lernangebote am ZfS genutzt. Hier finden sich über 300 Module, die neben ergänzenden Fachkompetenzen insbesondere die individuellen Schlüsselkompetenzen fördern. Das Angebot an Schlüsselkompetenzen basiert auf einem Framework, der im ZfS 2022 entwickelt wurde (@fig-abb1). Dieser lehnt sich an das Framework vom Stifterverband und von McKinsey [@suessenbach2021] an und greift die Future Skills von Ulf-Daniel Ehlers auf [@ehlers2021], enthält jedoch einige hochschulspezifischere Anpassungen und bezieht das KSAVE-Konzept der 21st Century Skills ein [@binkley2012].   
 
-Vor allem die Digital- und Medienkompetenzen werden im ZfS-Kompetenzrahmen stärker betont. Dafür sollte gezielt ein zusätzliches Angebot an Lehrveranstaltungen bereitgestellt werden.   
+::: column-body
+![Future Skills-Framework 2022](abb1.svg){#fig-abb1}
+:::
 
-Insbesondere war es der Ansatz, ein stark selbstgesteuertes Lernangebot im digitalen Raum zu bieten, das die Realität des digitalen Lernens und Arbeitens dauerhaft in den Studienalltag integriert [@matthes2022].   
+Vor allem die Digital- und Medienkompetenzen werden im ZfS-Kompetenzrahmen stärker betont. Dafür sollte gezielt ein zusätzliches Angebot an Lehrveranstaltungen bereitgestellt werden.  
 
-Abb.1
-__________________________________________
+Insbesondere war es der Ansatz, ein stark selbstgesteuertes Lernangebot im digitalen Raum zu bieten, das die Realität des digitalen Lernens und Arbeitens dauerhaft in den Studienalltag integriert [@matthes2022].    
 
 Mit dem Schwerpunkt KI wurden entsprechende Learning Nuggets ausgewählt. Insgesamt ist ein Lernangebot entstanden, das 75 Zeitstunden Workload umfasst und über das Vorlesungs-verzeichnis allen Studierenden zugänglich ist. Je nach Studiengang können sich die Studierenden bei bestandener Leistung 2,5 ECTS anrechnen lassen. Die Leistung ist unbenotet. Die enthaltenen Lernstandsüberprüfungen (Multiple-Choice-Wissenstests, Lückentexte, Zuordnungsaufgaben etc.) werden automatisiert überprüft. Die Lernenden erhalten unmittelbar Feedback zu ihrer Leistung (Take-Home-Prüfung). Am Ende jedes Einzelkurses erhalten die Studierenden ein Zertifikat. Sobald sie alle Learning Nuggets mit Zertifikat abgeschlossen haben, wird das Gesamtzertifikat „Future Skills – KI“ automatisiert ausgegeben.  
 
-Betreut und gerahmt wird das Angebot durch eine Lehrkraft im ZfS. Sie organisiert die Anmeldung und führt zu Beginn der Vorlesungszeit eine Kick-off-Veranstaltung durch. In der als Videokonferenz gestalteten Veranstaltung wird das Kennenlernen der Studierenden untereinander gefördert, die Fähigkeit zum selbstorganisierten Studium adressiert und zur Bildung von Lerngruppen angeregt. Der Lernpfad wird im Anschluss individuell durch die Studierenden gesteuert. Zusätzlich wird seit dem Sommersemester 2021 eine Live-Diskussionsreihe von drei bis vier Sitzungen (je eine Stunde) durchgeführt. Die Sitzungen dienen dazu, den Studierenden den Kontakt zu Unternehmen oder Institutionen zu ermöglichen, die mit künstlicher Intelligenz arbeiten, den Austausch untereinander anzuregen, das Gelernte mit der Realität dieser Praxisbeispiele abzugleichen, Fragen zu stellen und in Diskussion zu treten. Dazu stellen die Gäste aus der Praxis eine praktische Aufgabe. So entstand zum Beispiel ein erster Entwicklungsschritt für einen Chatbot.   
+Betreut und gerahmt wird das Angebot durch eine Lehrkraft im ZfS. Sie organisiert die Anmeldung und führt zu Beginn der Vorlesungszeit eine Kick-off-Veranstaltung durch. In der als Videokonferenz gestalteten Veranstaltung wird das Kennenlernen der Studierenden untereinander gefördert, die Fähigkeit zum selbstorganisierten Studium adressiert und zur Bildung von Lerngruppen angeregt. Der Lernpfad wird im Anschluss individuell durch die Studierenden gesteuert. Zusätzlich wird seit dem Sommersemester 2021 eine Live-Diskussionsreihe von drei bis vier Sitzungen (je eine Stunde) durchgeführt. Die Sitzungen dienen dazu, den Studierenden den Kontakt zu Unternehmen oder Institutionen zu ermöglichen, die mit künstlicher Intelligenz arbeiten, den Austausch untereinander anzuregen, das Gelernte mit der Realität dieser Praxisbeispiele abzugleichen, Fragen zu stellen und in Diskussion zu treten. Dazu stellen die Gäste aus der Praxis eine praktische Aufgabe. So entstand zum Beispiel ein erster Entwicklungsschritt für einen Chatbot. 
+  
 
-## Voraussetzungen und Zielgruppen
+## Voraussetzungen & Zielgruppen
 
 Die Teilnehmenden stammen aus verschiedensten Fächern, Studiengängen und Studienstufen der CAU. Es handelt sich jedoch für alle Teilnehmenden um einen Wahlpflichtkurs, sodass von einem großen intrinsisch motivierten themenbezogenen Interesse ausgegangen werden kann. Darüber hinaus könnte auch das besondere Format eine Rolle spielen. An der CAU existieren kaum reine Selbstlernangebote dieser Art. Die Teilnahme wird zahlenmäßig nicht begrenzt. Im Wintersemester 2022/2023 meldeten sich 100 Studierende an, die zum überwiegenden Teil auch die Prüfungsleistung abschließen und bestehen. Seit 2020 haben den Kurs 234 Studierende erfolgreich abgeschlossen.  
 
@@ -43,7 +45,7 @@ Nach Abschluss aller 14 Learning Nuggets sind die Teilnehmenden in der Lage,
 +	zu erkennen, was KI-Lösungen für ein Unternehmen leisten können, und
 +	grundlegende ethische und soziale Herausforderungen von KI sowie Fragen des Datenschutzes zu erläutern.  
 
-## Lerninhalte und Methoden
+## Lerninhalte & Methoden
 
 **Die Learning Nuggets**  
 
@@ -86,44 +88,51 @@ In diesem Kurs wird gezeigt, wie durch das Design interaktiver Systeme und (digi
 **New Work und Future Skills**  
 Unsichtbare Datenhighways und riesige Rechenzentren beschleunigen die Veränderungen in der Industrie- und Arbeitswelt in disruptiven Ausmaßen. Die Art und Weise, wie Arbeit gedacht, bewertet, ermöglicht und praktiziert wird, wird sich stark verändern. Der Kurs diskutiert Chancen und Perspektiven dieser Transformation.  
 
-## Erkenntnisse und Erfahrungen
+## Erkenntnisse & Erfahrungen
 
 Seit dem Sommersemester 2020 werden die Teilnehmenden jedes Durchgangs zum Kurskonzept befragt. Die Befragten stammen in überwiegender Mehrheit aus sozialwissenschaftlichen Fächern. Die folgende Übersicht zeigt einen Auszug der Herkunftsfächer aus dem Wintersemester 2022/2023.  
 
-Abb.2 
-___
+::: column-body
+![Fachherkunft der Teilnehmenden](abb2.svg){#fig-abb2}
+:::
 
 Die  Auswertung der Befragung mit bisher 90 Fragebögen zeigt, dass die Studierenden das Format als Selbstlernkurs mit einem Höchstmaß an Selbstorganisation gut bis sehr gut annehmen. 
 
-Abb. 3  
-___
+::: column-body
+![Evaluation Format Selbstlernkurs](abb3.svg){#fig-abb3}
+:::
 
 Auch  die Sammlung kuratierter OER-Materialien trifft den Geschmack der Studierenden. Sie melden zurück, dass sie die kurzen, in sich inhaltlich geschlossenen Lerneinheiten als abwechslungsreich empfinden und auch die Ansprache durch verschiedene Lehrende als Bereicherung sehen.  
 
-Abb. 4
-___
+::: column-body
+![Evaluation Format Kurspaket](abb4.svg){#fig-abb4}
+:::
 
-Den noch wird deutlich, dass das Format auch Defizite mit sich bringt: Insbesondere die Anwendung des Gelernten fehlt den Studierenden. Es scheint, dass die Studierenden den direkten Bezug der Inhalte mit ihren Fächern erwarten. 
-Fast ebenso deutlich melden die Studierenden zurück, dass ihnen der Austausch und die Diskussion der Inhalte fehlt. Speziell für dieses Bedürfnis wurden die Live-Treffen eingerichtet. Leider beteiligen sich die Studierenden trotz des sehr hohen Interaktionsgrades des Formats nur sehr wenig an der angebotenen Diskussion.   
+Dennoch wird deutlich, dass das Format auch Defizite mit sich bringt: Insbesondere die Anwendung des Gelernten fehlt den Studierenden. Es scheint, dass die Studierenden den direkten Bezug der Inhalte mit ihren Fächern erwarten.  
 
-Abb. 5
-___
+Fast ebenso deutlich melden die Studierenden zurück, dass ihnen der Austausch und die Diskussion der Inhalte fehlt. Speziell für dieses Bedürfnis wurden die Live-Treffen eingerichtet. Leider beteiligen sich die Studierenden trotz des sehr hohen Interaktionsgrades des Formats nur sehr wenig an der angebotenen Diskussion. 
 
-Die  Interpretation, dass mit dem fehlenden Anwendungsbezug die individuell fachliche Anwendung gemeint sein könnte, wird auch durch die  Antwort auf die Frage nach den inhaltlichen Wünschen der Studierenden gestützt. Größte inhaltliche Lücke scheint jedoch der fehlende Bezug zu möglichen Berufsfeldern zu sein. Hierzu ist zu beachten, dass das Modul „Future Skills – KI“ als Bestandteil des Pflicht-Praxismoduls für die Zwei-Fächer-Bachelor-Studiengänge der CAU nutzbar ist. Dieser Studiengang stellt zugleich die Hauptnutzendengruppe im Kurs. Es besteht daher die nachvollziehbare Erwartung, dass ein direkter beruflicher Bezug hergestellt wird. Diesem Bedürfnis sollte ebenfalls mit den Live-Treffen und durch die eingeladenen Unternehmen begegnet werden. Sie werden insbesondere danach ausgewählt, dass sie typische Berufsfelder wie Bildung, Kultur, Medien oder Marketing abdecken. Berufsfelder, in denen traditionell viele Studierende auch ihr Praktikum absolvieren beziehungsweise in die sie nach dem Abschluss streben.  
+::: column-body
+![Evaluation Wünsche Format](abb5.svg){#fig-abb5}
+:::
 
-Abb. 6
-___
+Die Interpretation, dass mit dem fehlenden Anwendungsbezug die individuell fachliche Anwendung gemeint sein könnte, wird auch durch die  Antwort auf die Frage nach den inhaltlichen Wünschen der Studierenden gestützt. Größte inhaltliche Lücke scheint jedoch der fehlende Bezug zu möglichen Berufsfeldern zu sein. Hierzu ist zu beachten, dass das Modul „Future Skills – KI“ als Bestandteil des Pflicht-Praxismoduls für die Zwei-Fächer-Bachelor-Studiengänge der CAU nutzbar ist. Dieser Studiengang stellt zugleich die Hauptnutzendengruppe im Kurs. Es besteht daher die nachvollziehbare Erwartung, dass ein direkter beruflicher Bezug hergestellt wird. Diesem Bedürfnis sollte ebenfalls mit den Live-Treffen und durch die eingeladenen Unternehmen begegnet werden. Sie werden insbesondere danach ausgewählt, dass sie typische Berufsfelder wie Bildung, Kultur, Medien oder Marketing abdecken. Berufsfelder, in denen traditionell viele Studierende auch ihr Praktikum absolvieren beziehungsweise in die sie nach dem Abschluss streben.  
+
+::: column-body
+![Evaluation Wünsche Inhalt](abb6.svg){#fig-abb6}
+:::
 
 Dennoch  zeigen die Antworten auf die direkte Frage nach den Live-Austauschtreffen, dass die Studierenden diese Art Ergänzung der Selbstlernkurse honorieren.  
 
-Abb. 7
-___
+::: column-body
+![Evaluation Austauschtreffen](abb7.svg){#fig-abb7}
+:::
 
-Insgesamt  lassen sich die Gelingensbedingungen dieses Kurses in seiner Art in fünf Punkte zusammenfassen. Zunächst ist es wichtig, dass das Angebot ein Wahlangebot darstellt, weil Abbruchquoten (WS 2022/2023: 28 Prozent ) eventuell auch darauf zurückzuführen sind, dass Teilnehmende das Format nicht als geeignet betrachten. Als weitere wichtige Bedingung des Gelingens kann das gezielte Onboarding erachtet werden. Die Auswahl der Lernmaterialien spielt eine weitere wichtige Rolle. Es sollte sich um motivierendes und aktivierendes Material handeln. Die Möglichkeit der schnellen Kontaktaufnahme zur Lehrkraft stellt insbesondere bei technischen Problemen eine wichtige Bedingung dar. Auch der Praxisbezug und das Anregen einer kritischen Haltung zu den Chancen und Herausforderungen der künstlichen Intelligenz über Diskussionsformate sind weitere wichtige Gelingensbedingungen.   
+Insgesamt  lassen sich die Gelingensbedingungen dieses Kurses in seiner Art in fünf Punkte zusammenfassen. Zunächst ist es wichtig, dass das Angebot ein Wahlangebot darstellt, weil Abbruchquoten (WS 2022/2023: 28 Prozent ) %) eventuell auch darauf zurückzuführen sind, dass Teilnehmende das Format nicht als geeignet betrachten. Als weitere wichtige Bedingung des Gelingens kann das gezielte Onboarding erachtet werden. Die Auswahl der Lernmaterialien spielt eine weitere wichtige Rolle. Es sollte sich um motivierendes und aktivierendes Material handeln. Die Möglichkeit der schnellen Kontaktaufnahme zur Lehrkraft stellt insbesondere bei technischen Problemen eine wichtige Bedingung dar. Auch der Praxisbezug und das Anregen einer kritischen Haltung zu den Chancen und Herausforderungen der künstlichen Intelligenz über Diskussionsformate sind weitere wichtige Gelingensbedingungen.   
 
-Als Herausforderung hat sich insbesondere die Heterogenität der Lerngruppe gezeigt. Der Bezug zu konkreten Berufsfeldern und der Fachbezug können entgegen den Erwartungen der Studierenden nicht ausreichend hergestellt werden. Hier müssten fachbezogene Lernangebote anknüpfend bereitgestellt werden. Die Prüfungsleistung für das Modul besteht im Abschluss aller Learning Nuggets. Die enthaltenen Prüfungselemente werden automatisiert ausgewertet. Eine zusätzliche Prüfung erfolgt nicht. Dies könnte prüfungsrechtlich bedenklich sein.  
+Als Herausforderung hat sich insbesondere die Heterogenität der Lerngruppe gezeigt. Der Bezug zu konkreten Berufsfeldern und der Fachbezug können entgegen den Erwartungen der Studierenden nicht ausreichend hergestellt werden. Hier müssten fachbezogene Lernangebote anknüpfend bereitgestellt werden. Die Prüfungsleistung für das Modul besteht im Abschluss aller Learning Nuggets. Die enthaltenen Prüfungselemente werden automatisiert ausgewertet. Eine zusätzliche Prüfung erfolgt nicht. Dies könnte prüfungsrechtlich bedenklich sein. 
 
-## Autor:innenprofil
+## Autorinnenprofil
 
 **Wibke Matthes** (Diplom Politologin und Betriebswirtin) Geschäftsführende Mitarbeiterin, Direktorin und Leiterin des Bereichs Schlüsselkompetenzen sowie Leitung der Fachergänzung am Zentrum für Schlüsselqualifikationen (ZfS) der Christian-Albrechts-Universität zu Kiel; Lehre für Entrepreneurship als Schlüsselkompetenz.   
 2015 Veröffentlichung des Buches „Schlüsselkompetenzen im Hochschulstudium“ zusammen mit weiteren Autor:innen  
