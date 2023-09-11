@@ -14,13 +14,15 @@ $very-light-grey: #f0f3f4 !default;
 $dark-grey:       #6A6F73 !default;
 $very-dark-grey:  #575757 !default;
 $green:           #AFD700 !default;
+$soft-green:      #aecc53 !default;
+$mint:            #8fbc9e !default;
 
 
 // body/text
 $body-bg: $white !default;
 $body-color:  $blue !default; //text color
 $link-color:  $very-dark-grey !default;
-$body-text-align: justify !default; //Blocksatz
+$body-text-align: left !default; //Blocksatz
 
 
 // text-family
@@ -31,7 +33,7 @@ $headings-font-family:  "Brandon Text Regular", "Monotype Baskerville", "Trebuch
 $font-size-root:              null !default;
 $font-size-base:              1rem !default; // Assumes the browser default, typically `16px`
 $font-size-sm:                $font-size-base * .875 !default;
-$font-size-lg:                $font-size-base * 1.3 !default;
+$font-size-lg:                $font-size-base * 1.75 !default;
 $lead-font-size:              $font-size-base * 1.25 !default;
 $lead-font-weight:            300 !default;
 $small-font-size:             .875em !default;
@@ -61,7 +63,7 @@ h1 {
   margin-bottom: 0.75em;
   font-family: $headings-font-family;
   font-weight: bold;
-  font-size: 2.5rem;
+  font-size: 4rem;
 }
 
   h2, h3 {
@@ -69,6 +71,7 @@ h1 {
    font-size: $font-size-lg;
    font-weight: bold;
    margin-bottom: 0.75em;
+   border-bottom: 0px;
 }
 
 h2#toc-title {
@@ -78,14 +81,15 @@ h2#toc-title {
 #title-block-header.quarto-title-block.default .quarto-title .title {
   font-family:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS", $headings-font-family;
   font-weight:  900;
-  margin-top: 1em;
-  margin-bottom: 0.5em;
+  margin-top: 0.25em;
+  margin-bottom: 0.25em;
 }
 
 //subtitle
 p.subtitle{
   text-align: left;
   margin-top: 0.1em;
+  font-size: 2rem;
 }
 
 .lead{
@@ -106,13 +110,11 @@ p {
 }
 
 //footer
-footer.footer .nav-footer, #quarto-header>nav {
-  color: $very-dark-grey;
-}
 
 footer {
   border-top: 1px solid;
   border-color: $green;
+  display: block flow;
 }
 
 .navbar-dark .navbar-brand {
@@ -146,7 +148,7 @@ div.quarto-post .listing-categories .listing-category {
 
 #title-block-header.quarto-title-block.default .quarto-categories .quarto-category {
     color: $white;
-    background-color: $primary;
+    background-color: $soft-green;
     border: none;
     border-radius: .4em;
     text-transform: none;
@@ -171,7 +173,7 @@ nav .nav-item:not(.compact){
 //tags
 
 .quarto-grid-item .listing-categories .listing-category {
-   background-color: $primary;
+   background-color: $soft-green;
    color: $white;
    text-transform: none;
    font-size: $font-size-base * .75;
@@ -203,6 +205,12 @@ nav .nav-item:not(.compact){
 .quarto-title .quarto-categories .quarto-category{
   font-size: $font-size-base * .9;
   margin-top: 1em;
+  background-color: $green;
+}
+
+// Autor:in Schriftzug unter dem Teaser
+#title-block-header.quarto-title-block.default .quarto-title-meta-heading{
+  font-size: 1em;
 }
 
 //Author names and "Autor:innen" 
@@ -216,12 +224,44 @@ nav .nav-item:not(.compact){
   text-transform: none;
 }
 
+
+// Bilder in den Blogartikeln
+// Abstand
+.figure-img {
+  margin-top: 1.2em;
+  margin-bottom: 0.3em;
+  border: 0px;
+  line-height: 0;
+}
+
+// Caption
+.panel-caption, .figure-caption, figcaption {
+  color: $blue;
+  margin-bottom: 1.2em;
+}
+
+caption, .table-caption {
+  text-align: left;
+}
+
+.column-margin figcaption, .margin-caption, div.aside, aside, .column-margin {
+  color: $blue;
+}
+
+
 //footer
 .footer .nav-footer-left, .nav-footer-right, .nav-footer-center{
-  flex: auto;
   flex-wrap: wrap;
 }
 
+
+// Literaturverzeichnis
+#quarto-appendix.default .quarto-appendix-heading {
+  font-size: 1.3rem;
+   font-weight: bold;
+   margin-bottom: 0.75em;
+   border-bottom: 0px;
+}
 
 #quarto-content.page-columns #quarto-margin-sidebar, #quarto-content.page-columns #quarto-sidebar {
   text-align: start;
@@ -230,4 +270,13 @@ nav .nav-item:not(.compact){
 hr {
   color: $green;
   opacity: .5;
+}
+
+// Table of content:
+h2#toc-title, #toc-title.h2 {
+  font-size: 1.1rem;
+}
+
+.sidebar .quarto-alternate-notebooks ul, .sidebar .quarto-alternate-formats ul, .sidebar nav[role=doc-toc] ul {
+  font-size: 1rem;
 }

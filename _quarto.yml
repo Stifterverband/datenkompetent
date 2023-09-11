@@ -1,21 +1,23 @@
 project:
   type: website
 website:
-  title: "Start"
-  favicon: logos/profile1.jpg
+  title: "Übersicht"
+  favicon: logos/svlog.png
   cookie-consent: 
     lang: de
     type: express
+    style: simple
+    prefs-text: Cookie-Einstellungen
   navbar:
     logo: "/logos/sv_log_weiss.png"
+  sidebar: false
   page-footer:
-    right: 
+    center: 
       - href: recht/impressum.qmd
+    right:
       - href: recht/datenschutz.qmd
     left: |
-      [![](/logos/svlog.png){width=50px} Unterstützt vom Stifterverband
-    center: |
-      [![](/logos/datev.png){width=50px} und der DATEV-Stiftung Zukunft 
+      [![](/logos/datev_foerder.png){width=50%}
     border: true
 format:
   html:

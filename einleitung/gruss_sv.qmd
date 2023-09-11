@@ -1,9 +1,9 @@
 ---
 title: "Grußwort aus dem Stifterverband"
 title-block-banner: false
-image:  "svlog.png"
+image:  "andrea_frank.jpg"
 toc: false
-page-layout: full
+page-layout: article
 editor_options: 
   chunk_output_type: console
 crossref: 
@@ -11,4 +11,22 @@ crossref:
   tbl-title: Tabelle
   fig-prefix: Abb.
   tbl-prefix: Tabelle
+citation: false  
 ---
+
+:::{.column-margin}
+![**Andrea Frank** <br> Stellvertretende Generalsekretärin <br> Geschäftsführerin "Inhalte und Programme"](andrea_frank.jpg)
+:::
+
+Daten sind das Rückgrat unserer digitalen Gesellschaft. Sie durchdringen inzwischen sämtliche Bereiche unseres Lebens und spielen eine entscheidende Rolle bei der Entwicklung von Innovationen und Technologien. Data Literacy als die Fähigkeit, Daten richtig zu verstehen, zu analysieren und daraus wertvolle Erkenntnisse zu gewinnen, ist sowohl für das Berufsleben als auch für die gesellschaftliche Teilhabe unersetzlich geworden. Gemeinsam mit Hochschulen, Unternehmen und anderen Institutionen arbeiten wir beim Stifterverband deswegen daran, dass mehr Menschen Datenkompetenzen entwickeln können. Konkret: Gemeinsam mit Hochschulen arbeiten wir daran, Data Literacy in der Hochschullehre curricular zu verankern. 
+
+
+Mit „datenkompetent – Beispielhafte Lehrformate und -strategien für die Data Literacy Education an deutschen Hochschulen“ teilen wir Lehrformate und –strategien, die im Rahmen des Programms Data Literacy Education erarbeitet und umgesetzt wurden. Anschaulich werden Formate, Tools und Ressourcen vorgestellt, die zur Vermittlung von Data Literacy genutzt werden können - eine Inspiration insbesondere für Hochschullehrende. Andere Beiträge fokussieren auf Prozesse, Herausforderungen und Lösungen für die strukturelle Einbindung von Data Literacy in die Hochschullehre und zeigen Umsetzungswege für Hochschulmitarbeitende in Administration und Servicestellen auf. 
+ 
+
+Die Publikation bietet einen spannenden Einblick, wie Datenkompetenzen in der Hochschullehre möglich werden. Wir laden Sie ein zur Nachahmung und hoffen, dass die Einblicke Orientierung und Inspiration bieten für alle, die sich für mehr Datenkompetenzen in der Hochschullehre einsetzen. 
+
+
+Ich wünsche Ihnen viel Vergnügen, Inspiration und Erfolg bei der Umsetzung ihrer eigenen Projekte für mehr Datenkompetenzen. 
+
+ 
