@@ -7,6 +7,7 @@ editor_options:
   chunk_output_type: console
 toc: false
 sidebar: false
+citation: false
 ---
 
 :::{.column-margin} 
@@ -15,9 +16,12 @@ sidebar: false
 
 ### Die Working Group: Data Literacy
 
-In der Working Group: Data Literacy tauschen sich deutschlandweit Hochschulen über ihre Erfahrungen und Projekte rund um die Ermöglichung von Datenkompetenzen in der Hochschullehre aus.
-Seit 2018 entsteht unter der Regie des [Stifterverbandes](https://www.stifterverband.org/data-literacy-education) ein bundesweites Netzwerk, das bestehende Data-Literacy-Ansätze auf Netzwerktreffen und Tagungen teilt und gemeinsam weiterentwickelt. Um die Ansätze in der Hochschullandschaft bekannter zu machen, haben die Hochschulen gemeinsam Handbücher und Arbeitspapiere erarbeitet und die Ergebnisse auf öffentlichen Online-Veranstaltungen präsentiert. Dazu zählt der Sammelband [*Kompetenzerwerb im kritischen Umgang mit Daten*](https://www.stifterverband.org/medien/kompetenzerwerb-im-kritischen-umgang-mit-daten) und die [*Data Literacy Charta*](https://www.stifterverband.org/charta-data-literacy).
-Seit 2022 steht die Working Group allen Hochschulen in Deutschland offen. Derzeit sind über 30 Hochschulen vertreten.  
+In der Working Group: Data Literacy tauschen sich deutschlandweit Hochschulen über ihre Erfahrungen und Projekte rund um die Ermöglichung von Datenkompetenzen in der Hochschullehre aus.  
+
+Seit 2018 entsteht unter der Regie des [Stifterverbandes](https://www.stifterverband.org/data-literacy-education) ein bundesweites Netzwerk, das bestehende Data-Literacy-Ansätze auf Netzwerktreffen und Tagungen teilt und gemeinsam weiterentwickelt. Um die Ansätze in der Hochschullandschaft bekannter zu machen, haben die Hochschulen gemeinsam Handbücher und Arbeitspapiere erarbeitet und die Ergebnisse auf öffentlichen Onlineveranstaltungen präsentiert. Dazu zählt der Sammelband [*Kompetenzerwerb im kritischen Umgang mit Daten*](https://www.stifterverband.org/medien/kompetenzerwerb-im-kritischen-umgang-mit-daten) und die [*Data Literacy Charta*](https://www.stifterverband.org/charta-data-literacy).  
+
+Seit 2022 steht die Working Group allen Hochschulen in Deutschland offen. Derzeit sind über 30 Hochschulen vertreten.    
+
 Sie haben Interesse, bei der Working Group mitzuarbeiten? Melden Sie sich [hier](mailto:dataliteracy@stifterverband.de) an.  
 
 

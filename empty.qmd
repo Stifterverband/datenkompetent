@@ -1,24 +1,13 @@
 ---
 title: "datenkompetent -- "
 subtitle: "Beispielhafte Lehrformate und -strategien aus der Data Literacy Education an deutschen Hochschulen"
-image: profile.jpg
-format: 
-  html:
-    grid: 
-      content-mode: auto
-    page-layout: article
+image: logos/svlog.png
+about:
+  template: jolla
+  image-width: 90%
+
 
 ---
-
-:::{.grid}
-
-:::{.g-col-12}
-![ ](profile1.jpg){fig-align="center"}
-:::
-
-:::
-
-
 
 
 ### Grußwort aus dem Stifterverband

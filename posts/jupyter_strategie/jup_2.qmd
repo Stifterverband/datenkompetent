@@ -2,7 +2,7 @@
 title: "Gestalterische und interaktive Aspekte zum Einsatz von Jupyter Notebook in Onlinekursen im Kontext von Data Literacy"
 subtitle: " "
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Vorkenntnisse:vorhanden', 'Coding']
+categories: ['Vorkenntnisse: keine', 'Vorkenntnisse: vorhanden', 'Coding']
 description: 'Jupyter Notebook wird vielfach in der Lehre im Kontext von Data Literacy eingesetzt. Es ermöglicht auf vielfältige Art und Weise eine interaktive und visuell ansprechende Auseinandersetzung mit Daten. In diesem Beitrag werden einige Funktionalitäten beschrieben und mit einer Hands-on-Anleitung und weiterführenden Links dargestellt, um Lehrende zur Nutzung von Jupyter Notebook in ihren Veranstaltungen im Kontext von Data Literacy zu inspirieren. Ein ergänzendes Jupyter Notebook [@bata2023] illustriert die vorgestellten Funktionalitäten.'
 author: 
   - Beate Rhein
@@ -36,8 +36,8 @@ Im Folgenden werden einige Gestaltungsbeispiele für JN dargestellt. Der Code f�
 **Markdown-Zellen**   
 JN bestehen neben den Code-Zellen aus sogenannten Markdown-Zellen. Diese können entweder mit Markdown-Code [@markdown_guide o. D.; @satopay2019] beschrieben oder mit HTML-Code [@website_setup o. D.] gestaltet werden. Markdown-Zellen ermöglichen beispielsweise Textformatierungen, Farben und Emojis.
 
-::: column-margin
-![Beispiel für die farbliche Gestaltung eines Abschnitts, hier in Grün für einen Arbeitsauftrag](abb1.svg){#fig-abb1}
+::: {.column-body}
+![Beispiel für die farbliche Gestaltung eines Abschnitts, hier in Grün für einen Arbeitsauftrag](abb1.svg){#fig-abb1 width=100%}
 :::
 
 **Strukturierende Elemente** 
@@ -54,13 +54,13 @@ Die Einbindung von Grafiken kann wesentlich zur Veranschaulichung von Daten genu
 In JN können interaktive Elemente wie Dropdown-Menüs, Schieberegler oder Multiple-Choice-Fragen durch die Einbindung des Paketes [ipywidgets](https://ipywidgets.readthedocs.io/en/latest/) leicht integriert werden. @fig-abb2 zeigt ein Beispiel für ein Dropdown-Menü, einen Schieberegler und ein Eingabefeld. Diese Elemente ermöglichen beispielsweise, dass Lernende vorkommenden Variablen intuitiv Werte zuweisen. 
 
 ::: column.body
-![Beispiel für die Integration unterschiedlicher interaktiver Elemente](abb2.svg){#fig-abb2}
+![Beispiel für die Integration unterschiedlicher interaktiver Elemente](abb2.svg){#fig-abb2 width=100%}
 :::
 
 Bei Multiple-Choice-Fragen ist eine automatische Rückmeldung möglich (@fig-abb3). 
 
 ::: column.body
-![Beispiel für eine Multiple-Choice-Frage](abb3.svg){#fig-abb3}
+![Beispiel für eine Multiple-Choice-Frage](abb3.svg){#fig-abb3 width=100%}
 :::
 
 **Ausgeblendeter Code**  
@@ -73,7 +73,7 @@ Gut strukturierte, ansprechend gestaltete und interaktive JN sollen Lernende dab
 
 Weitere Ideen zu didaktischen Aspekten der Nutzung von JN bietet beispielsweise „Teaching and Learning with Jupyter“ [@barba2019]. Dort finden sich unter anderem weitere Tipps und Best-Practice-Beispiele zur Nutzung von JN in verschiedenen Lehrszenarien.
 
-## Autor:innenprofil
+## Autorinnenprofile
 
 Beate Rhein <https://www.th-koeln.de/personen/beate.rhein/>   
 

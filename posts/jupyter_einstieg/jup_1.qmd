@@ -2,7 +2,7 @@
 title: "Einstieg ins Coding mit Jupyter Notebook"
 subtitle: "Tipps aus der Lehrpraxis"
 title-block-banner: false
-categories: ['Vorkenntnisse:keine', 'Vorkenntnisse:vorhanden', 'Coding']
+categories: ['Vorkenntnisse: keine', 'Vorkenntnisse: vorhanden', 'Coding']
 description: 'Jupyter Notebooks bieten die Möglichkeit, spielerisch durch Experimentieren das Coding mit Python zu erlernen. Die angeführten Tipps aus der Lehrpraxis greifen dies auf und sollen Lehrenden dabei helfen, eine Basis zu schaffen, die Studierende zum Coding mit Python motiviert. Aus diesem Grund geben diese Tipps keinen klassischen Einstieg in Python, sondern thematisieren praktische Beispiele, die Studierenden das Coding mit Python näherbringen sollen.'
 author: 
   - "Marcel Gemander"
@@ -21,35 +21,36 @@ Die Tipps richten sich insbesondere an Lehrende, die Studierenden ohne Programmi
 
 ## Kompetenzen
 
-Die beschriebenen Tipps sollen Studierenden den grundlegenden Umgang mit Jupyter Notebook näherbringen. Weiterhin soll der Umgang mit Jupyter Notebook Studierende in die Lage versetzen, mit Code zu experimentieren, sich selbstständig mit Coding-Problemen auseinanderzusetzen und diese zu lösen.  
+Die beschriebenen Tipps sollen Studierenden den grundlegenden Umgang mit Jupyter Notebook näherbringen. Weiterhin soll der Umgang mit Jupyter Notebook Studierende in die Lage versetzen, mit Code zu experimentieren, sich selbstständig mit Coding-Problemen auseinanderzusetzen und diese zu lösen.   
+
 Das Organisieren von Dateien, Kommentieren von Code und die Einhaltung von Python-Namenskonventionen sind weitere Fähigkeiten, die durch die Umsetzung der Tipps vermittelt werden sollen. Insbesondere ist das Umsetzen von Python-Namenskonventionen und das Kommentieren von Code von großer Bedeutung für die Zusammenarbeit mit anderen Studierenden oder Teams.     
 
 
 ## Lerninhalte & Methoden
 
-**0 Starten mit Jupyter Notebook**  
+**Starten mit Jupyter Notebook**  
 
 Um Jupyter Notebook zu nutzen, gibt es verschiedene Möglichkeiten, wie die Entwicklungsumgebung Anaconda, einen durch die Lehreinrichtung bereitgestellten Jupyter-Notebook-Server oder Google Colab. Aus Gründen der Einfachheit ist die Nutzung eines Jupyter-Notebook-Servers vorteilhaft. Steht kein Jupyter-Notebook-Server zur Verfügung, können die Studierenden die Entwicklungsumgebung Anaconda lokal auf ihrem Notebook installieren.
 
-**1 Die Funktionsweise von Jupyter Notebook**  
+**Die Funktionsweise von Jupyter Notebook**  
 
 Um Studierenden ohne Coding-Vorkenntnisse einen guten Start mit Python und Jupyter Notebook zu eröffnen, sollte die Funktionsweise von Jupyter Notebook genau erläutert werden. Dies umfasst das Ausführen von Zellen, das Erklären von Fehlermeldungen, den Output einer Zelle und die print()-Funktion.  
 
 Es wichtig zu verdeutlichen, dass durch das Ausführen einer Zelle Variablen in den Speicher geladen werden und in nachfolgenden Zellen verfügbar sind. Zusätzlich sollte kurz auf die Nutzung von Markdown und die Vorteilhaftigkeit eines gut strukturierten Jupyter Notebooks eingegangen werden. 
 
-**2 Organisation von Jupyter-Notebook-Dateien**  
+**Organisation von Jupyter-Notebook-Dateien**  
 
 Bevor es mit dem Coding losgeht, sollte das Anlegen neuer Jupyter Notebooks und das Öffnen und Speichern von Jupyter Notebooks besprochen werden. Da unter MacOS und Windows keine Dateiendungen angezeigt werden, sollte kurz die Bedeutung einer Dateiendung erklärt werden. Es ist sinnvoll, in diesem Zusammenhang ebenfalls kurz auf Ordnerstrukturen und das Navigieren von Ordnerstrukturen einzugehen.   
 
 Falls die Studierenden im Rahmen einer Lehrveranstaltung selbstständig Jupyter Notebooks erstellen, ist es wichtig, über die Organisation der einzelnen Jupyter-Notebook-Dateien zu sprechen. Im Mittelpunkt steht hier eine sinnhafte Benennung der jeweiligen Jupyter Notebooks, sodass die Inhalte des Notebooks durch den Dateinamen deutlich werden. Zusätzlich kann eine Art von „Versioning“ umgesetzt werden. Es ist ein möglicher Ansatz, das Bearbeitungsdatum in den Dateinamen des Jupyter Notebooks zu integrieren.   
 
-**3 Hands-on-Code**  
+**Hands-on-Code**  
 
 Jupyter Notebook bieten die Möglichkeit, mit Code zu experimentieren. Um das Experimentieren zu fördern, können Aufgabenstellungen so formuliert werden, dass durch Variieren verschiedener Parameter oder Code-Elemente mehrere Lösungen entwickelt werden müssen. Zusätzlich kann es hilfreich sein, dass Studierende das zuvor korrekt Programmierte bewusst mit Fehlern versehen und ausführen, um zu beobachten, was passiert. Im Sinne eines „Make it and break it“ erhalten Studierende tiefere Einblicke in die Funktionsweise des Codes und lernen Fehlermeldungen einzuordnen.  
 
 Den Output des Codes zu visualisieren, kann Studierenden dabei helfen, das Programmierte besser nachzuvollziehen. In Kombination mit dem Verändern einzelner Parameter im Code und Abgleich mit dem Effekt auf den visualisierten Output wird das Verständnis der Funktionsweise des jeweiligen Codes gefördert. Die Libraries *Matplotlib* oder *Seaborn* bieten die Möglichkeit, schnell und einfach Visualisierungen zu erstellen.  
 
-**4 Kommentare und Variablennamen**  
+**Kommentare und Variablennamen**  
 
 Studierende sollten von Beginn an ihren geschriebenen Code kommentieren. Dies hilft, das Coding im Nachhinein besser zu verstehen, trägt zur Reflexion des Codings bei und ermöglicht anderen Studierenden sowie Lehrenden ein besseres Verständnis des geschriebenen Codes.     
 
@@ -57,11 +58,11 @@ Kommentare erweisen sich ebenfalls bei „trial and error“, dem Ausprobieren v
 
 Neben Kommentaren ist die sinnhafte Benennung von Variablen oder Funktionen ein weiterer wichtiger Beitrag zur Nachvollziehbarkeit des geschriebenen Codes. In Hinsicht auf die Benennung von Variablen und Funktionen ist es sinnvoll, die PEP-8-Coding-Konventionen für Python umzusetzen.  
 
-**5 Alles ist ein Projekt**  
+**Alles ist ein Projekt**  
 
 Eine Programmiersprache zu erlernen, scheint für viele Studierende eine Herausforderung, Code-Beispiele in der Lehrveranstaltung scheinen schwer nachvollziehbar und zu abstrakt. Um die Programmiersprache und den Code konkreter und greifbarer zu machen, können Studierende anhand eines Miniprojekts die Grundlagen der Programmiersprache erlernen. Dies könnte beispielsweise im Rahmen eines Datenanalyse-Projekts mit einem Datensatz von dem Open-Data-Portal der Stadt New York umgesetzt werden. Dieses Projekt bietet die Möglichkeit, Datentypen, Conditionals, Loops sowie die Datenverarbeitung mit Pandas und Datenvisualisierung mit *Matplotlib* oder *Seaborn* zu thematisieren. Studierende sollen auf diese Weise motiviert werden, über das Tun und das Arbeiten mit Daten aus der realen Welt die Programmiersprache zu erlernen.
 
-**6 Hilfe zur Selbsthilfe**  
+**Hilfe zur Selbsthilfe**  
 
 Die Onlinerecherche spielt bei der Lösung von Coding-Problemen eine wichtige Rolle. Es ist daher wichtig, Studierende zu ermutigen, selbstständig Lösungsansätze zu ihren Coding-Problemen zu finden. Werden beispielsweise in einer Aufgabenstellung Python-Dictionairies thematisiert, liefert das Googeln von „python dict“ viele Ergebnisse, die zur Lösung der gestellten Aufgabe genutzt werden können. Zusätzlich bieten Interplattformen wie Stack Overflow die Möglichkeit, durch Postings gezielt Fragen zu dem jeweiligen Coding-Problem zu stellen. Auch der [Subreddit r/Python](https://www.reddit.com/r/Python/) erweist sich als hilfreiche Anlaufstelle, um Fragen rund um Python zu besprechen.    
 
@@ -78,7 +79,7 @@ Studierende für das Coding zu begeistern ist grundsätzlich herausfordernd. Bei
 + Stackoverflow Python: <https://stackoverflow.com/questions/tagged/python>
 + Open Data NYC: <https://opendata.cityofnewyork.us/>
 
-## Autor:innenprofil
+## Autorenprofil
 
 **Marcel Gemander** hat an der Universität Bielefeld Wirtschaftswissenschaften und an der FH Bielefeld Visuelle Kommunikation studiert. Sein Tätigkeits- und Interessenschwerpunkt liegt auf der Visualisierung und Präsentation von Daten. Marcel Gemander ist als Koordinator für Data Literacy Education tätig und hält Lehrveranstaltungen zu den Themen Data Literacy und Data Storytelling.
 

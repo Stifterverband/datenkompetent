@@ -20,6 +20,9 @@ toc-title: "Inhalt"
 toc-depth: 2
 toc-location: left
 
+#Autor:in zu "von"
+author-title: "von" 
+
 #Layout
 page-layout: article
 editor_options: 
@@ -29,6 +32,8 @@ crossref:
   tbl-title: Tabelle
   fig-prefix: Abbildung
   tbl-prefix: Tabelle
+tbl-cap-location: bottom
+fig-cap-location: bottom
 editor: 
   markdown: 
     wrap: sentence
