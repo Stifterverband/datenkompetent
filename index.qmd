@@ -20,10 +20,7 @@ title-block-banner: false
 format:
   html: 
     standalone: true
-    toc: true 
-    toc-title: "Inhalt"
-    toc-depth: 2
-    toc-location: left
+    toc: false 
     license: CC BY-SA
 ---
 ::: {.column-page}
