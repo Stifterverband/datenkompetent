@@ -36,7 +36,7 @@ format:
 
 ## Willkommen
 
-Die Mitglieder der *Working Group: Data Literacy* möchten ihre Erfahrungen mit der Vermittlung von Data Literacy an deutschen Hochschulen teilen. Auf dieser Seite haben wir deshalb verschiedene Lehrformate und -strategien gesammelt, die sich in unserer Data Literacy Education bewährt haben.  
+Die Mitglieder der *Working Group: Data Literacy* möchten ihre Erfahrungen mit der Vermittlung von Data Literacy an deutschen Hochschulen teilen. Auf dieser Seite sind deshalb verschiedene Lehrformate und -strategien gesammelt, die sich in der Data Literacy Education bewährt haben.  
 
 Diese Website richtet sich an Hochschulen und ihre Lehrenden sowie an all jene aus dem Bereich der Hochschul- und Curriculumsentwicklung, die sich mit Data Literacy Education auseinandersetzen und die nach Inspirationen und konkreten Ideen für mehr Datenkompetenzen in der Hochschullehre suchen.  
 
