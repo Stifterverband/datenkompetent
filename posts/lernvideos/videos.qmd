@@ -100,7 +100,15 @@ Testen Sie verschiedene Aufnahmeorte. Nehmen Sie den Ton an einem Ort mit wenig 
 
 **Martin Kerntopf** (Universität Jena) hat an der Universität Jena Politikwissenschaft studiert und an der Universität Greifswald im Bereich Internationale Beziehungen und Außenpolitik promoviert. Am Michael Stifel Zentrum der Universität Jena ist er Teil des Projekts zur Lehrentwicklung im Bereich Data Literacy (Data Literacy Jena, DaLiJe) und erarbeitet Konzepte und Lehrmaterialien für den Bereich der Geistes-, Sozial- und Verhaltenswissenschaften.  
 
+:::{.column-margin}
+![](logo_jena.png){width=75%}
+:::
+
 **Laura Platte** (RWTH Aachen) hat Sprach- und Kommunikationswissenschaft an der RWTH Aachen University studiert. Am Center für Lehr- und Lernservices der RWTH arbeitet sie an der Konzeption und Produktion von videobasierten Lehr-Lernangeboten im zur Vermittlung von Data Literacy (Projekt data.RWTH) und an Visualisierungs  
+
+:::{.column-margin}
+![](logo_aachen.png){width=75%}
+:::
 
 **Volker Schwartze** (Universität Jena) hat an der Universität Jena Biologie studiert und im Bereich Mikrobiologie promoviert. Am Michael Stifel Zentrum der Universität Jena ist er Koordinator des Projekts zur Lehrentwicklung im Bereich Data Literacy (Data Literacy Jena, DaLiJe) Projekts und entwickelt Konzepte und Lehrmaterialien mit Fokus auf den Bereich Natur- und Lebenswissenschaften.  
 

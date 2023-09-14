@@ -82,6 +82,10 @@ Die Heterogenität der Hintergründe und Vorkenntnisse der Studierenden stellt e
 
 **Juliane Piecha** ist Koordinatorin der Data-Literacy-Initiative (DaLI) der TH Köln. Die studierte Wirtschaftswissenschaftlerin hat als Consultant unter anderem bei der Independent Evaluation Group der Weltbank an quantitativen Evaluationsprojekten mitgewirkt und war dabei unter anderem für die Analyse und Integration von Daten im Bereich Governance verantwortlich.
 
+:::{.column-margin}
+![](logo.svg){width=75%}
+:::
+
 **Konrad U. Förstner** ist Professor für Data and Information Literacy am Institut für Informationswissenschaft der TH Köln und leitet gleichzeitig bei ZB MED -- Informationszentrum Lebenswissenschaften den Programmbereich Data Science and Services.
 
 **Elisabeth Kaliva** ist Referentin für Blended Studies an der Fakultät für Kulturwissenschaften der TH Köln und als Leiterin des Digital Open Learning Labs (DOLL) für die Konzeption, Umsetzung und Erforschung von digitalen Lernszenarien zuständig.
@@ -91,6 +95,15 @@ Die Heterogenität der Hintergründe und Vorkenntnisse der Studierenden stellt e
 **Simone Fühles-Ubach** ist Professorin für Bibliotheksmanagement und Statistik am Institut für Informationswissenschaft der TH Köln und leitet derzeit den Studiengang „Bibliothek und digitale Kommunikation". Daneben ist sie stellvertretende Vorsitzende des Hochschulrats.
 
 **Philipp Heidkamp** ist Professor für Interface Design an der KISD / Fakultät für Kulturwissenschaften der TH Köln. Er leitet das Programm Master of European Design (MEDes) und ist Mitinitiator des DaLI-Projekts an der TH Köln.
+
+  
+  
+**Förderhinweise:** Das hier vorgestellte Projekt wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::
+
 
 [^1]: In der Durchführung an der TH Köln wird die Kursumgebung in den THspaces eingerichtet, aber auch die Nutzung von Moodle, ILU oder anderer Learning-Management-Systeme (LMS) ist hier möglich.
 [^2]: Live-Coding ist ein interaktiver Prozess, bei dem Programmiercode in Echtzeit geschrieben, ausgeführt und manipuliert wird, sodass die Teilnehmenden das Programmieren schrittweise nachvollziehen können.

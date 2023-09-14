@@ -53,3 +53,6 @@ Die Etablierung einer zeitgemäßen Data Literacy Education an Hochschulen hat v
 
 **Dr. Andreas Hütig** studierte Philosophie, Politikwissenschaften, Literaturwissenschaften und Jura an der Johannes Gutenberg-Universität Mainz (JGU) und promovierte dort mit einer kulturphilosophischen Arbeit. Neben seiner Arbeit für die Bürger:innenuniversität  des Studium generale der JGU Mainz und neben der interdisziplinären Lehre dort koordiniert er die überfachlichen Lehrangebote im Bereich Data Literacy an der JGU. Sein besonderes Interesse gilt dabei datenethischen Fragen und der Reflexion von Datafizierung und Digitalisierung in Bildung und Gesellschaft.
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::

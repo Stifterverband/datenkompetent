@@ -81,10 +81,12 @@ Ein fach- und semesterübergreifendes Angebot zu Data Literacy hat den Vorteil, 
 <https://ki-campus.org/themen/daten>
 + Weitere Informationen zu Inverted Classroom:
 <https://www.e-teaching.org/lehrszenarien/vorlesung/inverted_classroom>
-
++ Siehe auch den Artikel **Multimediale Formate mit dem Tool H5P** in diesem Band.
 
 ## Autorinnenprofil
 
 **Selina Reinhard** studierte Psychologie in Göttingen, Ankara und Berlin. Sie arbeitet an der Freien Universität Berlin an der Weiterentwicklung der digitalen Lehre mit Fokus auf datenbasierte Entscheidungen, digitale Zukunftstechnologien und Data Literacy. 
 
-
+:::{.column-margin}
+![](logo.png){width=75%}
+:::

@@ -90,13 +90,19 @@ Die Rallye steht als OER unter der Lizenz CC BY-SA 4.0 auf ORCA.nrw unter folgen
 :::
 
 **Elske Schönhals** ist promovierte Naturwissenschaftlerin und wissenschaftliche Mitarbeiterin im Arbeitsbereich Hochschuldidaktik an der Hochschule Niederrhein. Von August 2020 bis Juli 2022 koordinierte sie das Projekt PEDaL HN und ist nun stellvertretende Projektleiterin im fächerübergreifenden BMBF-Projekt „*Public Understanding* von KI durch transdisziplinäre Lehre“. Sie ist Entwicklerin der Data Awareness Rallye, liebt es, Neuland zu betreten und den Boden für gute Lehre zu bereiten.  
+  
+
 
 **Christina Kläre** (ORCID ID 0000-0001-6651-984X) studierte Informations- und Wirtschaftswissenschaften und arbeitet seit 2016 als Fachreferentin in der Universitätsbibliothek der Universität Duisburg-Essen (UDE). Seit 2019 koordiniert sie den DataCampus UDE – das im Rahmen der Linie Data Literacy Education.nrw bis Juni 2023 geförderte Projekt wurde im Anschluss verstetigt und adressiert fächerübergreifend den Auf- und Ausbau von Formaten zur Förderung von (primär basalen) Datenkompetenzen Studierender der UDE.  
 
 :::{.column-margin}
-![](Logo_DataCampus.png){width=50%}
+![](logo_due.png){width=50%}
 :::
 
-**Förderhinweise:** „Das Projekt PEDaL HN und das Projekt DataCampus UDE werden durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+**Förderhinweise:** Das Projekt PEDaL HN und das Projekt DataCampus UDE werden durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::
 
 [^1]: https://docs.moodle.org/401/de/Kursformate

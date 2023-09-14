@@ -75,11 +75,19 @@ Weitere Ideen zu didaktischen Aspekten der Nutzung von JN bietet beispielsweise 
 
 ## Autorinnenprofile
 
-Beate Rhein <https://www.th-koeln.de/personen/beate.rhein/>   
+Beate Rhein <https://www.th-koeln.de/personen/beate.rhein/> 
+
+:::{.column-margin}
+![](logo.svg){width=75%}
+:::
 
 Katharina Bata <https://www.th-koeln.de/personen/katharina.bata/>  
 
 Angela Schmitz <https://www.th-koeln.de/personen/angela.schmitz/>  
 
+**Förderhinweise:** Die Data Literacy Initiative der TH Köln wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
 
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::
 

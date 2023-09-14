@@ -97,4 +97,6 @@ Aus mediendidaktischer Sicht ist weiterhin zu beachten, dass durch mediale Tools
 
 **Anna-Maria Nothelfer** ist derzeit wissenschaftliche Mitarbeiterin im Studium generale an der JGU Mainz. Dort wirkt sie bei der Gestaltung der Lehrangebote im Bereich Data Literacy mit. Ihr besonderes Interesse gilt dabei medienbildungstheoretischen und medienkulturwissenschaftlichen Perspektiven auf die zunehmende Digitalisierung und Datafizierung von Gesellschaften. 
 
-
+:::{.column-margin}
+![](logo.png){width=75%}
+:::

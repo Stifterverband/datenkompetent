@@ -83,3 +83,12 @@ Studierende für das Coding zu begeistern ist grundsätzlich herausfordernd. Bei
 
 **Marcel Gemander** hat an der Universität Bielefeld Wirtschaftswissenschaften und an der FH Bielefeld Visuelle Kommunikation studiert. Sein Tätigkeits- und Interessenschwerpunkt liegt auf der Visualisierung und Präsentation von Daten. Marcel Gemander ist als Koordinator für Data Literacy Education tätig und hält Lehrveranstaltungen zu den Themen Data Literacy und Data Storytelling.
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::
+
+**Förderhinweis:** DataLiteracySkills@OWL wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::

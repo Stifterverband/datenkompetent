@@ -71,3 +71,6 @@ Für die Nachfrage seitens der Studierenden ist eine teilweise extrinsische Moti
 
 **Dr. Andreas Hütig** studierte Philosophie, Politikwissenschaften, Literaturwissenschaften und Jura an der JGU Mainz und promovierte dort mit einer kulturphilosophischen Arbeit. Neben seiner Arbeit für die Bürger:innenuniversität des Studium generale der JGU Mainz und der interdisziplinären Lehre in den Exportmodulen koordiniert er die überfachlichen Lehrangebote im Bereich Data Literacy an der JGU. Sein besonderes Interesse gilt dabei datenethischen Fragen und der Reflexion von Datafizierung und Digitalisierung in Bildung und Gesellschaft.
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::

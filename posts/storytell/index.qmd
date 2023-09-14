@@ -99,4 +99,15 @@ Für die Erstellung einer digital aufbereiteten Story können zudem die folgende
 
 **Dr. Pia Gausling** studierte Erziehungswissenschaft (Bachelor und Master) an der Universität Bielefeld. Zurzeit ist sie als wissenschaftliche Mitarbeiterin an der Fakultät für Erziehungswissenschaft (Arbeitsgruppe Forschungsmethoden) der Universität Bielefeld tätig. Zu ihren Arbeits- und Forschungsschwerpunkten gehören Data Literacy Education in der Hochschullehre, außerschulische Kooperationen und Berufsorientierung. Aktuell befasst sie sich in zwei drittmittelgeförderten Projekten mit der Entwicklung und Konzeption digitaler Selbstlerneinheiten zur Förderung von Datenkompetenzen im Studium.  
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::
+
 **M. A. Yvonne Erhardt** studierte Erziehungswissenschaft (Bachelor und Master) an der Universität Bielefeld. Zurzeit arbeitet sie als wissenschaftliche Mitarbeiterin in der Fakultät für Erziehungswissenschaft (Arbeitsgruppe Forschungsmethoden), ebenfalls an der Universität Bielefeld, mit dem Schwerpunkt Data Literacy Education und Methodenlehre in drei Projekten.
+
+**Förderhinweise:** Das hier vorgestellten Projekt wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::
+

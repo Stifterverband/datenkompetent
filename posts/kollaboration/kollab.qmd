@@ -110,4 +110,6 @@ Eine **Win-win-Situation**, die letztendlich einen Mehrwert für die Universitä
 ## Autorinnenprofil
 **Eylem Tas** studierte Betriebswirtschaftslehre an der Marmara-Universität sowie Bildungswissenschaften mit Schwerpunkt Bildungssystemdesign an der Otto-von-Guericke Universität Magdeburg und ist heute als wissenschaftliche Mitarbeiterin im DDLitLab im Bereich Transfer zur Förderung der Data Literacy Education an der Universität Hamburg tätig und promoviert zum Thema University-Industry Collaboration for Data Literacy and Entrepreneurship Development.
 
-
+:::{.column-margin}
+![](logo.svg){width=75%}
+:::

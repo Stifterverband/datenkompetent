@@ -66,13 +66,25 @@ Der (Erfahrungs-)Austausch innerhalb der drei Hochschulen hat verdeutlicht, dass
 
 ## Autor:innenprofile
 
-**Derya Dincer** studiert Soziologie (M.A.) in Duisburg mit dem Schwerpunkt Arbeit, Beruf und Organisation. Sie arbeitet am Zentrum für Hochschulqualitätsentwicklung (ZHQE). Hier wirkt sie unter anderem in dem Projekt DataCampus UDE mit und unterstützt das Team in dem Bereich des Basiskurses "Discover the Data".   
+**Derya Dincer** studiert Soziologie (M.A.) in Duisburg mit dem Schwerpunkt Arbeit, Beruf und Organisation. Sie arbeitet am Zentrum für Hochschulqualitätsentwicklung (ZHQE). Hier wirkt sie unter anderem in dem Projekt DataCampus UDE mit und unterstützt das Team in dem Bereich des Basiskurses "Discover the Data".  
+
+:::{.column-margin}
+![](logo-komplett.png){width=75%}
+:::
 
 **Dr. Ebru Ekici** hat an der Universität Duisburg-Essen (UDE) Physik studiert und darin promoviert. Seit Januar 2021 arbeitet sie als Wissenschaftliche Mitarbeiterin im DataCampus UDE und betreut den Basiskurs „Discover the Data“.  
 
 **Henrik Hardering** studiert Wirtschaftsingenieurwesen in Dortmund. Zuvor sammelte er während seines Statistik Studiums weitreichende Kompetenzen in der Datenanalyse. Heute arbeitet er als Studentische Hilfskraft im Data Literacy Programm "Data Competence Network" (DaCoNet), welches am TU Dortmund-Center for Data Science and Simulation (DoDaS) angesiedelt ist.  
 
-**Tabea Schwarz (M.Sc.)** studierte Wirtschaftswissenschaft an der Ruhr-Universität Bochum. Ihre Schwerpunkte lagen in den Bereichen theoretische Statistik, Spieltheorie und Führungsforschung. Während ihres Studiums arbeitete sie als Mediendidaktikerin im Projekt Data.Literacy@RUB am Methodenzentrum und setzt diese Tätigkeit nun nach ihrem Abschluss im Projekt „Data Literacy für Learning Analytics" fort.  
+**Tabea Schwarz** (M.Sc.) studierte Wirtschaftswissenschaft an der Ruhr-Universität Bochum. Ihre Schwerpunkte lagen in den Bereichen theoretische Statistik, Spieltheorie und Führungsforschung. Während ihres Studiums arbeitete sie als Mediendidaktikerin im Projekt Data.Literacy@RUB am Methodenzentrum und setzt diese Tätigkeit nun nach ihrem Abschluss im Projekt „Data Literacy für Learning Analytics" fort.  
 
 **Dr. Henrike Weinert** hat an der Technischen Universität Dortmund Statistik studiert und darin promoviert. Sie war als wissenschaftliche Mitarbeiterin am Institut für mathematische Statistik und industrielle Anwendungen tätig (MSInd), bevor sie an das Institut zur Erforschung und Entwicklung des Mathematikunterrichts (IEEM) wechselte. Seit Juli 2020 ist sie wissenschaftliche Mitarbeiterin im Data Literacy Programm "Data Competence Network" (DaCoNet), welches am *TU Dortmund - Center for Data Science and Simulation (DoDaS)* angesiedelt ist.
+
+
+
+**Förderhinweise:** Die hier vorgestellten Projekte werden durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::
 

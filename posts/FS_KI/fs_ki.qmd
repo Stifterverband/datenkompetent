@@ -138,6 +138,8 @@ Als Herausforderung hat sich insbesondere die Heterogenität der Lerngruppe geze
 2015 Veröffentlichung des Buches „Schlüsselkompetenzen im Hochschulstudium“ zusammen mit weiteren Autor:innen  
 2017 LehrehochN-Fellow, 2022 Sprecherin des Fachausschusses Future Skills in der Gesellschaft für Schlüsselkompetenzen, 2022 Civic Innovation Award des BMAS für die Entwicklung des „Kompetenzboosters“, eines KI-gestützten Instruments zur individuellen Messung und zum bedürfnisorientierten Training von Future Skills für Studierende, gemeinsam mit dem CAU-Start-up DayOff.
 
-
+:::{.column-margin}
+![](logo.svg){width=75%}
+:::
 
 

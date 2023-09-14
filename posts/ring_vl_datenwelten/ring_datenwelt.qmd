@@ -71,6 +71,10 @@ Die beschriebenen interdisziplinären Ringvorlesungen zu den Datenwelten decken 
 
 **Stephan Leible** studierte Wirtschaftsingenieurwesen mit Schwerpunkt Wirtschaftsinformatik sowie Management an der Hochschule Offenburg und ist heute als wissenschaftlicher Mitarbeiter im DDLitLab zur Förderung der Data Literacy Education an der Universität Hamburg tätig.  
 
+:::{.column-margin}
+![](logo.svg){width=75%}
+:::
+
 **Moritz Kreinsen** studierte Lehramt an Gymnasien mit den Fächern Informatik und Physik an der Universität Hamburg. Zurzeit arbeitet er als wissenschaftlicher Mitarbeiter in der Koordination der fachspezifischen Data Literacy Education im DDLitLab und promoviert in der Informatikdidaktik zum Thema AI Literacy und Data Literacy in der Lehrkräftebildung.  
 
 **Carolin Scharfenberg** studierte Soziologie an der Universität Hamburg und arbeitet aktuell als wissenschaftliche Mitarbeiterin in der Gesamtkoordination im DDLitLab zur Förderung der Data Literacy Education an der Universität Hamburg.  

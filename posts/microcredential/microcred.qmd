@@ -67,6 +67,10 @@ Wir sehen das hohe Potenzial von Micro-Credentials und wollen den Studierenden i
 
 **Thu Van Le Thi**, Diplom-Kauffrau, ist Referentin im Bereich Digitalkompetenzen bei der zentralen Einrichtung für Lehr- und Kompetenzentwicklung der Technischen Hochschule Nürnberg Georg Simon Ohm. Sie konzipiert und implementiert fakultätsübergreifende Qualifizierungsprogramme für Studierende, unter anderem das Hochschulzertifikat Digitale Kompetenzen (DigKom), das Micro-Credential-Programm für Data Analytics (MC4Data) und Summer School / Spring School for Future Skills. Von 2017 bis 2020 war sie Koordinatorin für Schlüsselkompetenzen und betreute Angebote zu Schlüsselkompetenzen, Lerntutorenqualifizierung sowie das SK_Plus Programm für Lehrende zur Integration von Schlüsselkompetenzen in die Lehre. Sie hat zuvor ihr Diplomstudium an der Friedrich-Alexander-Universität Erlangen-Nürnberg absolviert.  
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::
+
 Kontakt: <thuvan.lethi@th-nuernberg.de>    
 URL: <https://www.th-nuernberg.de/person/le-thi-thu-van/>   
 

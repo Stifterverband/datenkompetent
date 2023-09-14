@@ -115,5 +115,8 @@ Tipps aus dem Summer-School-Konzept
 
 **Prof. Christine Gläser**, unter Mitarbeit von **Prof. Dr. Ulrike Spree** und **Kristin Ameis** (HAW Hamburg).
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::
 
 [^1]: So wurden im Rahmen der drei DaLiCo-Summer-Schools unterschiedliche Schwerpunkte erprobt, in der ersten Summer School mittels Themen der Datenanalyse und Datenethik, in der zweiten mit KI-Methoden und in der dritten mittels Themen des Datenzugangs und Datenmanagements.

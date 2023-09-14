@@ -59,7 +59,13 @@ Das Vorstellen und Diskutieren verschiedener Lösungswege fördert in späteren 
 
 **Dr. Julia Niemann-Lenz** studierte Kommunikationswissenschaft in Hannover und promovierte zum Thema Privatsphäre auf sozialen Netzwerkplattformen an der Universität Hohenheim. Heute arbeitet sie als Scientific Coordinator in der Data Literacy Education an der Universität Hamburg.  
 
-**Selina Reinhard** studierte Psychologie in Göttingen, Ankara und Berlin. Sie arbeitet an der Freien Universität Berlin an der Weiterentwicklung von Tools der digitalen Lehre mit Fokus auf datenbasierte Entscheidungen, digitale Zukunftstechnologien und Data Literacy
+:::{.column-margin}
+![](logo_uhh.svg){width=75%}
+:::
 
+**Selina Reinhard** studierte Psychologie in Göttingen, Ankara und Berlin. Sie arbeitet an der Freien Universität Berlin an der Weiterentwicklung von Tools der digitalen Lehre mit Fokus auf datenbasierte Entscheidungen, digitale Zukunftstechnologien und Data Literacy.
 
+:::{.column-margin}
+![](logo.png){width=75%}
+:::
 

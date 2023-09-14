@@ -78,6 +78,10 @@ Folgende Materialien stehen für die Umsetzung des vorgestellten Projektes zur V
 
 **Elisabeth Kaliva** ist Referentin für Blended Studies an der Fakultät für Kulturwissenschaften der TH Köln und als Leiterin des Digital Open Learning Labs (DOLL) für die Konzeption, Umsetzung und Erforschung von digitalen Lernszenarien zuständig.   
 
+:::{.column-margin}
+![](logo.svg){width=75%}
+:::
+
 **Juliane Piecha** ist Koordinatorin der Data-Literacy-Initiative (DaLI) der TH Köln. Die studierte Wirtschaftswissenschaftlerin hat als Consultant unter anderem bei der Independent Evaluation Group der Weltbank an quantitativen Evaluationsprojekten mitgewirkt und war dabei unter anderem für die Analyse und Integration von Daten im Bereich Governance verantwortlich.  
 
 **Konrad U. Förstner** ist Professor für Data and Information Literacy am Institut für Informationswissenschaft der TH Köln und leitet gleichzeitig bei ZB MED – Informationszentrum Lebenswissenschaften den Programmbereich Data Science and Services.  
@@ -85,6 +89,11 @@ Folgende Materialien stehen für die Umsetzung des vorgestellten Projektes zur V
 **Jule  Schacht** ist freiberufliche Gestalterin und studiert zurzeit im Masterprogramm Integrated Design Research an der Köln International School of Design (KISD). Der Schwerpunkt ihrer freiberuflichen Arbeit liegt im Bereich der Nachhaltigkeitskommunikation sowie der Gestaltung im Kontext urbaner Umwelt- und Ernährungspolitik.
 
 
+**Förderhinweis:** Das hier vorgestellte Projekt wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+
+:::{.column-margin}
+![](nrw_logo.svg){width=75%}
+:::
 
 
 [^1]: Innerhalb der DaLI wurde ein modulares, interdisziplinäres Programm entwickelt, um Datenkompetenz systematisch und hochschulweit in Lehre und Forschung an der TH Köln zu verankern. Dazu gehören unter anderem der DaLI-Basiskurs, die DaLI Interdisziplinäre Projektwoche und ein digitaler Veranstaltungskatalog als hochschulweiter Wegweiser zu Data-Literacy-Lehrveranstaltungen. Im DaLI-Zertifikatsprogramm können sich Studierende zudem ihre Datenkompetenz auf drei verschiedenen Leveln kreditieren lassen (siehe auch: <https://www.th-koeln.de/dali>). 
