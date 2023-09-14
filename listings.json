@@ -1,0 +1,30 @@
+[
+  {
+    "listing": "/index.html",
+    "items": [
+      "/einleitung/gruss_sv.html",
+      "/einleitung/gruss_datev.html",
+      "/einleitung/über_uns.html",
+      "/posts/curr_int/module.html",
+      "/posts/ring_vl_huetig/ringvl.html",
+      "/posts/h5p/h5p.html",
+      "/posts/jupyter_strategie/jup_2.html",
+      "/posts/awareness_rallye/rallye.html",
+      "/posts/summer_school/index.html",
+      "/posts/basis_selbstlern/basis_selbst.html",
+      "/posts/projektwoche_koeln/projektwo.html",
+      "/posts/kollaboration/kollab.html",
+      "/posts/r_studio/rstudio.html",
+      "/posts/basiskurs_th_koeln/basis.html",
+      "/posts/jupyter_einstieg/jup_1.html",
+      "/posts/lernvideos/videos.html",
+      "/posts/storytell/index.html",
+      "/posts/blended_learn/index.html",
+      "/posts/shinyapps/shiny.html",
+      "/posts/ring_vl_datenwelten/ring_datenwelt.html",
+      "/posts/microcredential/microcred.html",
+      "/posts/aufbau_uar/aufbau.html",
+      "/posts/FS_KI/fs_ki.html"
+    ]
+  }
+]

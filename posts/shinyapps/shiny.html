@@ -1,0 +1,560 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.306">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Sonja Hahn">
+<meta name="author" content="Karsten Lübke">
+<meta name="description" content="Interaktive Apps ermöglichen es Lernenden niedrigschwellig Grundkonzepte aus Datenanalyse und Statistik zu verstehen und mit Daten umzugehen. Diese Apps können beispielsweise mit Shiny erstellt und somit auf Lehr-Lern-Situationen zugeschnitten werden. Wir geben Hinweise zur Entwicklung dieser Apps sowie zur Einbindung in die Lehre.">
+
+<title>Übersicht - Shiny und Co.</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logos/svlog.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../logos/sv_log_weiss.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Übersicht</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools ms-auto">
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul class="collapse">
+  <li><a href="#toolbeschreibung" id="toc-toolbeschreibung" class="nav-link active" data-scroll-target="#toolbeschreibung">Toolbeschreibung</a></li>
+  <li><a href="#voraussetzungen-zielgruppen" id="toc-voraussetzungen-zielgruppen" class="nav-link" data-scroll-target="#voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</a></li>
+  <li><a href="#kompetenzen" id="toc-kompetenzen" class="nav-link" data-scroll-target="#kompetenzen">Kompetenzen</a></li>
+  <li><a href="#lerninhalte-methoden" id="toc-lerninhalte-methoden" class="nav-link" data-scroll-target="#lerninhalte-methoden">Lerninhalte &amp; Methoden</a></li>
+  <li><a href="#erkenntnisse-erfahrungen" id="toc-erkenntnisse-erfahrungen" class="nav-link" data-scroll-target="#erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</a></li>
+  <li><a href="#hilfreiche-links" id="toc-hilfreiche-links" class="nav-link" data-scroll-target="#hilfreiche-links">Hilfreiche Links</a></li>
+  <li><a href="#autorinnenprofile" id="toc-autorinnenprofile" class="nav-link" data-scroll-target="#autorinnenprofile">Autor:innenprofile</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Shiny und Co.</h1>
+<p class="subtitle lead">interaktive Apps für Data Literacy erstellen und nutzen</p>
+  <div class="quarto-categories">
+    <div class="quarto-category">Vorkenntnisse: keine</div>
+    <div class="quarto-category">Vorkenntnisse: vorhanden</div>
+    <div class="quarto-category">Interaktion</div>
+    <div class="quarto-category">Coding</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Interaktive Apps ermöglichen es Lernenden niedrigschwellig Grundkonzepte aus Datenanalyse und Statistik zu verstehen und mit Daten umzugehen. Diese Apps können beispielsweise mit Shiny erstellt und somit auf Lehr-Lern-Situationen zugeschnitten werden. Wir geben Hinweise zur Entwicklung dieser Apps sowie zur Einbindung in die Lehre.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">von</div>
+    <div class="quarto-title-meta-contents">
+             <p>Sonja Hahn </p>
+             <p>Karsten Lübke </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="toolbeschreibung" class="level2">
+<h2 class="anchored" data-anchor-id="toolbeschreibung">Toolbeschreibung</h2>
+<p>Digitale Werkzeuge spielen sowohl in der Lehre als auch in der Erhebung, Verarbeitung und Analyse von Daten eine zentrale Rolle. Während ein mögliches Lernziel im Bereich Data Literacy die Nutzung von Programmen zur Datenanalyse ist, bieten einige dieser Programme darüber hinaus die Möglichkeit, Materialien für Lernende zu erstellen und Lernprozesse im Sinne eines optimierten Scaffoldings zu unterstützen.</p>
+<p>Das R-Paket Shiny <span class="citation" data-cites="chang2023">(<a href="#ref-chang2023" role="doc-biblioref">Chang et al., 2023</a>)</span> wird ähnlich wie der RStudio Desktop von Posit entwickelt und ermöglicht es, eine Web-App mit einer grafischen Benutzeroberfläche und Berechnungen im Hintergrund zu gestalten (vgl. Beitrag „Data Literacy Education mit R und RStudio“). Das Paket stellt hierzu verschiedene Optionen zur Verfügung (zum Beispiel Eingabemöglichkeiten wie Schieberegler und Checkboxen, Anordnung von Ein- und Ausgabeelementen, ähnlich zu ipywidgets im Beitrag „Gestalterische und interaktive Aspekte zum Einsatz von Jupyter Notebooks in Online-Kursen im Kontext Data Literacy“). Um die Apps via Link im Browser zu nutzen, müssen diese auf Shiny-Web-Servern gehostet werden, auf denen im Hintergrund Berechnungen und Simulationen ausgeführt werden. Hierzu können Hochschulen eigene Server betreiben und die Software für den Shiny-Server kostenfrei nutzen. Alternativen hierzu sind die Nutzung eines Servers von Posit, die Ausführung auf einem Rechner aus R heraus, oder die Integration in eine learnr-Umgebung <span class="citation" data-cites="stoudt2022">(<a href="#ref-stoudt2022" role="doc-biblioref">Stoudt et al., 2022</a>)</span> integriert werden. Posit arbeitet aktuell an Varianten von Shiny-Apps in denen ein spezieller Link erstellt wird, wodurch die Berechnungen auf der Nutzendenseite ausgeführt werden. Hier reicht auf Nutzendenseite ein Browser, der Code kann einfach auf einem Repositorium (z.B. <a href="https://github.com/">GitHub</a>) gehostet werden.</p>
+<p>Durch die vielfältigen Gestaltungsmöglichkeiten sind Übergänge zu Dashboards (Darstellung von Analyseergebnissen) und Online-GUIs (Graphical User Interfaces) zur Datenauswertung bis hin zu professionell gestalteten Lernumgebungen fließend. Ein besonderes Potenzial der Apps liegt darin, dass Berechnungen im Hintergrund bleiben können und Konzepte interaktiv erfahrbar werden. Dies kann jedoch den Schritt zur eigenen Arbeit mit Code erschweren.-Einen Mittelweg stellt die Anzeige oder Ausgabe von Code innerhalb einer App dar.</p>
+<p>Die R Funktionalitäten ermöglichen es zudem, hochwertige Grafiken zu erstellen und diese mit Text, Tabellen, Formeln etc. zu kombinieren. Dies ermöglicht verschiedene Zugänge zu zentralen Konzepten und somit den Aufbau flexibler handlungsleitender Schemata durch die Lernenden <span class="citation" data-cites="fries2021">(<a href="#ref-fries2021" role="doc-biblioref">Fries et al., 2021</a>)</span>.</p>
+<div class="column.body">
+<div id="fig-abb1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb1.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;1: Beispiel für eine App: Im Hintergrund der App werden Daten zum Thema Korrelation simuliert. Die Oberfläche zeigt Eingabemöglichkeiten, um die simulierten Daten und deren Darstellung zu verändern (Schieberegler, Textfelder, Checkboxen), Darstellungen der ausgewerteten Daten (Zahlen in Tabellen, Diagramm) sowie weitere Gestaltungsoptionen (separate Bereiche für Ein- und Ausgabe, Tabs zur Strukturierung, Arbeitsaufträge als PDF). Link: <a href="https://gauss.metpsy.uni-jena.de/rshiny/sonja/Cor_AO/">https://gauss.metpsy.uni-jena.de/rshiny/sonja/Cor_AO/</a></figcaption><p></p>
+</figure>
+</div>
+</div>
+</section>
+<section id="voraussetzungen-zielgruppen" class="level2">
+<h2 class="anchored" data-anchor-id="voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</h2>
+<p>Idealerweise laufen Apps auf einem Shiny-Server und stellen so für Lernende ein niedrigschwelliges Angebot dar, da der Zugang unmittelbar über einen Browser mit Internetverbindung erfolgt. Werden die Apps lokal ausgeführt, stellt die dafür nötige Softwareinstallation einen möglichen Stolperstein dar. Hier gibt es die Möglichkeit, Apps im Rahmen eines Paketes zugänglich zu machen, oder durch im Shiny-Paket enthaltene Befehle wie <code>runUrl()</code> oder <code>runGitHub()</code> Code direkt von Webseiten oder Repositorien zu laden und auszuführen. Damit Apps als sinnvolles Angebot durch die Lernenden betrachtet werden, ist eine durchdachte Entwicklung und Einbindung in die Lehre notwendig. Lernziele und –inhalte sowie der geplante Einsatz der App sollten berücksichtigt werden, um erste Konzepte für eine App zu erstellen. Zur Entwicklung selbst sind Grundkenntnisse in R und dem Zusatzpaket Shiny notwendig. Kenntnisse im Bereich Webentwicklung (HTML, CSS) sind manchmal hilfreich, um spezifische grafische Anpassungen vorzunehmen. Darüber hinaus gibt es diverse Zusatzpakete zu Shiny, die die Funktionalitäten erweitern und das Aussehen der Apps verändern können. Für die Usability durch die Lernenden bietet sich jedoch ein einheitlicher und übersichtlicher Aufbau an.</p>
+</section>
+<section id="kompetenzen" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzen">Kompetenzen</h2>
+<p>Die Stärke der Apps ist die Möglichkeit des konzeptuellen Begreifens: Lernende können zentrale Konzepte aus dem Bereich der Datenverarbeitung, -auswertung und –visualisierung interaktiv erproben, wobei technische Details beziehungsweise Formeln in den Hintergrund treten können und die App darüber hinaus Lernende führen kann. Es findet also in mehrfacher Hinsicht Scaffolding statt, wodurch Raum für Lernprozesse und kritisches Hinterfragen bleibt. Konzepte können durch Visualisierung theoretischer Inhalte (zum Beispiel App zum Thema Verteilungsformen) oder Simulation von Daten (zum Beispiel Steuerung eines datengenerierenden Prozesses durch die App) vermittelt werden. Daneben können Apps die Nutzenden durch die Datenanalyse führen bzw. verschiedene Analysewege ausprobieren lassen. So kann prozedurales Wissen zur Durchführung von Datenanalysen vermittelt werden (zum Beispiel App zum Thema Machine Learning. Link: <a href="https://fomshinyapps.shinyapps.io/mlr3shiny/">https://fomshinyapps.shinyapps.io/mlr3shiny/</a>). Ein zusätzlicher Kompetenzbereich bei fortgeschrittenen Lernenden ist die Programmierung von Apps: Hier kann die Programmierung selbst ein Lernziel sein. Alternativ können Apps programmiert werden, um zum Beispiel Problemstellungen bei der Datenanalyse zu bearbeiten, die zielgruppengerechte und interaktive Kommunikation von Ergebnissen unterstützen, oder um in anderen Lehrveranstaltungen verwendet zu werden <span class="citation" data-cites="wang2021">(<a href="#ref-wang2021" role="doc-biblioref">Wang et al., 2021</a>)</span>.</p>
+</section>
+<section id="lerninhalte-methoden" class="level2">
+<h2 class="anchored" data-anchor-id="lerninhalte-methoden">Lerninhalte &amp; Methoden</h2>
+<p>Da die Apps auf einer Datenanalyse-Software aufbauen, reichen die Themen typischer Apps von dem Einfluss einzelner extremer Werte, dem Vergleich grafischer Darstellungsmöglichkeiten, der Veranschaulichung von Zufallsexperimenten sowie theoretischen und simulierten Verteilungen bis hin zur Anwendung und Funktionsweise gängiger und neuerer Auswertungsverfahren. Trotzdem sind Apps keine Selbstläufer – Lernende sollten bei der Arbeit mit den Apps, beispielsweise bei der Nutzung verschiedener Eingabemöglichkeiten oder bei der Integration dieser Repräsentationsformen, unterstützt werden. So können Apps durch Lehrende vorgeführt beziehungsweise in ein Unterrichtsgespräch integriert werden. Diese Variante bietet die Möglichkeit, spezifische Punkte in der App durch die Diskussion herauszuarbeiten. Andererseits bieten sich Apps dafür an, den frontalen Vortrag durch die individuelle oder gruppenbasierte Nutzung der Apps zu unterbrechen. Hier sind die Lernenden selbst aktiv, was als motivierend wahrgenommen wird, jedoch dazu führen kann, dass längere Lernzeiten benötigt werden <span class="citation" data-cites="zhao2023">(<a href="#ref-zhao2023" role="doc-biblioref">Zhao et al., 2023</a>)</span>. Durch Think-Pair-Share und Live-Feedback-Systeme können beide Ansätze verknüpft werden <span class="citation" data-cites="gehrke2021">(<a href="#ref-gehrke2021" role="doc-biblioref">Gehrke et al., 2021</a>)</span>. Unabhängig von der Sozialform scheint die Nutzung von Aufgaben, die mit der App beantwortet werden, ein sinnvoller Ansatz. Durch ein geschicktes Vorgehen können Lernende durch Fragen kognitiv aktiviert werden, indem zum Beispiel Fragen gestellt werden, welche Ergebnisse die App voraussichtlich ausgibt beziehungsweise welche mit den Apps bearbeitet werden können <span class="citation" data-cites="gaise2016 wang2021">(<a href="#ref-gaise2016" role="doc-biblioref">GAISE College Report ASA Revision Committee, 2016</a>; <a href="#ref-wang2021" role="doc-biblioref">Wang et al., 2021</a>)</span>. Durch Gamification-Elemente beinhalten einige Apps bereits Aufgaben und Rückmeldungen an die Lernenden (zum Beispiel Quiz, Guess-the-Correlation, p-hacker). Auch an anderen Stellen scheint ein schrittweises Vorgehen sinnvoll. Ein ausführliches Beispiel für die Einbindung von Shiny-Apps in einer Lehrveranstaltung findet sich bei Fawcett <span class="citation" data-cites="fawcett2018">(<a href="#ref-fawcett2018" role="doc-biblioref">2018</a>)</span>.</p>
+</section>
+<section id="erkenntnisse-erfahrungen" class="level2">
+<h2 class="anchored" data-anchor-id="erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</h2>
+<p>Wie oben erwähnt ist es wichtig, sowohl bei der Entwicklung als auch beim Einsatz der App die Integration in das Lehr-Lern-Szenarium zu beachten: Bei der Entwicklung der Apps ist zu überlegen, welche Lernziele damit erreicht werden können oder sollen, und wie sich diese in die übergeordneten Ziele der Lerneinheit und des Kurses einordnen. Bei der Entwicklung einzelner Apps hat es sich als sinnvoll erwiesen, neben einer Ideensammlung eine Minimalversion der App zu konzipieren und zu programmieren, die stufenweise erweitert wird. Daneben stellt die Recherche existierender Apps einen sinnvollen Schritt dar: Die Apps illustrieren verschiedene Nutzungsmöglichkeiten und Features; im Idealfall kann eine vorhandene App direkt verwendet oder zumindest angepasst werden. Auch die Nutzung reaktiver Programmierung (Berechnungen finden nur dann statt, wenn an relevanten Eingabeparametern etwas verändert wird) kann im Hinblick auf die Rechenleistung und auf didaktische Aspekte sinnvoll sein.</p>
+<p>Apps sollten durch die Lehrenden gezielt eingebunden werden. So können Aufgaben mit den Apps verknüpft beziehungsweise mit Erkenntnissen aus der Arbeit mit den Apps in der Veranstaltung oder im Learning Management System (LMS) reflektiert werden. Für die Lehre sollten zudem zugrunde liegende Serverkapazitäten berücksichtigt und gegebenenfalls erweitert werden. So kann eine simulationsintensive App bei gleichzeitigen Zugriffen über viele Endgeräte zu einer Überlastung von Servern führen (flash traffic). Daneben ist es wichtig, die Lernenden nicht zu über- oder zu unterfordern: Neben einer angemessenen Explorationsphase kann der Austausch mit Lehrenden und Tutor:innen dazu beitragen, dass der Erkenntnisgewinn bei der Arbeit mit den Apps vergrößert wird <span class="citation" data-cites="fawcett2018 hahn2020 wang2021">(<a href="#ref-fawcett2018" role="doc-biblioref">Fawcett, 2018</a>; <a href="#ref-hahn2020" role="doc-biblioref">Hahn et al., 2020</a>; <a href="#ref-wang2021" role="doc-biblioref">Wang et al., 2021</a>)</span>. Videos, Texte oder anderweitige Hinweise zur Nutzung der Apps stellen Alternativen für asynchrone Szenarien dar.</p>
+</section>
+<section id="hilfreiche-links" class="level2">
+<h2 class="anchored" data-anchor-id="hilfreiche-links">Hilfreiche Links</h2>
+<ul>
+<li>Webauftritt bei Posit: <a href="https://shiny.posit.co/" class="uri">https://shiny.posit.co/</a></li>
+<li>Einführende Anleitung zum Erstellen von Apps: <a href="https://shiny.posit.co/r/articles/start/build/" class="uri">https://shiny.posit.co/r/articles/start/build/</a></li>
+<li>Einige App-Sammlungen mit Beispielen:
+<ul>
+<li><a href="https://shiny.posit.co/r/gallery/" class="uri">https://shiny.posit.co/r/gallery/</a></li>
+<li><a href="https://shinyapps.org/" class="uri">https://shinyapps.org/</a></li>
+<li><a href="https://sites.psu.edu/shinyapps/category/introductory-apps/" class="uri">https://sites.psu.edu/shinyapps/category/introductory-apps/</a></li>
+<li><a href="https://statistics.calpoly.edu/shiny" class="uri">https://statistics.calpoly.edu/shiny</a></li>
+</ul></li>
+<li>Beispiel-App aus Abbildung 1: <a href="https://gauss.metpsy.uni-jena.de/rshiny/sonja/Cor_AO/" class="uri">https://gauss.metpsy.uni-jena.de/rshiny/sonja/Cor_AO/</a></li>
+</ul>
+</section>
+<section id="autorinnenprofile" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="autorinnenprofile">Autor:innenprofile</h2>
+<p><strong>Sonja Hahn</strong> hat an der Pädagogischen Hochschule Karlsruhe Shiny Apps für die Lehre im Bereich Forschungsmethoden entdeckt und eingesetzt. Aktuell baut sie eine Lehrveranstaltung zum Thema Data Literacy an der Hochschule Darmstadt auf.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="logo_da.svg" class="img-fluid" style="width:25.0%"></p>
+</div></div><p><strong>Karsten Lübke</strong> ist Lehrender im Kontext Data Literacy an der FOM Hochschule und nutzt dort seit Jahren diverse selbst programmierte Shiny Apps.</p>
+
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="logo_fom.png" class="img-fluid" style="width:25.0%"></p>
+</div></div></section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-chang2023" class="csl-entry" role="listitem">
+Chang, W., Cheng, J., Allaire, J., Sievert, C., Schloerke, B., Xie, Y., Allen, J., McPherson, J., Dipert, A., &amp; Borges, B. (2023). <em>shiny: Web application framework for R</em>. <a href="https://CRAN.R-project.org/package=shiny">https://CRAN.R-project.org/package=shiny</a>
+</div>
+<div id="ref-fawcett2018" class="csl-entry" role="listitem">
+Fawcett, L. (2018). Using Interactive Shiny Applications to Facilitate Research-Informed Learning and Teaching. <em>Journal of Statistics Education</em>, <em>26</em>(1), 2–16. <a href="https://doi.org/10.1080/10691898.2018.1436999">https://doi.org/10.1080/10691898.2018.1436999</a>
+</div>
+<div id="ref-fries2021" class="csl-entry" role="listitem">
+Fries, L., Son, J. Y., Givvin, K. B., &amp; Stigler, J. W. (2021). Practicing Connections: A Framework to Guide Instructional Design for Developing Understanding in Complex Domains. <em>Educational Psychology Review</em>, <em>33</em>(2), 739–762. <a href="https://doi.org/10.1007/s10648-020-09561-x">https://doi.org/10.1007/s10648-020-09561-x</a>
+</div>
+<div id="ref-gaise2016" class="csl-entry" role="listitem">
+GAISE College Report ASA Revision Committee. (2016). <em>Guidelines for Assessment and Instruction in Statistics Education (GAISE) College Report 2016</em>. <a href="https://community.amstat.org/statisticaleducationsection/home">https://community.amstat.org/statisticaleducationsection/home</a>
+</div>
+<div id="ref-gehrke2021" class="csl-entry" role="listitem">
+Gehrke, M., Kistler, T., Lübke, K., Markgraf, N., Krol, B., &amp; Sauer, S. (2021). Statistics education from a data‐centric perspective. <em>Teaching Statistics</em>, <em>43</em>(S1). <a href="https://doi.org/10.1111/test.12264">https://doi.org/10.1111/test.12264</a>
+</div>
+<div id="ref-hahn2020" class="csl-entry" role="listitem">
+Hahn, S., Panenka, P., Pfeifer, A., Kerber, U., &amp; Kunina-Habenicht, O. (2020). Digitale Medien in der Tutor*innenarbeit. In S. Traub (Hrsg.), <em>Tutor*innentraining: Fundiert konzipiert – erfolgreich durchgeführt</em> (S. 197–213). Schneider-Verlag Hohengehren.
+</div>
+<div id="ref-stoudt2022" class="csl-entry" role="listitem">
+Stoudt, S., Scotina, A. D., &amp; Luebke, K. (2022). Supporting Statistics and Data Science Education with learnr. <em>Technology Innovations in Statistics Education</em>, <em>14</em>(1). <a href="https://doi.org/10.5070/T514156264">https://doi.org/10.5070/T514156264</a>
+</div>
+<div id="ref-wang2021" class="csl-entry" role="listitem">
+Wang, S. L., Zhang, A. Y., Messer, S., Wiesner, A., &amp; Pearl, D. K. (2021). Student-Developed Shiny Applications for Teaching Statistics. <em>Journal of Statistics and Data Science Education</em>, <em>29</em>(3), 218–227. <a href="https://doi.org/10.1080/26939169.2021.1995545">https://doi.org/10.1080/26939169.2021.1995545</a>
+</div>
+<div id="ref-zhao2023" class="csl-entry" role="listitem">
+Zhao, F., Schützler, L., Christ, O., &amp; Gaschler, R. (2023). Learning statistics with interactive pictures using R Shiny: Generally preferred, but not generally advantageous. <em>Teaching Statistics</em>, <em>45</em>(2), 106–124. <a href="https://doi.org/10.1111/test.12324">https://doi.org/10.1111/test.12324</a>
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{hahn,
+  author = {Hahn, Sonja and Lübke, Karsten},
+  editor = {Koch, Henning and Sievers, Sam},
+  title = {datenkompetent - Beispielhafte Lehrformate und -strategien
+    für die Data Literacy Education an deutschen Hochschulen},
+  url = {https://Stifterverband.github.io/datenkompetent//posts/shinyapps/shiny.html},
+  langid = {de}
+}
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-hahn" class="csl-entry quarto-appendix-citeas" role="listitem">
+Hahn, S., &amp; Lübke, K. (n.d.). <em>datenkompetent - Beispielhafte
+Lehrformate und -strategien für die Data Literacy Education an deutschen
+Hochschulen</em> (H. Koch &amp; S. Sievers, Eds.). <a href="https://Stifterverband.github.io/datenkompetent//posts/shinyapps/shiny.html">https://Stifterverband.github.io/datenkompetent//posts/shinyapps/shiny.html</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/Stifterverband\.github\.io\/datenkompetent\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><img src="../..\logos/datev_foerder.png" class="img-fluid" style="width:50.0%"></div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/impressum.html">Impressum</a>
+  </li>  
+</ul>
+    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie-Einstellungen</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/datenschutz.html">Datenschutz</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

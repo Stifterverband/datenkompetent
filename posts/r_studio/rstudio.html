@@ -1,0 +1,541 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.306">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Julia Niemann-Lenz">
+<meta name="author" content="Selina Reinhard">
+<meta name="description" content="R ist als „Statistikprogrammiersprache“ eines der akuell wichtigsten Tools der praktischen Datenanalyse und somit grundlegend für angewandte Data Literacy. RStudio ist ein weitverbreiteter Editor für diese Sprache und eine ideale Lernumgebung, um nicht nur einen Einblick in Datenanalyse und Statistik, sondern gleichzeitig auch in die Welt des Programmierens zu erlangen. Hier wird ein kurzer Überblick über die Tools sowie Tipps zur Vermittlung in der Hochschullehre gegeben.">
+
+<title>Übersicht - Data Literacy Education mit R und RStudio</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logos/svlog.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../logos/sv_log_weiss.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Übersicht</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools ms-auto">
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul class="collapse">
+  <li><a href="#toolbeschreibung" id="toc-toolbeschreibung" class="nav-link active" data-scroll-target="#toolbeschreibung">Toolbeschreibung</a></li>
+  <li><a href="#voraussetzungen-zielgruppen" id="toc-voraussetzungen-zielgruppen" class="nav-link" data-scroll-target="#voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</a></li>
+  <li><a href="#kompetenzen" id="toc-kompetenzen" class="nav-link" data-scroll-target="#kompetenzen">Kompetenzen</a></li>
+  <li><a href="#erkenntnisse-erfahrungen" id="toc-erkenntnisse-erfahrungen" class="nav-link" data-scroll-target="#erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</a></li>
+  <li><a href="#hilfreiche-links" id="toc-hilfreiche-links" class="nav-link" data-scroll-target="#hilfreiche-links">Hilfreiche Links</a></li>
+  <li><a href="#autorinnenprofil" id="toc-autorinnenprofil" class="nav-link" data-scroll-target="#autorinnenprofil">Autor:innenprofil</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Data Literacy Education mit R und RStudio</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Vorkenntnisse: keine</div>
+    <div class="quarto-category">Vorkenntnisse: vorhanden</div>
+    <div class="quarto-category">Coding</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    R ist als „Statistikprogrammiersprache“ eines der akuell wichtigsten Tools der praktischen Datenanalyse und somit grundlegend für angewandte Data Literacy. RStudio ist ein weitverbreiteter Editor für diese Sprache und eine ideale Lernumgebung, um nicht nur einen Einblick in Datenanalyse und Statistik, sondern gleichzeitig auch in die Welt des Programmierens zu erlangen. Hier wird ein kurzer Überblick über die Tools sowie Tipps zur Vermittlung in der Hochschullehre gegeben.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">von</div>
+    <div class="quarto-title-meta-contents">
+             <p>Julia Niemann-Lenz </p>
+             <p>Selina Reinhard </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="toolbeschreibung" class="level2">
+<h2 class="anchored" data-anchor-id="toolbeschreibung">Toolbeschreibung</h2>
+<p>R ist eine Open-Source-Programmiersprache, deren spezieller Fokus auf grafischer Exploration von Daten und statistischen Analysen liegt. Trotz des engen Fokus ist sie im aktuellen <span class="citation" data-cites="tiobe">TIOBE (<a href="#ref-tiobe" role="doc-biblioref">o.&nbsp;J.</a>)</span> -Ranking (abgerufen im Juni 2023) unter den Top 20 der beliebtesten Programmiersprachen. Entwickelt wurde R seit Ende der 80er-Jahre mit dem Ziel, die Statistiklehre zu unterstützen, und ist unter einer freien GNU-Lizenz verfügbar <span class="citation" data-cites="ihaka1996">(<a href="#ref-ihaka1996" role="doc-biblioref">Ihaka &amp; Gentleman, 1996</a>)</span>. Mittlerweile gibt es zahlreiche Pakete, die die Basisfunktionalität von R erweitern – aktuell knapp 20.000 Pakete im Comprehensive R Archive Network (CRAN), dem zentralen Software-Repositorium für R. Die Vielfalt an Paketen und uneinheitlicher Syntax kann für Personen mit wenig Vorkenntnissen jedoch herausfordernd sein. Parallel zu der heterogenen Entwickler:innen Community gibt es daher Bemühungen, R-Pakete zu vereinheitlichen. Das Tidyverse <span class="citation" data-cites="wickham2019">(<a href="#ref-wickham2019" role="doc-biblioref">Wickham et al., 2019</a>)</span> beispielsweise bietet als Gruppe von Paketen eine konsistente und intuitive Grammatik für Datenmanipulation und -visualisierung.</p>
+<p>RStudio ist ein sehr beliebter Editor für R und wird von der Firma Posit (früher RStudio) vertrieben. Der Editor bietet insbesondere Einsteiger:innen eine ideale Lernumgebung mit Tool-Tipps, Syntaxhighlighting und einer umfangreichen Hilfefunktion. Neben der klassischen Verwendung von Skripten können mithilfe von R Markdown interaktive Notebooks und mit Shiny interaktive Webapplikationen erstellt werden.</p>
+</section>
+<section id="voraussetzungen-zielgruppen" class="level2">
+<h2 class="anchored" data-anchor-id="voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</h2>
+<p>R und RStudio können in unterschiedlichen Kontexten eingesetzt werden. Einsatzszenarien reichen von der allgemeinen Einführung in das Thema Datenanalyse in interdisziplinären Settings über die Umgestaltung einer bestehenden fachspezifischen Statistikveranstaltung mit Vorlesungscharakter bis hin zu Train-the-Trainer-Angeboten mit Hochschullehrende als Zielgruppe.</p>
+<p>Statistik- und Datenanalyse sind - anders als es viele Studierende zu Beginn ihres Studiums erwarten - auch Bestandteil vieler nicht technischer Studienfächer. Angesichts dessen sollte in der grundlegenden und fachbezogenen Data Literacy Education zunächst ein Bewusstsein für Hintergründe, Themen und Methoden geschaffen werden. Den Studierenden sollte vermittelt werden, warum die behandelten Inhalte und insbesondere die Umsetzung dieser anhand einer Programmiersprache sinnvoll sind.<br>
+Zu den praktischen Voraussetzungen gehören die Installation von R und idealerweise RStudio je nach Setting in zentralen PC-Räumen oder auf den Rechnern der Lernenden. Um Schwierigkeiten bei der Installation insbesondere auf alten Geräten zu vermeiden, kann auch der Zugang über den Browser zum Beispiel via RStudio Cloud oder JupyterLab angeboten werden.</p>
+</section>
+<section id="kompetenzen" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzen">Kompetenzen</h2>
+<p>Um praktische Data Literacy zu erlangen, müssen Studierende Tools der Datenverarbeitung und -analyse kennenlernen und anwenden. Mit der Programmiersprache R kann der gesamte Prozess von der Datengenerierung über die Analyse bis hin zur Kommunikation abgebildet werden. Da keine grafische Oberfläche existiert, ist ein tieferer technischer Einblick in statistische Methoden möglich. Neben dem Umgang mit Daten kann gleichzeitig auch das Programmieren erlernt werden und es können Standards guter wissenschaftlicher Praxis wie Transparenz und Reproduzierbarkeit behandelt werden.</p>
+</section>
+<section id="erkenntnisse-erfahrungen" class="level2">
+<h2 class="anchored" data-anchor-id="erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</h2>
+<p>Zeitgemäße Data Literacy Education sollte neben kognitiven Lernzielen (zum Beispiel korrektes Anwenden von Datenanalysetechniken) auch affektive Lernziele (zum Beispiel Interesse und Spaß am Umgang mit Daten) verfolgen. Bedenken und Vorbehalte der Studierenden, die im Einzelfall bis zur Statistik-Anxiety <span class="citation" data-cites="onwuegbuzie2003">(<a href="#ref-onwuegbuzie2003" role="doc-biblioref">Onwuegbuzie &amp; Wilson, 2003</a>)</span> reichen können, sollten ernst genommen und reflektiert werden, ohne dass die Hochschullehrende diese Sorgen befördern. Es bietet sich an, viel Raum für das eigene Üben und Anwenden beispielsweise durch begleitende Tutorien, interaktive Lernskripte (zum Beispiel mit learnr) oder Selbsttests einzuräumen. Dies trägt zur Erreichung der affektiven Lernziele und damit zur Demystifizierung der Themen Datenanalyse, Statistik und Programmieren bei.</p>
+<p>Besonders geeignet für den Einstieg sind zum Beispiel die Themen Datenexploration und -visualisierung. Sinn und Zweck von Aufgaben zu Datenvisualisierungen sind für Studierende oftmals gut ersichtlich, weil Darstellungen von Statistiken in Alltag und Studium häufig vorkommen. Zudem können hier schnell sichtbare Ergebnisse erzielt werden, was die Selbstwirksamkeit bereits zu Beginn eines Kurses fördern kann. Die Datenbeispiele sollten dabei so gewählt werden, dass sie an die (Fach-)Perspektive der Studierenden oder an ihre Alltagserfahrungen anschlussfähig sind. Obwohl der Einstieg einfach sein soll, ist es nicht unbedingt empfehlenswert, zunächst sehr kleinteilig auf die Grundlagen des Programmierens oder einzelne Elemente der Sprache einzugehen. Diese können im Verlauf eines Kurses herausgearbeitet werden. Dem Ansatz des Scaffolding <span class="citation" data-cites="reiser2014">(<a href="#ref-reiser2014" role="doc-biblioref">Reiser &amp; Tabak, 2014</a>)</span> folgend kann schrittweise vorgegangen werden:</p>
+<ul>
+<li>Erläutern eines Skripts schärft den Blick für den Gesamtzusammenhang. Eine Kombination aus ausführlichen Erklärungen und einfachem Code (vgl. Literate Programming, <span class="citation" data-cites="knuth1992">Knuth (<a href="#ref-knuth1992" role="doc-biblioref">1992</a>)</span>) steigert die Verständlichkeit. Die Lernenden erhalten eine Vorlage für die Nachbereitung des Stoffs und für zukünftige eigene Analysen.</li>
+<li>Mit einfachen Aufgaben können die Lerner:innen üben, den Code zu verstehen und zu kommentieren oder den existierenden Code zu verändern. Lerner:innen könnten zum Beispiel aufgefordert werden, einzelne Variablen oder Funktionen auszutauschen oder den Code nach anderen Gesichtspunkten anzupassen.</li>
+<li>In weiteren Übungen erhalten die Lerner:innen immer weniger Hilfestellung und werden nach und nach in die Lage versetzt, eigene Ideen zu verfolgen und Datenanalyseprojekte mit R umzusetzen. Hier kann gegenseitige Peer-Unterstützung das Verständnis fördern, beispielsweise indem Aufgaben gemeinsam bearbeitet werden.</li>
+</ul>
+<p>Ein zentraler Aspekt jeder Einführung in R sollte das Thema „Hilfe zur Selbsthilfe“ sein. Es ist wichtig, den Dozent:innen Ressourcen und Ansätze vorzustellen, mit denen sie künftigen Datenanalyse- und Programmierherausforderungen begegnen können (zum Beispiel Vignetten und die Hilfefunktion in RStudio, Stack Overflow und GitHub), und das Auftreten von Fehlermeldungen als normalen Bestandteil des Programmierens zu vermitteln. Eine offene Atmosphäre und die Möglichkeit zur Klärung von Verständnisfragen helfen, Frustration beim Einstieg in die Arbeit mit Programmcode zu begegnen. Das Vorstellen und Diskutieren verschiedener Lösungswege fördert in späteren Sitzungen den Austausch und das Verständnis für unterschiedliche Herangehensweisen und hilft den Lerner:innen dabei, das Potenzial von R selbst zu explorieren. Sollte dies nicht im Rahmen der Präsenzzeit möglich sein, kann es auch in den virtuellen Raum verlagert werden, zum Beispiel mithilfe von Onlinelernumgebungen wie Foren.</p>
+</section>
+<section id="hilfreiche-links" class="level2">
+<h2 class="anchored" data-anchor-id="hilfreiche-links">Hilfreiche Links</h2>
+<ul>
+<li>R: <a href="https://www.r-project.org/" class="uri">https://www.r-project.org/</a></li>
+<li>RStudio: <a href="https://posit.co/download/rstudio-desktop" class="uri">https://posit.co/download/rstudio-desktop</a></li>
+</ul>
+<p><strong>Links zu Lernressourcen</strong></p>
+<ul>
+<li>Ressourcen für Dozent:innen, bereitgestellt von Posit: <a href="https://education.rstudio.com/teach/" class="uri">https://education.rstudio.com/teach/</a></li>
+<li>learnr: Paket für die Erstellung interaktiver Tutorials: <a href="https://rstudio.github.io/learnr/" class="uri">https://rstudio.github.io/learnr/</a></li>
+<li>Frei verfügbare (Lehr-)Bücher zu verschiedenen R-Themen: <a href="https://bookdown.org/" class="uri">https://bookdown.org/</a></li>
+</ul>
+</section>
+<section id="autorinnenprofil" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="autorinnenprofil">Autor:innenprofil</h2>
+<p><strong>Dr.&nbsp;Julia Niemann-Lenz</strong> studierte Kommunikationswissenschaft in Hannover und promovierte zum Thema Privatsphäre auf sozialen Netzwerkplattformen an der Universität Hohenheim. Heute arbeitet sie als Scientific Coordinator in der Data Literacy Education an der Universität Hamburg.</p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="logo_uhh.svg" class="img-fluid" style="width:75.0%"></p>
+</div></div><p><strong>Selina Reinhard</strong> studierte Psychologie in Göttingen, Ankara und Berlin. Sie arbeitet an der Freien Universität Berlin an der Weiterentwicklung von Tools der digitalen Lehre mit Fokus auf datenbasierte Entscheidungen, digitale Zukunftstechnologien und Data Literacy.</p>
+
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="logo.png" class="img-fluid" style="width:75.0%"></p>
+</div></div></section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-ihaka1996" class="csl-entry" role="listitem">
+Ihaka, R., &amp; Gentleman, R. (1996). R: A Language for Data Analysis and Graphics. <em>Journal of Computational and Graphical Statistics</em>, <em>5</em>(3), 299–314. <a href="https://doi.org/10.2307/139080">https://doi.org/10.2307/139080</a>
+</div>
+<div id="ref-knuth1992" class="csl-entry" role="listitem">
+Knuth, D. E. (1992). <em>Literate Programming</em>. Center for the Study of Language; Information.
+</div>
+<div id="ref-onwuegbuzie2003" class="csl-entry" role="listitem">
+Onwuegbuzie, A. J., &amp; Wilson, V. A. (2003). Statistics Anxiety: Nature, etiology, antecedents, effects, and treatments—a comprehensive review of the literature. <em>Teaching in Higher Education</em>, <em>8</em>(2), 195–209. <a href="https://doi.org/10.1080/1356251032000052447">https://doi.org/10.1080/1356251032000052447</a>
+</div>
+<div id="ref-reiser2014" class="csl-entry" role="listitem">
+Reiser, B. J., &amp; Tabak, I. (2014). Scaffolding. In R. K. Sawyer (Hrsg.), <em>The Cambridge Handbook of the Learning Sciences</em> (2. Aufl., S. 44–62). Cambridge University Press. <a href="https://doi.org/10.1017/CBO9781139519526.005">https://doi.org/10.1017/CBO9781139519526.005</a>
+</div>
+<div id="ref-tiobe" class="csl-entry" role="listitem">
+TIOBE. (o.&nbsp;J.). <em><span>TIOBE Index</span></em>.
+</div>
+<div id="ref-wickham2019" class="csl-entry" role="listitem">
+Wickham, H., Averick, M., Bryan, J., Chang, W., McGowan, L. D. A., François, R., Grolemund, G., Hayes, A., Henry, L., Hester, J., Kuhn, M., Pedersen, T. L., Miller, E., Bache, S. M., Müller, K., Ooms, J., Robinson, D., Seidel, D. P., &amp; Spinu, H., V. and... Yutani. (2019). Welcome to the Tidyverse. <em>Journal of Open Source Software</em>, <em>4</em>(43), 1686. <a href="https://doi.org/10.21105/joss.01686">https://doi.org/10.21105/joss.01686</a>
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{niemann-lenz,
+  author = {Niemann-Lenz, Julia and Reinhard, Selina},
+  editor = {Koch, Henning and Sievers, Sam},
+  title = {datenkompetent - Beispielhafte Lehrformate und -strategien
+    für die Data Literacy Education an deutschen Hochschulen},
+  url = {https://Stifterverband.github.io/datenkompetent//posts/r_studio/rstudio.html},
+  langid = {de}
+}
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-niemann-lenz" class="csl-entry quarto-appendix-citeas" role="listitem">
+Niemann-Lenz, J., &amp; Reinhard, S. (n.d.). <em>datenkompetent -
+Beispielhafte Lehrformate und -strategien für die Data Literacy
+Education an deutschen Hochschulen</em> (H. Koch &amp; S. Sievers,
+Eds.). <a href="https://Stifterverband.github.io/datenkompetent//posts/r_studio/rstudio.html">https://Stifterverband.github.io/datenkompetent//posts/r_studio/rstudio.html</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/Stifterverband\.github\.io\/datenkompetent\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><img src="../..\logos/datev_foerder.png" class="img-fluid" style="width:50.0%"></div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/impressum.html">Impressum</a>
+  </li>  
+</ul>
+    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie-Einstellungen</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/datenschutz.html">Datenschutz</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

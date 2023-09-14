@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.306">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Anna-Maria Nothelfer">
+<meta name="description" content="Im Studium generale Data Lab an der Johannes Gutenberg-Universität Mainz (JGU) arbeitet das Data-Literacy-Projektteam derzeit neben der Durchführung von Lehrveranstaltungen rund um die Themen der Datenethik, der Datenanalyse oder Datenkulturen auch an einem dazu passenden Selbstlernkurs. Dieser soll Studierenden einen Einblick in interdisziplinäre Betrachtungsweisen auf Daten als Gegenstand und Mittel von und für Forschung ermöglichen. Zur multimedialen Darstellung der Inhalte nutzen wir das Moodle-Plugin H5P. Im Beitrag werden Möglichkeiten und Grenzen der Interaktiven Kurspräsentation und des Branching Scenarios anhand unseres Moodlekurses präsentiert.">
+
+<title>Übersicht - Multimediale Formate mit dem Tool H5P</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logos/svlog.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../logos/sv_log_weiss.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Übersicht</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools ms-auto">
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul class="collapse">
+  <li><a href="#toolbeschreibung" id="toc-toolbeschreibung" class="nav-link active" data-scroll-target="#toolbeschreibung">Toolbeschreibung</a></li>
+  <li><a href="#voraussetzungen-zielgruppen" id="toc-voraussetzungen-zielgruppen" class="nav-link" data-scroll-target="#voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</a></li>
+  <li><a href="#kompetenzen" id="toc-kompetenzen" class="nav-link" data-scroll-target="#kompetenzen">Kompetenzen</a></li>
+  <li><a href="#lerninhalte-methoden" id="toc-lerninhalte-methoden" class="nav-link" data-scroll-target="#lerninhalte-methoden">Lerninhalte &amp; Methoden</a></li>
+  <li><a href="#erkenntnisse-erfahrungen" id="toc-erkenntnisse-erfahrungen" class="nav-link" data-scroll-target="#erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</a></li>
+  <li><a href="#hilfreiche-links" id="toc-hilfreiche-links" class="nav-link" data-scroll-target="#hilfreiche-links">Hilfreiche Links</a></li>
+  <li><a href="#autorinnenprofil" id="toc-autorinnenprofil" class="nav-link" data-scroll-target="#autorinnenprofil">Autorinnenprofil</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Multimediale Formate mit dem Tool H5P</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Vorkenntnisse: keine</div>
+    <div class="quarto-category">Vorkenntnisse: vorhanden</div>
+    <div class="quarto-category">Multimediale Lektionen</div>
+    <div class="quarto-category">Gestaltung</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Im Studium generale Data Lab an der Johannes Gutenberg-Universität Mainz (JGU) arbeitet das Data-Literacy-Projektteam derzeit neben der Durchführung von Lehrveranstaltungen rund um die Themen der Datenethik, der Datenanalyse oder Datenkulturen auch an einem dazu passenden Selbstlernkurs. Dieser soll Studierenden einen Einblick in interdisziplinäre Betrachtungsweisen auf Daten als Gegenstand und Mittel von und für Forschung ermöglichen. Zur multimedialen Darstellung der Inhalte nutzen wir das Moodle-Plugin H5P. Im Beitrag werden Möglichkeiten und Grenzen der Interaktiven Kurspräsentation und des Branching Scenarios anhand unseres Moodlekurses präsentiert.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">von</div>
+    <div class="quarto-title-meta-contents">
+             <p>Anna-Maria Nothelfer </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="toolbeschreibung" class="level2">
+<h2 class="anchored" data-anchor-id="toolbeschreibung">Toolbeschreibung</h2>
+<p>H5P ist eine Open-Source-Software, mit der interaktive HTML-basierte Einheiten gestaltet werden können. Das Tool stellt verschiedene Inhaltstypen zur Auswahl. So können Lehrende beispielsweise Quizfragen, Memoryspiele oder interaktive Videos mithilfe des Tools erstellen. Die H5P-Medienformate lassen sich in verschiedene Lernmanagementsysteme sowie Webseiten integrieren.</p>
+<div class="column.body">
+<div id="fig-abb1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb1.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;1: Screenshot aus dem Toolpaket von H5P mit verschiedenen Inhaltstypen</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p>Für unseren Selbstlernkurs auf Moodle haben wir die Interaktive Präsentation und das Branching Scenario aus dem H5P-Toolpaket gewählt, um Studierende durch drei Themenfelder zu führen. Die Themenfelder sind:</p>
+<ol type="1">
+<li>Was sind Daten?</li>
+<li>Daten in der Wissenschaft</li>
+<li>Daten in der Gesellschaft</li>
+</ol>
+<p>Die Verwendung der Interaktiven Präsentation ermöglichte uns hierbei die Darstellung der drei Bereiche in Form von gebündelten und multimedialen Lektionen. So erinnert das Medienformat an eine PowerPoint-Präsentation, durch die Studierende navigieren können. Dabei ist es möglich, Videos, Texte und Grafiken, aber auch Aufgaben wie Multiple- oder Single-Choice-Fragen und Lückentexte auf den Folien einzubinden. Auf diese Weise lassen sich interaktive Lehrmedien gestalten, die wie ein multimediales Kapitel eines digitalen Buches von Studierenden gelesen und bearbeitet werden können.</p>
+<p>Das vorgegebene Interface der Interaktiven Präsentation ist dabei wie folgt strukturiert:</p>
+<div class="column.body">
+<div id="fig-abb2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb2.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2: H5P-Editor für die Interaktive Präsentation (Stand: Juni 2023)</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p>In der oberen Leiste können die verschiedenen Medienformate oder Aufgabentypen (zum Beispiel Single-Choice-/Multiple-Choice-Fragen) ausgewählt und eingefügt werden. In der unteren Leiste kann ein Folienhintergrund bestimmt werden. Außerdem lassen sich dort Folien hinzufügen, verschieben oder löschen. Genauere Anleitungen und ein Video-Tutorial dazu, wie die verschiedenen Medienformate in eine Präsentation eingefügt werden können, finden sich auf der Homepage von <a href="https://h5p.org/tutorial-course-presentation">H5P</a>.</p>
+<p>Gefüllt mit Inhalten und unserem Foliendesign sieht unsere exemplarische Präsentation folgendermaßen aus:</p>
+<div class="column.body">
+<div id="fig-abb3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb3.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;3: Eine textbasierte Folie aus unserer exemplarischen Präsentation</figcaption><p></p>
+</figure>
+</div>
+</div>
+<div class="column.body">
+<div id="fig-abb4" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb4.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;4: Eine Folie mit Audiodateien aus unserer exemplarischen Präsentation</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p>Die erstellten H5P-Dateien haben wir über das Plugin „H5P“ in einen Moodlekurs eingefügt und eingebettet. Dort können die Studierenden die Präsentation dann durchgehen.</p>
+<div class="column.body">
+<div id="fig-abb5" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb5.svg" class="img-fluid figure-img"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;5: Exemplarische Präsentation in einem Moodlekurs (hier: Folie mit Quizfrage)</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p>Ein weiteres Tool des H5P-Toolpakets ist das <em>Branching Scenario</em>, das wir zum Abschluss des Selbstlernkurses für das Durchspielen eines ethischen Dilemmas nutzen. Im Branching Scenario kann ein Pfad mit verschiedenen Verzweigungen angelegt werden. Das Szenario verwenden wir dazu, um Studierenden einen Videoclip zu zeigen, der an bestimmten Stellen stoppt und interaktive Entscheidungsoptionen zur Wahl stellt. Je nach ausgewählter Option schlägt die Geschichte dann einen anderen Pfad ein. Auf diese Weise sollen die möglichen Konsequenzen ethischer Entscheidungen anschaulich vermittelt werden. Die Gestaltung, Nutzung und Wirkung der H5P-Formate ist dementsprechend nicht losgelöst von unserem Lehrkontext zu betrachten, da das mediale Setting stark davon abhängt, welche Inhalte wir in einem bestimmten (institutionellen) Kontext vermitteln möchten. Nachfolgend wird deshalb der Selbstlernkurs als Lehrkontext, in den die H5P-Formate eingebettet sind, näher skizziert.</p>
+</section>
+<section id="voraussetzungen-zielgruppen" class="level2">
+<h2 class="anchored" data-anchor-id="voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</h2>
+<p>Der Selbstlernkurs ist als niedrigschwelliger Appetizer gedacht, der erste Einblicke in wissenschaftliche Betrachtungsweisen von Daten ermöglichen und Interesse wecken soll. Aus diesem Grund werden Basics vermittelt, für die keine besonderen Vorkenntnisse benötigt werden. Wir möchten den Kurs insbesondere zur Vorbereitung auf unsere Lehrveranstaltungen nutzen, um die angeschnittenen Themen wissenschaftlich vertiefen zu können. Der Kurs kann aber auch von anderen Lehrenden hochschulweit genutzt werden, da wir diesen unter einer CC-Lizenz veröffentlichen möchten. Dabei lassen sich die Lektionen sowie Aufgaben auch einzeln einsetzen und weiterbearbeiten. Die hochschulweite Verwendung wird technisch durch das Format der H5P-Dateien, die leicht in andere Lernmanagementsysteme eingebettet werden können, unterstützt.</p>
+<p>Die Medienformate sind allerdings nicht in einer mobilen Ansicht nutzbar, da die multimedialen Impulse damit nicht korrekt dargestellt werden. Es ist deshalb nötig, ein Gerät (zum Beispiel einen Laptop) zu verwenden, das eine Desktop-Ansicht erlaubt.</p>
+</section>
+<section id="kompetenzen" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzen">Kompetenzen</h2>
+<p>Da der Selbstlernkurs einen Einblick in die verschiedenen Sicht- und Arbeitsweisen auf und mit Daten ermöglichen soll, orientiert sich dieser verstärkt an einem Konzept der Bildung, das interdisziplinäre Perspektiven in der Forschung fokussiert und weniger an messbaren Kompetenzen ausgerichtet ist. Eine dementsprechende Ausarbeitung einer Bildung im Zeitalter des Digitalen hat beispielsweise die Medienwissenschaftlerin Petra Missomelius mit ihrer Monografie <em>Bildung – Mensch – Medien: Mündigkeit im Digitalen</em> <span class="citation" data-cites="missomelius2022">(<a href="#ref-missomelius2022" role="doc-biblioref">2022</a>)</span> vorgelegt. Darin hebt sie einerseits die selbstverständliche Präsenz des Binären in unseren alltäglichen Lebenspraktiken hervor, die andererseits bewusst reflektiert, ethisch überdacht und dementsprechend gestaltet werden sollten <span class="citation" data-cites="missomelius2022">(vgl. <a href="#ref-missomelius2022" role="doc-biblioref">Missomelius, 2022</a>: 11 ff.)</span>. Die Ambivalenz einer verstärkten Datafizierung unserer Gesellschaft zu erkennen, wird mit dem Selbstlernkurs fokussiert. Das beinhaltet die Fähigkeit, Potenziale der Arbeit mit Daten, aber auch deren Grenzen und darin liegende gesellschaftliche Implikationen zu reflektieren.</p>
+</section>
+<section id="lerninhalte-methoden" class="level2">
+<h2 class="anchored" data-anchor-id="lerninhalte-methoden">Lerninhalte &amp; Methoden</h2>
+<p><em>H5P</em> erlaubt das Anlegen von in sich geschlossenen Lektionen, die sich aus verschiedenen Medienformaten zusammensetzen lassen. Unsere erste Lektion führt grundlegend in Fragen rund um eine Definition des Datenbegriffs sowie digitale Datenformate ein. In der zweiten Lektion wird die Nutzung und das Arbeiten mit Daten in der Forschung fokussiert (wie zum Beispiel die Beachtung der FAIR- und CARE-Prinzipien und die Creative-Commons-Lizenzierung). Die dritte Lektion behandelt abschließend ethische Fragen und kulturelle Transformationen mit Bezug auf Datenpraktiken (anhand der Beispiele der Datennutzung in Social Media oder des Einsatzes von künstlicher Intelligenz).</p>
+<p>Didaktisch orientiert sich die Gestaltung des Kurses an einer medienästhetischen Erprobung digitaler Tools, die die Qualitäten verschiedener Medienformate zu erforschen und auszuloten versucht. Diesbezüglich sind Tools nicht als rein instrumentelle Vermittlungsformen, sondern als Medien zu betrachten, die das, was mit ihnen ver- und übermittelt werden soll, in seiner Darstellbarkeit aktiv formen und in ihre jeweilige Medialität übersetzen <span class="citation" data-cites="bohnenkamp2020">(vgl. <a href="#ref-bohnenkamp2020" role="doc-biblioref">Bohnenkamp et al., 2020</a>: 5 ff.)</span>. Die Möglichkeit, über die <em>Interaktive Präsentation</em> verschiedene Medienformate digital einzubinden, erlaubt in diesem Sinne auch die gezielte Nutzung verschiedener medialer Inszenierungsformen, wie zum Beispiel die Verflechtung von Videos, Texten und interaktiven Aufgaben, die gebündelt ein Themenfeld repräsentieren. So nutzen wir beispielsweise Texte, wenn es um die Erklärung von Begriffen geht, und greifen auf Videos zurück, um konkrete Anwendungsbeispiele aus dem Forschungsalltag verschiedener Wissenschaftler:innen zu zeigen. Die Produktion der Videos geschieht im Rahmen des Projekts <em>FAIR-OER4RLP</em>, das vom Virtuellen Campus Rheinland-Pfalz (VCRP) gefördert wird. Das Projekt ist derzeit in Arbeit und soll eine hochschulweite Nutzung der Medienformate als OER ermöglichen.</p>
+<p>Ob sich unsere didaktischen Planungen in der Praxis bewähren, werden wir mithilfe einer Evaluation des Kurses in Zusammenarbeit mit dem Projekt <em>Curriculum 4.0</em> der Bergischen Universität Wuppertal mit einer Gruppe von Studierenden aus verschiedenen Bachelorstudiengängen prüfen. Daran anschließend werden sich gegebenenfalls Verbesserungen der Texte oder des Kursdesigns.</p>
+</section>
+<section id="erkenntnisse-erfahrungen" class="level2">
+<h2 class="anchored" data-anchor-id="erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</h2>
+<p><em>H5P</em> als Medium zu betrachten, bedeutet auch, die materialen und medialen Formen zu beschreiben, mit denen das Tool Wissen inszeniert und formiert. So werden durch die Templates oder Toolpakete Formen der Darstellung und Vermittlung bereits vorstrukturiert.</p>
+<p>Diese Vorstrukturierung der Medienformate, wie zum Beispiel Quizfragen, kann sowohl ein Vor- als auch ein Nachteil sein. Für Lehrende ohne Programmiererfahrung ist es über die vorgefertigten Templates einfach, verschiedene Inhalte einzubinden. Die ästhetische Gestaltung ist aber gleichzeitig durch die strikte Strukturierung erschwert. Die verschiedenen Frageformate (zum Beispiel Single-Choice/Multiple-Choice) können weiterhin nur Fragen beinhalten, auf die es eindeutige Antworten gibt. Für uneindeutige Phänomene und differenzierte Reflexionen sollte sich deshalb das <em>Branching Scenario</em> als sinnvoller erweisen, da hier verschiedene Szenarien durchgespielt werden können, die weniger auf dem eindeutigen Schema richtig/falsch aufbauen.</p>
+<p>Die Menge an Text, die sowohl im <em>Branching Scenario</em> als auch in der <em>Interaktiven Präsentation</em> integriert werden kann, ist durch das kleine Seitenformat begrenzt, weshalb Themen, zumindest schriftlich, eher kurz oder oberflächlich angeschnitten werden können. Aus diesem Grund eignen sich die multimedialen Lektionen verstärkt als Appetizer oder Impulse, die sich als Anreiz für die weitere Beschäftigung mit den jeweiligen Themen nutzen lassen und komplexe Phänomene über den Bezug zu alltagsnahen Beispielen anschaulich darstellen.</p>
+<p>Grundsätzlich ist die multimediale Gestaltung der Lektionen sehr zeitaufwendig, was bei der Planung bedacht werden sollte. Gerade das <em>Branching Scenario</em> und das Anlegen der einzelnen Verzweigungen erfordert eine vorausschauende Planung und nimmt viel Zeit in Anspruch. Wenn eigene Videos genutzt werden sollen, müssen diese zuvor natürlich produziert werden. Bei der Einbindung von externen Videos ist zu beachten, dass das Programm derzeit (Stand: März 2023) nur Videos ausgewählter Videostreamingplattformen verwenden kann, die die Videos in speziellen Formaten (MP4, WebM, OVG) ausgeben.</p>
+<p>Für die Gestaltung der Folien in einer <em>Interaktiven Präsentation</em> empfehlen wir außerdem, einen Folien-Master als Hintergrund zu erstellen, der sich dann in der gesamten Präsentation nutzen lässt.</p>
+<p>Für die Erstellung der Inhalte kann es allgemein hilfreich sein, das externe und kostenfreie Tool Lumi zu nutzen, mit dem H5P-Formate unabhängig von Moodle auf dem eigenen Rechner erstellt und gespeichert werden können. Sollten die Medienformate mit einer CC-Lizenz herausgegeben werden, müssen weiterhin alle rechtlichen Aspekte (bestenfalls) vor der Erstellung dieser mitbedacht werden.</p>
+<p>Aus mediendidaktischer Sicht ist weiterhin zu beachten, dass durch mediale Tools (wie H5P) Interaktion bestenfalls simuliert, aber Inhalte auf verschiedene Weisen anschaulich gemacht werden können, weshalb wir derartige Medienformate vor allem als ergänzende Anreicherung der (zwischenmenschlichen) Präsenzlehre empfehlen.</p>
+</section>
+<section id="hilfreiche-links" class="level2">
+<h2 class="anchored" data-anchor-id="hilfreiche-links">Hilfreiche Links</h2>
+<ul>
+<li>H5P: <a href="https://h5p.org/" class="uri">https://h5p.org/</a></li>
+<li>Lumi: <a href="https://app.lumi.education/" class="uri">https://app.lumi.education/</a></li>
+</ul>
+</section>
+<section id="autorinnenprofil" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="autorinnenprofil">Autorinnenprofil</h2>
+<p><strong>Anna-Maria Nothelfer</strong> ist derzeit wissenschaftliche Mitarbeiterin im Studium generale an der JGU Mainz. Dort wirkt sie bei der Gestaltung der Lehrangebote im Bereich Data Literacy mit. Ihr besonderes Interesse gilt dabei medienbildungstheoretischen und medienkulturwissenschaftlichen Perspektiven auf die zunehmende Digitalisierung und Datafizierung von Gesellschaften.</p>
+
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="logo.png" class="img-fluid" style="width:75.0%"></p>
+</div></div></section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-bohnenkamp2020" class="csl-entry" role="listitem">
+Bohnenkamp, B., Burkhardt, M., Grashöfer, K., Hlukhovych, A., Krewani, A., Matzner, T., Missomelius, P., Raczkowski, F., Shnayien, M., Weich, A., &amp; Wippich, U. (2020). <em>Online-Lehre 2020 – Eine medienwissenschaftliche Perspektive</em> (Diskussionspapier 10). Hochschulforum Digitalisierung. https://doi.org/<a href="https://doi.org/10.25969/mediarep/14846">https://doi.org/10.25969/mediarep/14846</a>
+</div>
+<div id="ref-missomelius2022" class="csl-entry" role="listitem">
+Missomelius, P. (2022). <em>Bildung – Medien – Mensch. Mündigkeit im Digitalen</em>. V&amp;R unipress.
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{nothelfer,
+  author = {Nothelfer, Anna-Maria},
+  editor = {Koch, Henning and Sievers, Sam},
+  title = {datenkompetent - Beispielhafte Lehrformate und -strategien
+    für die Data Literacy Education an deutschen Hochschulen},
+  url = {https://Stifterverband.github.io/datenkompetent//posts/h5p/h5p.html},
+  langid = {de}
+}
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-nothelfer" class="csl-entry quarto-appendix-citeas" role="listitem">
+Nothelfer, A.-M. (n.d.). <em>datenkompetent - Beispielhafte Lehrformate
+und -strategien für die Data Literacy Education an deutschen
+Hochschulen</em> (H. Koch &amp; S. Sievers, Eds.). <a href="https://Stifterverband.github.io/datenkompetent//posts/h5p/h5p.html">https://Stifterverband.github.io/datenkompetent//posts/h5p/h5p.html</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/Stifterverband\.github\.io\/datenkompetent\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><img src="../..\logos/datev_foerder.png" class="img-fluid" style="width:50.0%"></div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/impressum.html">Impressum</a>
+  </li>  
+</ul>
+    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie-Einstellungen</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/datenschutz.html">Datenschutz</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>

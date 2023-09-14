@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="de" xml:lang="de"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.3.306">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+<meta name="author" content="Beate Rhein">
+<meta name="author" content="Katharina Bata">
+<meta name="author" content="Angela Schmitz">
+<meta name="description" content="Jupyter Notebook wird vielfach in der Lehre im Kontext von Data Literacy eingesetzt. Es ermöglicht auf vielfältige Art und Weise eine interaktive und visuell ansprechende Auseinandersetzung mit Daten. In diesem Beitrag werden einige Funktionalitäten beschrieben und mit einer Hands-on-Anleitung und weiterführenden Links dargestellt, um Lehrende zur Nutzung von Jupyter Notebook in ihren Veranstaltungen im Kontext von Data Literacy zu inspirieren. Ein ergänzendes Jupyter Notebook (Bata et al., 2023) illustriert die vorgestellten Funktionalitäten.">
+
+<title>Übersicht - Gestalterische und interaktive Aspekte zum Einsatz von Jupyter Notebook in Onlinekursen im Kontext von Data Literacy</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for citations */
+div.csl-bib-body { }
+div.csl-entry {
+  clear: both;
+}
+.hanging-indent div.csl-entry {
+  margin-left:2em;
+  text-indent:-2em;
+}
+div.csl-left-margin {
+  min-width:2em;
+  float:left;
+}
+div.csl-right-inline {
+  margin-left:2em;
+  padding-left:1em;
+}
+div.csl-indent {
+  margin-left: 2em;
+}</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../logos/svlog.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "Keine Treffer",
+    "search-matching-documents-text": "Treffer",
+    "search-copy-link-title": "Link in die Suche kopieren",
+    "search-hide-matches-text": "Zusätzliche Treffer verbergen",
+    "search-more-match-text": "weitere Treffer in diesem Dokument",
+    "search-more-matches-text": "weitere Treffer in diesem Dokument",
+    "search-clear-button-title": "Zurücksetzen",
+    "search-detached-cancel-button-title": "Abbrechen",
+    "search-submit-button-title": "Abschicken"
+  }
+}</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"light",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  });
+});
+</script> 
+  
+
+
+</head>
+
+<body class="floating nav-fixed slimcontent">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg navbar-dark ">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../logos/sv_log_weiss.png" alt="" class="navbar-logo">
+    </a>
+    <a class="navbar-brand" href="../../index.html">
+    <span class="navbar-title">Übersicht</span>
+    </a>
+  </div>
+        <div class="quarto-navbar-tools ms-auto">
+</div>
+          <div id="quarto-search" class="" title="Suchen"></div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal sidebar-navigation floating overflow-auto">
+    <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Inhalt</h2>
+   
+  <ul class="collapse">
+  <li><a href="#toolbeschreibung" id="toc-toolbeschreibung" class="nav-link active" data-scroll-target="#toolbeschreibung">Toolbeschreibung</a></li>
+  <li><a href="#voraussetzungen-zielgruppen" id="toc-voraussetzungen-zielgruppen" class="nav-link" data-scroll-target="#voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</a></li>
+  <li><a href="#kompetenzen" id="toc-kompetenzen" class="nav-link" data-scroll-target="#kompetenzen">Kompetenzen</a></li>
+  <li><a href="#lerninhalte-methoden" id="toc-lerninhalte-methoden" class="nav-link" data-scroll-target="#lerninhalte-methoden">Lerninhalte &amp; Methoden</a></li>
+  <li><a href="#erkenntnisse-erfahrungen" id="toc-erkenntnisse-erfahrungen" class="nav-link" data-scroll-target="#erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</a></li>
+  <li><a href="#autorinnenprofile" id="toc-autorinnenprofile" class="nav-link" data-scroll-target="#autorinnenprofile">Autorinnenprofile</a></li>
+  </ul>
+</nav>
+</nav>
+<div id="quarto-sidebar-glass" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar,#quarto-sidebar-glass"></div>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+    </div>
+<!-- main -->
+<main class="content page-columns page-full" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Gestalterische und interaktive Aspekte zum Einsatz von Jupyter Notebook in Onlinekursen im Kontext von Data Literacy</h1>
+  <div class="quarto-categories">
+    <div class="quarto-category">Vorkenntnisse: keine</div>
+    <div class="quarto-category">Vorkenntnisse: vorhanden</div>
+    <div class="quarto-category">Coding</div>
+  </div>
+  </div>
+
+<div>
+  <div class="description">
+    Jupyter Notebook wird vielfach in der Lehre im Kontext von Data Literacy eingesetzt. Es ermöglicht auf vielfältige Art und Weise eine interaktive und visuell ansprechende Auseinandersetzung mit Daten. In diesem Beitrag werden einige Funktionalitäten beschrieben und mit einer Hands-on-Anleitung und weiterführenden Links dargestellt, um Lehrende zur Nutzung von Jupyter Notebook in ihren Veranstaltungen im Kontext von Data Literacy zu inspirieren. Ein ergänzendes Jupyter Notebook <span class="citation" data-cites="bata2023">(<a href="#ref-bata2023" role="doc-biblioref">Bata et al., 2023</a>)</span> illustriert die vorgestellten Funktionalitäten.
+  </div>
+</div>
+
+
+<div class="quarto-title-meta">
+
+    <div>
+    <div class="quarto-title-meta-heading">von</div>
+    <div class="quarto-title-meta-contents">
+             <p>Beate Rhein </p>
+             <p>Katharina Bata </p>
+             <p>Angela Schmitz </p>
+          </div>
+  </div>
+    
+  
+    
+  </div>
+  
+
+</header>
+
+<section id="toolbeschreibung" class="level2">
+<h2 class="anchored" data-anchor-id="toolbeschreibung">Toolbeschreibung</h2>
+<p><a href="https://jupyter.org/">Jupyter Notebook</a> ist einerseits eine webbasierte Programmieroberfläche zur Verarbeitung von Programmen in Sprachen wie Julia, Python oder R. Andererseits bezeichnen Jupyter Notebooks die Dateien, die in dieser Programmieroberfläche genutzt werden. Solche Dateien kann man sich wie interaktive Arbeitsblätter vorstellen. Im Folgenden verwenden wir die Bezeichnung Jupyter Notebooks (JN) für die genutzten Dateien und gehen speziell auf JN in der Programmiersprache Python ein.</p>
+<p>In JN kann ein programmierter Code mit vielen Bausteinen ergänzt und optisch ansprechend dargestellt werden. Die Möglichkeiten reichen von farbigen Kästen oder einem Inhaltsverzeichnis bis hin zur Einbindung von Grafiken und Videos. Ausgeblendeter Code ermöglicht erweiterte didaktische Methoden. Entsprechend aufbereitet können JN von Lernenden mit beliebigen Programmierkenntnissen sowohl zum Erwerb neuer Lehrinhalte als auch zur Vertiefung oder Wiederholung verwendet werden.</p>
+</section>
+<section id="voraussetzungen-zielgruppen" class="level2">
+<h2 class="anchored" data-anchor-id="voraussetzungen-zielgruppen">Voraussetzungen &amp; Zielgruppen</h2>
+<p>Dieser Beitrag richtet sich an Lehrende, die JN in ihren Lehrveranstaltungen einsetzen wollen oder bereits einsetzen. Grundkenntnisse der Lehrenden in Python sind für den Einsatz der nachfolgend vorgestellten Einsatzmöglichkeiten nicht notwendig, aber hilfreich. Eine Einführung in Python findet sich zum Beispiel auf <a href="https://www.python-lernen.de/" class="uri">https://www.python-lernen.de/</a>, eine gute allgemeine Einführung in Jupyter Notebook bietet <a href="https://jupyter-tutorial.readthedocs.io/de/latest/first-steps/create-notebook.html">Jupyter Tutorial</a> (o. D.).</p>
+<p>JN in Lehrveranstaltungen kann man in einem niedrigschwelligen Zugang über einen loka-len Server oder über Anbieter wie <a href="https://jupyter.org/hub">JupyterHub</a> zur Verfügung stellen. So benötigen die Lernenden keinerlei lokale Installation auf ihrem Endgerät und können die JN über einen Link direkt im Browser bearbeiten. Alternativ können Lernende eine der Entwicklungsumgebungen <a href="https://www.anaconda.com/">Anaconda</a> oder <a href="https://jupyter.org/">JupyterLab</a> lokal auf ihrem Endgerät installieren und JN hierüber nutzen. Die Gestaltungsmöglichkeiten für die JN führen dazu, dass, je nach Zielgruppe der Lehrveranstaltungen, die Studierenden wenige bis gar keine Programmiervoraussetzungen brauchen, um mit den JN zu arbeiten.</p>
+</section>
+<section id="kompetenzen" class="level2">
+<h2 class="anchored" data-anchor-id="kompetenzen">Kompetenzen</h2>
+<p>JN haben sich in verwandten Themenbereichen von Data Literacy als ein nützliches Werkzeug der Wissensvermittlung erwiesen <span class="citation" data-cites="ruiz2021 fleischer2022">(<a href="#ref-fleischer2022" role="doc-biblioref">Fleischer et al., 2022</a>; <a href="#ref-ruiz2021" role="doc-biblioref">Ruiz-Sarmiento et al., 2021</a>)</span>. Die im Folgenden dargestellten Gestaltungsaspekte wurden von den Autorinnen unter anderem für die JN im KI-Campus Kurs „Data Literacy – Daten interpretieren durch Data Mining“ <span class="citation" data-cites="bata2021">(<a href="#ref-bata2021" role="doc-biblioref">Bata et al., 2021</a>)</span> eingesetzt. Durch interaktive Elemente sollte ein selbständiges und niedrigschwelliges Erkunden der Programmiermöglichkeiten ermöglicht werden, zum Beispiel das Erkunden verschiedener Funktionen und des Parameterraums. Auch Multiple Choice Fragen können Lernende aktivieren und motivieren. Die genannten Aspekte sind speziell im Kontext von Selbstlernumgebungen relevant, da das Personalisie-ren der Lernumgebung durch interaktive und ansprechende Elemente zu verbesserter Nut-zung und größerem Lernerfolg beiträgt <span class="citation" data-cites="alturkistani2018">(<a href="#ref-alturkistani2018" role="doc-biblioref">Alturkistani et al., 2018</a>)</span>.</p>
+</section>
+<section id="lerninhalte-methoden" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="lerninhalte-methoden">Lerninhalte &amp; Methoden</h2>
+<p>Im Folgenden werden einige Gestaltungsbeispiele für JN dargestellt. Der Code für alle vorgestellten Beispiele kann in einem ergänzenden JN eingesehen und verwendet werden <span class="citation" data-cites="bata2023">(<a href="#ref-bata2023" role="doc-biblioref">Bata et al., 2023</a>)</span>.</p>
+<p><strong>Markdown-Zellen</strong><br>
+JN bestehen neben den Code-Zellen aus sogenannten Markdown-Zellen. Diese können entweder mit Markdown-Code <span class="citation" data-cites="markdown_guide satopay2019">(<a href="#ref-markdown_guide" role="doc-biblioref"><em>Markdownguide</em>, o.&nbsp;J.</a> o. D.; <a href="#ref-satopay2019" role="doc-biblioref">Satopay, 2019</a>)</span> beschrieben oder mit HTML-Code <span class="citation" data-cites="website_setup">(<a href="#ref-website_setup" role="doc-biblioref"><em>Beginner’s HTML Cheat Sheet</em>, o.&nbsp;J.</a> o. D.)</span> gestaltet werden. Markdown-Zellen ermöglichen beispielsweise Textformatierungen, Farben und Emojis.</p>
+<div class="column-body">
+<div id="fig-abb1" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb1.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;1: Beispiel für die farbliche Gestaltung eines Abschnitts, hier in Grün für einen Arbeitsauftrag</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p><strong>Strukturierende Elemente</strong></p>
+<p>Für die Orientierung in einem JN ist es gut, das Notebook so zu strukturieren, dass Ler-nende schnell Funktionen und Bedeutung der einzelnen Abschnitte erkennen können. Dies ist beispielsweise durch sogenannte Alert-Klassen in HTML möglich, mittels derer ein ein-gegebener Text in einer farbigen Box erscheint (<a href="#fig-abb1">Abbildung&nbsp;1</a>).<br>
+Ein weiteres Element zur Strukturierung, gerade bei längeren JN, ist ein Inhaltsverzeichnis mit Verlinkungen zu Kapiteln und Abschnitten, umgesetzt durch Querverweise. Zwischen Kapiteln oder Abschnitten kann das Setzen von Linien ebenfalls zur Strukturierung beitragen.</p>
+<p><strong>Einbindung von Grafiken und Emojis</strong></p>
+<p>Die Einbindung von Grafiken kann wesentlich zur Veranschaulichung von Daten genutzt werden. Wichtig ist hierbei, dass die Grafiken als Bilddateien am Speicherort des JN oder in einem extra hierfür angelegten Ordner abgelegt werden. In Markdown gibt es außerdem Bezeichnungen aller gängigen Emojis (<a href="https://github.com/markdown-templates/markdown-emojis" class="uri">https://github.com/markdown-templates/markdown-emojis</a>), sodass man Emojis mittels des jeweiligen Kürzels in den Text einbinden kann.</p>
+<p><strong>Interaktive Elemente</strong></p>
+<p>In JN können interaktive Elemente wie Dropdown-Menüs, Schieberegler oder Multiple-Choice-Fragen durch die Einbindung des Paketes <a href="https://ipywidgets.readthedocs.io/en/latest/">ipywidgets</a> leicht integriert werden. <a href="#fig-abb2">Abbildung&nbsp;2</a> zeigt ein Beispiel für ein Dropdown-Menü, einen Schieberegler und ein Eingabefeld. Diese Elemente ermöglichen beispielsweise, dass Lernende vorkommenden Variablen intuitiv Werte zuweisen.</p>
+<div class="column.body">
+<div id="fig-abb2" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb2.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;2: Beispiel für die Integration unterschiedlicher interaktiver Elemente</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p>Bei Multiple-Choice-Fragen ist eine automatische Rückmeldung möglich (<a href="#fig-abb3">Abbildung&nbsp;3</a>).</p>
+<div class="column.body">
+<div id="fig-abb3" class="quarto-figure quarto-figure-center anchored">
+<figure class="figure">
+<p><img src="abb3.svg" class="img-fluid figure-img" style="width:100.0%"></p>
+<p></p><figcaption class="figure-caption">Abbildung&nbsp;3: Beispiel für eine Multiple-Choice-Frage</figcaption><p></p>
+</figure>
+</div>
+</div>
+<p><strong>Ausgeblendeter Code</strong></p>
+<p>Man kann in JN auch Code ausblenden. Dies ist bei komplizierteren Codeabschnitten in JN sinnvoll, um Abschreckung oder Ablenkung zu vermeiden oder um den Code bewusst zu verschleiern, wie bei der Erstellung von Multiple-Choice-Fragen (siehe <a href="#fig-abb3">Abbildung&nbsp;3</a>) nötig. In JN <span class="citation" data-cites="bata2023">(<a href="#ref-bata2023" role="doc-biblioref">Bata et al., 2023</a>)</span> werden zwei Möglichkeiten der Umsetzung, eine über das Paket <a href="https://pypi.org/project/hide-code/">hide_code</a> und eine über die Einbindung einer vor-gefertigten JavaScript-Funktion, vorgestellt.</p>
+</section>
+<section id="erkenntnisse-erfahrungen" class="level2">
+<h2 class="anchored" data-anchor-id="erkenntnisse-erfahrungen">Erkenntnisse &amp; Erfahrungen</h2>
+<p>Gut strukturierte, ansprechend gestaltete und interaktive JN sollen Lernende dabei unterstützen, sich mit dem zugehörigen Lerninhalt auseinanderzusetzen. Beispiele für einige hier vorgestellte und weitere getalterische Elemente finden sich unter anderem im bereits erwähnten Onlinekurs „Data Literacy – Daten interpretieren durch Data Mining“ <span class="citation" data-cites="bata2021">(<a href="#ref-bata2021" role="doc-biblioref">Bata et al., 2021</a>)</span>, dessen JN unter <a href="https://github.com/KI-Campus/DaLi-Datamining" class="uri">https://github.com/KI-Campus/DaLi-Datamining</a> zu finden sind. Im Onlinekurs finden sich zudem Beispiele für die Nutzung von JN in Lernvideos.</p>
+<p>Weitere Ideen zu didaktischen Aspekten der Nutzung von JN bietet beispielsweise „Teaching and Learning with Jupyter“ <span class="citation" data-cites="barba2019">(<a href="#ref-barba2019" role="doc-biblioref">Barba et al., 2019</a>)</span>. Dort finden sich unter anderem weitere Tipps und Best-Practice-Beispiele zur Nutzung von JN in verschiedenen Lehrszenarien.</p>
+</section>
+<section id="autorinnenprofile" class="level2 page-columns page-full">
+<h2 class="anchored" data-anchor-id="autorinnenprofile">Autorinnenprofile</h2>
+<p>Beate Rhein <a href="https://www.th-koeln.de/personen/beate.rhein/" class="uri">https://www.th-koeln.de/personen/beate.rhein/</a></p>
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="logo.svg" class="img-fluid" style="width:75.0%"></p>
+</div></div><p>Katharina Bata <a href="https://www.th-koeln.de/personen/katharina.bata/" class="uri">https://www.th-koeln.de/personen/katharina.bata/</a></p>
+<p>Angela Schmitz <a href="https://www.th-koeln.de/personen/angela.schmitz/" class="uri">https://www.th-koeln.de/personen/angela.schmitz/</a></p>
+<p><strong>Förderhinweise:</strong> Die Data Literacy Initiative der TH Köln wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.</p>
+
+
+
+
+<div class="no-row-height column-margin column-container"><div class="">
+<p><img src="nrw_logo.svg" class="img-fluid" style="width:75.0%"></p>
+</div></div></section>
+
+<div id="quarto-appendix" class="default"><section class="quarto-appendix-contents" role="doc-bibliography"><h2 class="anchored quarto-appendix-heading">Literatur</h2><div id="refs" class="references csl-bib-body hanging-indent" data-line-spacing="2" role="list">
+<div id="ref-alturkistani2018" class="csl-entry" role="listitem">
+Alturkistani, A., Car, J., Majeed, A., Brindley, D., Wells, G., &amp; Meinert, E. (2018). Determining the Effectiveness of a Massive Open Online Course in Data Science for Health. In M. B. Nunes &amp; P. Isaias (Hrsg.), <em>Proceedings of the International Conference on e-Learning</em> (S. 27–34). IADIS. <a href="http://hdl.handle.net/10044/1/61118">http://hdl.handle.net/10044/1/61118</a>
+</div>
+<div id="ref-barba2019" class="csl-entry" role="listitem">
+Barba, L. A., Barker, L. J., Blank, D. S., Brown, J., Downey, A. B., George, T., Heagy, L. J., Mandli, K. T., Moore, J. K., Lippert, D., Niemeyer, K. E., Watkins, R. R., West, R. H., Wickes, E., Willing, C., &amp; Zingale, M. (2019). <em>Teaching and Learning with Jupyter</em>. <a href="https://jupyter4edu.github.io/jupyter-edu-book/">https://jupyter4edu.github.io/jupyter-edu-book/</a>
+</div>
+<div id="ref-bata2023" class="csl-entry" role="listitem">
+Bata, K., Rhein, B., &amp; Schmitz, A. (2023). <em>Begleitendes Notebook. Demonstration verschiedener Jupyter Notebook Elemente für den Einsatz im Data Literacy Kontext</em>. <a href="https://github.com/KI-Campus/DaLi-Datamining/blob/main/Demonstration%20Jupyter-Notebook%20Erweiterungen/JN_Gestaltungselemente%26Interaktion.ipynb">https://github.com/KI-Campus/DaLi-Datamining/blob/main/Demonstration%20Jupyter-Notebook%20Erweiterungen/JN_Gestaltungselemente%26Interaktion.ipynb</a>
+</div>
+<div id="ref-bata2021" class="csl-entry" role="listitem">
+Bata, K., Schmitz, A., &amp; Rhein, B. (2021). <em>Data Literacy – Daten interpretieren durch Data Mining</em>. <a href="https://ki-campus.org/courses/dali-datamining-THK2021">https://ki-campus.org/courses/dali-datamining-THK2021</a>
+</div>
+<div id="ref-website_setup" class="csl-entry" role="listitem">
+<em>Beginner’s HTML Cheat Sheet</em>. (o.&nbsp;J.). <a href="https://websitesetup.org/wp-content/uploads/2019/10/WSU-HTML-Cheat-Sheet.pdf">https://websitesetup.org/wp-content/uploads/2019/10/WSU-HTML-Cheat-Sheet.pdf</a>
+</div>
+<div id="ref-fleischer2022" class="csl-entry" role="listitem">
+Fleischer, Y., Biehler, R., &amp; Schulte, C. (2022). Teaching and Learning Data-Driven Machine Learning with Educationally Designed Jupyter Notebooks. <em>Statistics Education Research Journal</em>, <em>21</em>(2), Article 7. <a href="https://doi.org/10.52041/serj.v21i2.61">https://doi.org/10.52041/serj.v21i2.61</a>
+</div>
+<div id="ref-markdown_guide" class="csl-entry" role="listitem">
+<em>Markdownguide: Basic Syntax</em>. (o.&nbsp;J.). <a href="https://www.markdownguide.org/basic-syntax">https://www.markdownguide.org/basic-syntax</a>
+</div>
+<div id="ref-jupyter_tutorial" class="csl-entry" role="listitem">
+<em>Notebook erstellen</em>. (o.&nbsp;J.). <a href="https://jupyter-tutorial.readthedocs.io/de/latest/first-steps/create-notebook.html">https://jupyter-tutorial.readthedocs.io/de/latest/first-steps/create-notebook.html</a>
+</div>
+<div id="ref-ruiz2021" class="csl-entry" role="listitem">
+Ruiz-Sarmiento, J.-R., Baltanas, S.-F., &amp; Gonzalez-Jimenez, J. r. (2021). Jupyter Notebooks in Undergraduate Mobile Robotics Courses: Educational Tool and Case Study. <em>Appl. Sci.</em>, <em>11</em>, 917. <a href="https://doi.org/10.3390/app11030917">https://doi.org/10.3390/app11030917</a>
+</div>
+<div id="ref-satopay2019" class="csl-entry" role="listitem">
+Satopay, H. (2019). <em>The Ultimate Markdown Guide (for Jupyter Notebook)</em>. <a href="https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd">https://medium.com/analytics-vidhya/the-ultimate-markdown-guide-for-jupyter-notebook-d5e5abf728fd</a>
+</div>
+</div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Wiederverwendung</h2><div id="quarto-reuse" class="quarto-appendix-contents"><div><a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/deed.de">https://creativecommons.org/licenses/by-sa/4.0/deed.de</a></div></div></section><section class="quarto-appendix-contents"><h2 class="anchored quarto-appendix-heading">Zitat</h2><div><div class="quarto-appendix-secondary-label">Mit BibTeX zitieren:</div><pre class="sourceCode code-with-copy quarto-appendix-bibtex"><code class="sourceCode bibtex">@online{rhein,
+  author = {Rhein, Beate and Bata, Katharina and Schmitz, Angela},
+  editor = {Koch, Henning and Sievers, Sam},
+  title = {datenkompetent - Beispielhafte Lehrformate und -strategien
+    für die Data Literacy Education an deutschen Hochschulen},
+  url = {https://Stifterverband.github.io/datenkompetent//posts/jupyter_strategie/jup_2.html},
+  langid = {de}
+}
+</code><button title="In die Zwischenablage kopieren" class="code-copy-button"><i class="bi"></i></button></pre><div class="quarto-appendix-secondary-label">Bitte zitieren Sie diese Arbeit als:</div><div id="ref-rhein" class="csl-entry quarto-appendix-citeas" role="listitem">
+Rhein, B., Bata, K., &amp; Schmitz, A. (n.d.). <em>datenkompetent -
+Beispielhafte Lehrformate und -strategien für die Data Literacy
+Education an deutschen Hochschulen</em> (H. Koch &amp; S. Sievers,
+Eds.). <a href="https://Stifterverband.github.io/datenkompetent//posts/jupyter_strategie/jup_2.html">https://Stifterverband.github.io/datenkompetent//posts/jupyter_strategie/jup_2.html</a>
+</div></div></section></div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    text: function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Kopiert");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Kopiert");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var filterRegex = new RegExp("https:\/\/Stifterverband\.github\.io\/datenkompetent\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+          // target, if specified
+          link.setAttribute("target", "_blank");
+      }
+    }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left"><img src="../..\logos/datev_foerder.png" class="img-fluid" style="width:50.0%"></div>   
+    <div class="nav-footer-center">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/impressum.html">Impressum</a>
+  </li>  
+</ul>
+    <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie-Einstellungen</a></div></div>
+    <div class="nav-footer-right">
+      <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../../recht/datenschutz.html">Datenschutz</a>
+  </li>  
+</ul>
+    </div>
+  </div>
+</footer>
+
+
+
+</body></html>
