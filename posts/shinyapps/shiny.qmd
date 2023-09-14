@@ -62,3 +62,16 @@ Apps sollten durch die Lehrenden gezielt eingebunden werden. So können Aufgaben
     + <https://statistics.calpoly.edu/shiny> 
 * Beispiel-App aus Abbildung 1: <https://gauss.metpsy.uni-jena.de/rshiny/sonja/Cor_AO/>
 
+## Autor:innenprofile
+
+**Sonja Hahn** hat an der Pädagogischen Hochschule Karlsruhe Shiny Apps für die Lehre im Bereich Forschungsmethoden entdeckt und eingesetzt. Aktuell baut sie eine Lehrveranstaltung zum Thema Data Literacy an der Hochschule Darmstadt auf.
+
+:::{.column-margin}
+![](logo_da.svg){width=25%}
+:::
+
+**Karsten Lübke** ist Lehrender im Kontext Data Literacy an der FOM Hochschule und nutzt dort seit Jahren diverse selbst programmierte Shiny Apps.
+
+:::{.column-margin}
+![](logo_fom.png){width=25%}
+:::
