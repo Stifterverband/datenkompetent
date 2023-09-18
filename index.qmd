@@ -26,7 +26,7 @@ appendix-style: none
 ---
 ::: {.column-page}
 
-![](logos/svlogo.png){ width=45% fig-align="center"}
+![](logos/svlogo.png){ width=30% fig-align="center"}
 :::
 
 
