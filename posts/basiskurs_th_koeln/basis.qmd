@@ -104,7 +104,10 @@ Die Heterogenität der Hintergründe und Vorkenntnisse der Studierenden stellt e
 ![](nrw_logo.svg){width=75%}
 :::
 
+## Literatur
 
+  
+  
 [^1]: In der Durchführung an der TH Köln wird die Kursumgebung in den THspaces eingerichtet, aber auch die Nutzung von Moodle, ILU oder anderer Learning-Management-Systeme (LMS) ist hier möglich.
 [^2]: Live-Coding ist ein interaktiver Prozess, bei dem Programmiercode in Echtzeit geschrieben, ausgeführt und manipuliert wird, sodass die Teilnehmenden das Programmieren schrittweise nachvollziehen können.
 [^3]: Die Think-pair-share-Methode ist ein Verfahren des kooperativen Lernens in drei Arbeitsschritten, in dem Teilnehmende eine Fragestellung zunächst alleine individuell bearbeiten (think), sich anschließend in Partnerarbeit austauschen (pair) und dann mit der Gesamtgruppe teilen (share), siehe <https://www.bpb.de/lernen/angebote/grafstat/partizipation-vor-ort/155251/think-pair-share/>.  

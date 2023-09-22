@@ -105,9 +105,10 @@ Für die Erstellung einer digital aufbereiteten Story können zudem die folgende
 
 **M. A. Yvonne Erhardt** studierte Erziehungswissenschaft (Bachelor und Master) an der Universität Bielefeld. Zurzeit arbeitet sie als wissenschaftliche Mitarbeiterin in der Fakultät für Erziehungswissenschaft (Arbeitsgruppe Forschungsmethoden), ebenfalls an der Universität Bielefeld, mit dem Schwerpunkt Data Literacy Education und Methodenlehre in drei Projekten.
 
-**Förderhinweise:** Das hier vorgestellten Projekt wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Data Literacy Education.nrw“ gefördert.
+**Förderhinweise:** Das hier vorgestellten Projekt wird durch das Ministerium für Kultur und Wissenschaft des Landes Nordrhein-Westfalen in Kooperation mit dem Stifterverband in dem Programm „Curriculum 4.0.nrw“ gefördert.
 
 :::{.column-margin}
 ![](nrw_logo.svg){width=75%}
 :::
 
+## Literatur

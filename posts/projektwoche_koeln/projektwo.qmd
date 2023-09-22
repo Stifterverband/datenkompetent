@@ -96,6 +96,10 @@ Folgende Materialien stehen für die Umsetzung des vorgestellten Projektes zur V
 :::
 
 
+## Literatur
+
+
+
 [^1]: Innerhalb der DaLI wurde ein modulares, interdisziplinäres Programm entwickelt, um Datenkompetenz systematisch und hochschulweit in Lehre und Forschung an der TH Köln zu verankern. Dazu gehören unter anderem der DaLI-Basiskurs, die DaLI Interdisziplinäre Projektwoche und ein digitaler Veranstaltungskatalog als hochschulweiter Wegweiser zu Data-Literacy-Lehrveranstaltungen. Im DaLI-Zertifikatsprogramm können sich Studierende zudem ihre Datenkompetenz auf drei verschiedenen Leveln kreditieren lassen (siehe auch: <https://www.th-koeln.de/dali>). 
 
 [^2]: Ein Learning Nugget ist eine kurze Lerneinheit, die etwa fünf bis zehn Minuten umfasst. Die Umsetzung eines solchen Learning Nuggets ist recht frei. Alle Medien, die die Inhalte gut transportieren können, sind möglich: von Video oder Audio über Bild und Text bis hin zu interaktiven Inhalten.

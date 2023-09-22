@@ -100,3 +100,5 @@ Aus mediendidaktischer Sicht ist weiterhin zu beachten, dass durch mediale Tools
 :::{.column-margin}
 ![](logo.png){width=75%}
 :::
+
+## Literatur

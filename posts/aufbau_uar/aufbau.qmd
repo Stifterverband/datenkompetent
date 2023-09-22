@@ -75,3 +75,5 @@ Wohl dosierte Impulse in Workshop- beziehungsweise Block-Formaten bieten Studier
 :::{.column-margin}
 ![](nrw_logo.svg){width=75%}
 :::
+
+## Literatur

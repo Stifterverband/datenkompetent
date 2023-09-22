@@ -113,3 +113,5 @@ Eine **Win-win-Situation**, die letztendlich einen Mehrwert für die Universitä
 :::{.column-margin}
 ![](logo.svg){width=75%}
 :::
+
+## Literatur

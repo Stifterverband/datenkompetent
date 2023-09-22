@@ -92,3 +92,5 @@ Studierende für das Coding zu begeistern ist grundsätzlich herausfordernd. Bei
 :::{.column-margin}
 ![](nrw_logo.svg){width=75%}
 :::
+
+## Literatur

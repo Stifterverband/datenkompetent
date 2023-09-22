@@ -105,4 +105,5 @@ Die Rallye steht als OER unter der Lizenz CC BY-SA 4.0 auf ORCA.nrw unter folgen
 ![](nrw_logo.svg){width=75%}
 :::
 
+## Literatur
 [^1]: https://docs.moodle.org/401/de/Kursformate

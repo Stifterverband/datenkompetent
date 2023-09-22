@@ -75,3 +75,5 @@ Apps sollten durch die Lehrenden gezielt eingebunden werden. So können Aufgaben
 :::{.column-margin}
 ![](logo_fom.png){width=25%}
 :::
+
+## Literatur
