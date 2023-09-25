@@ -43,7 +43,7 @@ Diese Website richtet sich an Hochschulen und ihre Lehrenden sowie an all jene a
 
 Im Stil eines Blogs findet sich weiter unten eine Auflistung der verschiedenen Formate und Strategien. Die Schlagworte/Kategorien auf der rechten Seite dienen einem Überblick über die Artikel. Es ist auch möglich, alle Artikel nach Begriffen zu durchsuchen. Alle Inhalte stehen unter einer CC BY SA 4.0 Lizenz.  
 
-[![DOI](https://zenodo.org/badge/673811059.svg)](https://zenodo.org/badge/latestdoi/673811059)
+[![](https://zenodo.org/badge/673811059.svg)](https://zenodo.org/badge/latestdoi/673811059)
 
 :::{.column-margin} 
 ![](logos/profile1.jpg){width=0%}
