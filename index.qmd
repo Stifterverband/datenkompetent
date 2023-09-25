@@ -41,7 +41,9 @@ Die Mitglieder der *Working Group: Data Literacy* möchten ihre Erfahrungen mit 
 
 Diese Website richtet sich an Hochschulen und ihre Lehrenden sowie an all jene aus dem Bereich der Hochschul- und Curriculumsentwicklung, die sich mit Data Literacy Education auseinandersetzen und die nach Inspirationen und konkreten Ideen für mehr Datenkompetenzen in der Hochschullehre suchen.  
 
-Im Stil eines Blogs findet sich weiter unten eine Auflistung der verschiedenen Formate und Strategien. Die Schlagworte/Kategorien auf der rechten Seite dienen einem Überblick über die Artikel. Es ist auch möglich, alle Artikel nach Begriffen zu durchsuchen. Alle Inhalte stehen unter einer CC BY SA 4.0 Lizenz und haben über Zenodo eine DOI. 
+Im Stil eines Blogs findet sich weiter unten eine Auflistung der verschiedenen Formate und Strategien. Die Schlagworte/Kategorien auf der rechten Seite dienen einem Überblick über die Artikel. Es ist auch möglich, alle Artikel nach Begriffen zu durchsuchen. Alle Inhalte stehen unter einer CC BY SA 4.0 Lizenz.  
+
+[![DOI](https://zenodo.org/badge/673811059.svg)](https://zenodo.org/badge/latestdoi/673811059)
 
 :::{.column-margin} 
 ![](logos/profile1.jpg){width=0%}
