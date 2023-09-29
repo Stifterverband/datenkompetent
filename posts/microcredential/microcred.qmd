@@ -2,7 +2,7 @@
 title: "Flexibel, kompakt, kompetenzorientiert "
 subtitle: "Micro-Credential als Format für Data Literacy Education am Beispiel des MC4Data-Qualifizierungsprogramms der TH Nürnberg"
 title-block-banner: false
-categories: ['Vorkenntnisse: keine', 'Zertifizierung', 'Micro Credentials']
+categories: ['Vorkenntnisse: keine', 'Zertifizierung', 'Micro Credentials', 'Interdisziplinarität']
 description: 'Mit dem Format Micro-Credential will die Technische Hochschule Nürnberg Georg Simon Ohm (TH Nürnberg) ein interdisziplinäres MC4Data-Qualifizierungsprogramm zur Förderung der Datenkompetenzen von MINT-Studierenden implementieren. Das MC4Data-Programm ist lernergebnisorientiert, praxisnah und bietet eine sinnvolle Ergänzung zu den vorhandenen Bachelor- und Masterstudiengängen. MC4Data ermöglicht individuelle Lernpfade zu Data Analytics und fördert das lebenslange Lernen von Studierenden.'
 author: 
   - Thu Van Le Thi
@@ -35,7 +35,7 @@ Sie arbeiten in interdisziplinären Gruppen zusammen, sammeln Hands-on-Erfahrung
 Der Workload des MC4Data-Programms beträgt 150 Stunden. Das entspricht einem studentischen Arbeitsumfang von 5 ECTS. Inhaltlich wird das MC4Data-Programm in drei aufeinander aufbauenden Modulen konkretisiert. Die Lerneinheiten in einzelnen Modulen werden von verschiedenen Formaten wie Workshops, Seminaren und Onlineselbstlernkursen gestaltet. @fig-abb1 veranschaulicht die Programmstruktur.  
 
 ::: column.body
-![Struktur des MC4Data-Programms (Quelle: eigene Darstellung)](abb1.svg){#fig-abb1}
+![Struktur des MC4Data-Programms (Quelle: eigene Darstellung)](abb1.jpg){#fig-abb1}
 :::
 
 Im MC4Data-Modulhandbuch werden die kompetenzorientierten Beschreibungen der einzelnen Module erfasst. Studierende können sich über die Lernangebote, Inhalte und Kompetenzen sowie über die Voraussetzungen für die Teilnahme und Leistungsnachweise informieren. Das MC4Data-Modulhandbuch sowie die einzelnen kompetenzorientierten Modulbeschreibungen helfen, die Möglichkeiten der Anerkennung des MC4Data-Programms für MINT-Studiengänge zu überprüfen.   
@@ -61,7 +61,8 @@ Micro-Credentials sind Eigentum der Lernenden und können geteilt werden [@eu202
 
 Wir sehen das hohe Potenzial von Micro-Credentials und wollen den Studierenden im Rahmen des MC4Data-Programms die Möglichkeit anbieten, Grundlagen der Data Analytics zu erwerben und ihr Kompetenzprofil über soziale und Networking-Plattformen besser sichtbar zu machen. Darüber hinaus ermöglichen wir die Vernetzung mit Fachexpert:innen und Kontakte zu Unternehmen und erleichtern damit den Berufseinstieg im Bereich Data Analytics. Wir begleiten Studierende dabei, individuelle Lernpfade im Themenbereich Data Analytics selbst zu erstellen und zu verfolgen. Das Micro-Credential ist ein geeignetes Format, um innerhalb einer kurzen Zeit Kompetenzen im Bereich Data Analytics zu vermitteln. Diese Kompetenzen zählen zu Future Skills und entsprechen den arbeitsmarktbezogenen Bedürfnissen.  
 
-
+## Hilfreiche Links
+[MC4Data - Micro Credential Programm für Data Analytics](https://www.th-nuernberg.de/einrichtungen-gesamt/administration-und-service/lehr-und-kompetenzentwicklung/ueberfachliche-kompetenzen/data-analytics-skills/)
 
 ## Autorinnenprofil
 
