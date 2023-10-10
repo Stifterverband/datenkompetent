@@ -26,8 +26,8 @@ $body-text-align: left !default; //Blocksatz
 
 
 // text-family
-$font-family-base:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS" !default;
-$headings-font-family:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS" !default;
+$font-family-base:  "Calibri", "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS" !default;
+$headings-font-family:  "Calibri", "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS" !default;
 
 //text-size
 $font-size-root:              null !default;
@@ -80,7 +80,7 @@ h2#toc-title {
 }
 
 #title-block-header.quarto-title-block.default .quarto-title .title {
-  font-family:  "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS", $headings-font-family;
+  font-family:  "Calibri", "Brandon Text Regular", "Monotype Baskerville", "Trebuchet MS", $headings-font-family;
   font-weight:  900;
   margin-top: 0.25em;
   margin-bottom: 0.25em;
