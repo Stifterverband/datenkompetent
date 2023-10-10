@@ -150,7 +150,7 @@ div.quarto-post .listing-categories .listing-category {
 
 #title-block-header.quarto-title-block.default .quarto-categories .quarto-category {
     color: $white;
-    background-color: $soft-green;
+    background-color: $green;
     border: none;
     border-radius: .4em;
     text-transform: none;
@@ -175,7 +175,7 @@ nav .nav-item:not(.compact){
 //tags
 
 .quarto-grid-item .listing-categories .listing-category {
-   background-color: $soft-green;
+   background-color: $green;
    color: $white;
    text-transform: none;
    font-size: $font-size-base * .75;
