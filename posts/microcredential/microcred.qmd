@@ -35,7 +35,7 @@ Sie arbeiten in interdisziplinären Gruppen zusammen, sammeln Hands-on-Erfahrung
 Der Workload des MC4Data-Programms beträgt 150 Stunden. Das entspricht einem studentischen Arbeitsumfang von 5 ECTS. Inhaltlich wird das MC4Data-Programm in drei aufeinander aufbauenden Modulen konkretisiert. Die Lerneinheiten in einzelnen Modulen werden von verschiedenen Formaten wie Workshops, Seminaren und Onlineselbstlernkursen gestaltet. @fig-abb1 veranschaulicht die Programmstruktur.  
 
 ::: column.body
-![Struktur des MC4Data-Programms (Quelle: eigene Darstellung)](abb1.svg){#fig-abb1}
+![Struktur des MC4Data-Programms (Quelle: eigene Darstellung)](abb1.jpg){#fig-abb1}
 :::
 
 Im MC4Data-Modulhandbuch werden die kompetenzorientierten Beschreibungen der einzelnen Module erfasst. Studierende können sich über die Lernangebote, Inhalte und Kompetenzen sowie über die Voraussetzungen für die Teilnahme und Leistungsnachweise informieren. Das MC4Data-Modulhandbuch sowie die einzelnen kompetenzorientierten Modulbeschreibungen helfen, die Möglichkeiten der Anerkennung des MC4Data-Programms für MINT-Studiengänge zu überprüfen.   
