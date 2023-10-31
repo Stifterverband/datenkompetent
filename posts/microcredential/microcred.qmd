@@ -26,7 +26,7 @@ Das Programm richtet sich in erster Linie an MINT-Studierende der TH Nürnberg. 
 
 ## Kompetenzen
 
-Studierende erwerben die Kompetenz, mit Daten selbstbewusst umzugehen, ihre Datennutzung kritisch zu hinterfragen und zu beurteilen. Sie verstehen die Grundlagen von Data-Analytics-Prozessen, um datenbasierte Problemlösungen zu finden und zur effektiven Entscheidungsfindung beizutragen. Sie lernen Data-Analytics-Tools kennen und wenden diese in Praxisbeispielen unter Betreuung und Begleitung von Personen mit FAchexpertise an. Studierende sind in der Lage, selbst zu reflektieren, eigene Kompetenzlücken im Bereich Data Analytics zu identifizieren und diese eigenständig zu schließen.  
+Studierende erwerben die Kompetenz, mit Daten selbstbewusst umzugehen, ihre Datennutzung kritisch zu hinterfragen und zu beurteilen. Sie verstehen die Grundlagen von Data-Analytics-Prozessen, um datenbasierte Problemlösungen zu finden und zur effektiven Entscheidungsfindung beizutragen. Sie lernen Data-Analytics-Tools kennen und wenden diese in Praxisbeispielen unter Betreuung und Begleitung von Personen mit Fachexpertise an. Studierende sind in der Lage, selbst zu reflektieren, eigene Kompetenzlücken im Bereich Data Analytics zu identifizieren und diese eigenständig zu schließen.  
 
 Sie arbeiten in interdisziplinären Gruppen zusammen, sammeln Hands-on-Erfahrungen mit Fachpersonal aus Partnerunternehmen und profitieren durch direkte Kontakte zu Netzwerkunternehmen des MC4Data-Programms.  
 
@@ -35,7 +35,7 @@ Sie arbeiten in interdisziplinären Gruppen zusammen, sammeln Hands-on-Erfahrung
 Der Workload des MC4Data-Programms beträgt 150 Stunden. Das entspricht einem studentischen Arbeitsumfang von 5 ECTS. Inhaltlich wird das MC4Data-Programm in drei aufeinander aufbauenden Modulen konkretisiert. Die Lerneinheiten in einzelnen Modulen werden von verschiedenen Formaten wie Workshops, Seminaren und Onlineselbstlernkursen gestaltet. @fig-abb1 veranschaulicht die Programmstruktur.  
 
 ::: column.body
-![Struktur des MC4Data-Programms (Quelle: eigene Darstellung)](abb1.jpg){#fig-abb1}
+![Struktur des MC4Data-Programms (Quelle: eigene Darstellung)](abb1.svg){#fig-abb1}
 :::
 
 Im MC4Data-Modulhandbuch werden die kompetenzorientierten Beschreibungen der einzelnen Module erfasst. Studierende können sich über die Lernangebote, Inhalte und Kompetenzen sowie über die Voraussetzungen für die Teilnahme und Leistungsnachweise informieren. Das MC4Data-Modulhandbuch sowie die einzelnen kompetenzorientierten Modulbeschreibungen helfen, die Möglichkeiten der Anerkennung des MC4Data-Programms für MINT-Studiengänge zu überprüfen.   
